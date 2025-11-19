@@ -1,0 +1,146 @@
+.hints-tips {
+  background: #ffffff;
+}
+
+.page-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 120px 20px 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.page-hero h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.page-hero p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tips-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.tip-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.tip-card:hover {
+  box-shadow: 0 10px 20px rgba(220, 38, 38, 0.1);
+  border-color: #dc2626;
+}
+
+.tip-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.tip-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.tip-image {
+  margin: 30px 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tip-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.highlight-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #dc2626;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  border-radius: 16px;
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.cta-box h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.cta-box p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.btn-cta {
+  display: inline-block;
+  background: #ffffff;
+  color: #dc2626;
+  padding: 16px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background: #f9fafb;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .page-hero h1 {
+    font-size: 36px;
+  }
+
+  .page-hero p {
+    font-size: 16px;
+  }
+
+  .tips-content {
+    padding: 60px 15px;
+  }
+
+  .tip-card {
+    padding: 30px 20px;
+  }
+
+  .tip-card h2 {
+    font-size: 24px;
+  }
+
+  .cta-box {
+    padding: 40px 20px;
+  }
+
+  .cta-box h3 {
+    font-size: 24px;
+  }
+}
