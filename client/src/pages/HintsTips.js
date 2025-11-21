@@ -1,9 +1,34 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './HintsTips.css';
 import { Link } from 'react-router-dom';
 
+// Import blog posts from Blog.js
+const allBlogPosts = [
+  { title: 'Professional Carpet Cleaning Services', category: 'Services', link: '/cleaning/carpet-cleaning', image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&q=80' },
+  { title: 'Tile and Grout Cleaning', category: 'Services', link: '/cleaning/tile-grout', image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80' },
+  { title: 'Upholstery Cleaning', category: 'Services', link: '/cleaning/upholstery', image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80' },
+  { title: 'Leather Seat Cleaning', category: 'Services', link: '/cleaning/leather', image: 'https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=400&q=80' },
+  { title: 'Mould Removal Services', category: 'Services', link: '/cleaning/mould', image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&q=80' },
+  { title: 'Professional Rug Cleaning', category: 'Services', link: '/cleaning/rug', image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=400&q=80' },
+  { title: 'Mattress Deep Cleaning', category: 'Services', link: '/cleaning/mattress', image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&q=80' },
+  { title: 'Carpet & Upholstery Protection', category: 'Services', link: '/cleaning/protection', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80' },
+  { title: 'Low Moisture Encapsulation Cleaning', category: 'Services', link: '/cleaning/encapsulation', image: 'https://images.unsplash.com/photo-1527515862127-a4fc05baf7a5?w=400&q=80' },
+  { title: 'Carpet & Upholstery Repairs', category: 'Services', link: '/cleaning/repairs', image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&q=80' },
+  { title: 'Duo System for High Rise Apartments', category: 'Services', link: '/cleaning/duo-system', image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400&q=80' },
+  { title: 'Guide To Carpet Cleaning Cost', category: 'Cleaning', link: '/blog/2', image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=400&q=80' },
+  { title: '10 Health Benefits Of Carpet Cleaning', category: 'Cleaning', link: '/blog/4', image: 'https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=400&q=80' },
+  { title: '4 Easy Steps To Get Mud Stains Out', category: 'Cleaning', link: '/blog/5', image: 'https://images.unsplash.com/photo-1585421514738-01798e348b17?w=400&q=80' }
+];
+
 const HintsTips = () => {
+  // State to store random blogs
+  const [randomBlogs, setRandomBlogs] = useState([]);
+
   useEffect(() => {
+    // Select 8 random blogs when component loads
+    const shuffled = [...allBlogPosts].sort(() => 0.5 - Math.random());
+    setRandomBlogs(shuffled.slice(0, 8));
+
     const updateTimeline = () => {
       const timeline = document.querySelector('.timeline-wrapper::after');
       const timelineWrapper = document.querySelector('.timeline-wrapper');
@@ -157,93 +182,17 @@ const HintsTips = () => {
           <p>More cleaning tips</p>
           
           <div className="blogs-grid">
-            <Link to="/cleaning/encapsulation" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=400&q=80" alt="Encapsulation Cleaning" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Encapsulation Cleaning</h4>
-                <p>Low moisture cleaning method</p>
-              </div>
-            </Link>
-
-            <Link to="/cleaning/protection" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&q=80" alt="Carpet Protection" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Carpet Protection</h4>
-                <p>Protect your carpets</p>
-              </div>
-            </Link>
-
-            <Link to="/cleaning/repairs" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Carpet Repairs" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Carpet Repairs</h4>
-                <p>Expert repair services</p>
-              </div>
-            </Link>
-
-            <Link to="/cleaning/duo-system" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=400&q=80" alt="Duo Cleaning" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Duo Cleaning System</h4>
-                <p>For high rise apartments</p>
-              </div>
-            </Link>
-
-            <Link to="/cleaning/upholstery" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&q=80" alt="Upholstery" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Upholstery Cleaning</h4>
-                <p>Furniture cleaning</p>
-              </div>
-            </Link>
-
-            <Link to="/cleaning/tile-grout" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" alt="Tile Grout" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Tile & Grout Cleaning</h4>
-                <p>Restore your tiles</p>
-              </div>
-            </Link>
-
-            <Link to="/cleaning/leather" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80" alt="Leather Cleaning" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Cleaning</span>
-                <h4>Leather Cleaning</h4>
-                <p>Professional leather care</p>
-              </div>
-            </Link>
-
-            <Link to="/blog" className="blog-card-mini">
-              <div className="blog-image">
-                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80" alt="More Articles" />
-              </div>
-              <div className="blog-info">
-                <span className="blog-category">Blog</span>
-                <h4>View All Articles</h4>
-                <p>See more tips & guides</p>
-              </div>
-            </Link>
+            {randomBlogs.map((blog, index) => (
+              <Link key={index} to={blog.link} className="blog-card-mini">
+                <div className="blog-image">
+                  <img src={blog.image} alt={blog.title} />
+                </div>
+                <div className="blog-info">
+                  <span className="blog-category">{blog.category}</span>
+                  <h4>{blog.title}</h4>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </div>

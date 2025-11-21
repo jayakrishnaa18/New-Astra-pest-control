@@ -6,12 +6,12 @@
   z-index: 9999;
   width: 95%;
   max-width: 1400px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-radius: 16px;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .header.scrolled {
@@ -105,7 +105,7 @@
   font-size: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: rgba(255, 255, 255, 0.95);
+  color: #374151;
   text-decoration: none;
   display: inline-block;
 }
