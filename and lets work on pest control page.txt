@@ -1,0 +1,264 @@
+ and lets work on pest control page "\\wsl.localhost\Ubuntu\home\kalikijk\webtask\cleaning blogs.txt" in this file i mentions all blog content of Complete Pest Management and added few some has youtube embedded videos arrange that in a nic
+e way so that it matched blogpost patterns and add all this for blog pages
+
+> Let me read the pest control blog content file:
+Reading file: /home/kalikijk/webtask/cleaning blogs.txt, from line 1 to 100 (using tool: read)
+ ✓ Successfully read 9895 bytes from /home/kalikijk/webtask/cleaning blogs.txt
+ - Completed in 0.1s
+
+Reading file: /home/kalikijk/webtask/cleaning blogs.txt, from line 100 to 200 (using tool: read)
+ ✓ Successfully read 9182 bytes from /home/kalikijk/webtask/cleaning blogs.txt
+ - Completed in 0.5s
+
+Reading file: /home/kalikijk/webtask/cleaning blogs.txt, from line 200 to 300 (using tool: read)
+ ✓ Successfully read 9899 bytes from /home/kalikijk/webtask/cleaning blogs.txt
+ - Completed in 0.2s
+
+> Perfect! I can see the content. Now I'll create professional pest control blog posts with embedded YouTube videos. Let
+me add these to the blog system:
+I'll modify the following file: webtask/client/src/pages/Blog.js (using tool: write)
+Purpose: Add pest control blogs to Blog.js
+
+  61,  61:   {
+  62,  62:     id: 6,
+  63,  63:     title: '4 Ways To Winter Proof Your Home From Pests',
+  64,  64:     excerpt: 'Winter is pest season. Protect your home with these professional prevention strategies.',
+  65,  65:     date: '2017-07-01',
+  66,  66:     category: 'Pest Control',
+  67,  67:     author: 'Sairam',
+  68,  68:     image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80',
+  69,  69:     readTime: '5 min read',
+  70,  70:     link: '/blog/6'
+  71,  71:   },
++      72:   {
++      73:     id: 7,
++      74:     title: 'Complete Guide to Flea Control',
++      75:     excerpt: 'Everything you need to know about identifying, treating, and preventing flea infestations in your home.',
++      76:     date: '2024-11-21',
++      77:     category: 'Pest Control',
++      78:     author: 'Astra Team',
++      79:     image: 'https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?w=800&q=80',
++      80:     readTime: '8 min read',
++      81:     link: '/blog/7'
++      82:   },
++      83:   {
++      84:     id: 8,
++      85:     title: 'Cockroach Control: Protect Your Family',
++      86:     excerpt: 'Learn how to identify, prevent, and eliminate cockroach infestations with professional pest control methods.',
++      87:     date: '2024-11-20',
++      88:     category: 'Pest Control',
++      89:     author: 'Astra Team',
++      90:     image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80',
++      91:     readTime: '10 min read',
++      92:     link: '/blog/8'
++      93:   },
++      94:   {
++      95:     id: 9,
++      96:     title: 'Silverfish Identification and Control',
++      97:     excerpt: 'Discover how to identify silverfish and protect your books, photos, and clothing from these destructive pests.',
++      98:     date: '2024-11-19',
++      99:     category: 'Pest Control',
++     100:     author: 'Astra Team',
++     101:     image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80',
++     102:     readTime: '6 min read',
++     103:     link: '/blog/9'
++     104:   },
++     105:   {
++     106:     id: 10,
++     107:     title: 'Spider Control and Prevention Guide',
++     108:     excerpt: 'Professional tips for managing spider populations around your home and keeping your family safe.',
++     109:     date: '2024-11-18',
++     110:     category: 'Pest Control',
++     111:     author: 'Astra Team',
++     112:     image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80',
++     113:     readTime: '7 min read',
++     114:     link: '/blog/10'
++     115:   },
++     116:   {
++     117:     id: 11,
++     118:     title: 'Bed Bug Extermination Methods',
++     119:     excerpt: 'Don\'t let the bed bugs bite! Professional methods to eliminate bed bugs from your home completely.',
++     120:     date: '2024-11-17',
++     121:     category: 'Pest Control',
++     122:     author: 'Astra Team',
++     123:     image: 'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80',
++     124:     readTime: '9 min read',
++     125:     link: '/blog/11'
++     126:   },
++     127:   {
++     128:     id: 12,
++     129:     title: 'Rodent Control: Rats and Mice',
++     130:     excerpt: 'Effective strategies for preventing and eliminating rat and mouse infestations in residential and commercial properties.',
++     131:     date: '2024-11-16',
++     132:     category: 'Pest Control',
++     133:     author: 'Astra Team',
++     134:     image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800&q=80',
++     135:     readTime: '8 min read',
++     136:     link: '/blog/12'
++     137:   },
++     138:   {
++     139:     id: 13,
++     140:     title: 'Termite Inspection and Treatment',
++     141:     excerpt: 'Protect your property from termite damage with professional inspection and treatment methods.',
++     142:     date: '2024-11-15',
++     143:     category: 'Pest Control',
++     144:     author: 'Astra Team',
++     145:     image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80',
++     146:     readTime: '12 min read',
++     147:     link: '/blog/13'
++     148:   },
++     149:   {
++     150:     id: 14,
++     151:     title: 'Carpet Beetle Control Guide',
++     152:     excerpt: 'Learn how to identify and eliminate carpet beetles before they damage your carpets, clothes, and fabrics.',
++     153:     date: '2024-11-14',
++     154:     category: 'Pest Control',
++     155:     author: 'Astra Team',
++     156:     image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80',
++     157:     readTime: '7 min read',
++     158:     link: '/blog/14'
++     159:   },
++     160:   {
++     161:     id: 15,
++     162:     title: 'Lice Treatment and Prevention',
++     163:     excerpt: 'Comprehensive guide to identifying, treating, and preventing lice infestations in your home.',
++     164:     date: '2024-11-13',
++     165:     category: 'Pest Control',
++     166:     author: 'Astra Team',
++     167:     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
++     168:     readTime: '6 min read',
++     169:     link: '/blog/15'
++     170:   },
+  72, 171:   {
+
+Updating: webtask/client/src/pages/Blog.js
+ - Completed in 0.12s
+
+> Now let me add the blog content with embedded videos to blogContent.js. Let me check the file first:
+I will run the following command: ls -lh /home/kalikijk/webtask/client/src/blogContent.js 2>&1 | head -5 (using tool: shell)
+Purpose: Check if blogContent.js exists and its size
+
+-rw-r--r-- 1 kalikijk kalikijk 19K Nov 19 13:27 /home/kalikijk/webtask/client/src/blogContent.js
+ - Completed in 0.62s
+
+> Let me append the pest control blog content to the file:
+I'll append content to file: webtask/client/src/blogContent.js (using tool: write)
+Purpose: Add flea control blog content
+
++    319: ,
++    320:   7: {
++    321:     title: 'Complete Guide to Flea Control',
++    322:     date: '2024-11-21',
++    323:     category: 'Pest Control',
++    324:     content: `
++    325:       <h2>Understanding Fleas</h2>
++    326:       <p>Fleas are highly specialised bloodsucking parasites belonging to the order of insects called Siphonaptera, which means "wingless siphon". Fleas will bite only accessible parts of the body and clustered bites on the lower limbs.</p>
++    327:
++    328:       <h3>Life Cycle of a Flea</h3>
++    329:       <p>Most females will lay at least 100 eggs within a life cycle of several months. The adult fleas emerge from the pupal case in 1-2 weeks but can remain dormant in their cocoons for several months depending on the availability of food and conditions.</p>
++    330:
++    331:       <p>The emergence of the adult flea from the pupal stage is generally triggered by vibrations, which can happen when entering an unoccupied dwelling of previous pet owners.</p>
++    332:
++    333:       <h3>Treating Flea Bites</h3>
++    334:       <p>When fleas are present homeowners generally notice them first by the bites they leave behind. It is typical of flea bites to be concentrated on and around the ankles, and can look similar to mosquito bites.</p>
++    335:
++    336:       <p>Fleas can at times be selective and may only feed on one or a few people residing in a house. Children and infants can sometimes be the most affected in the home.</p>
++    337:
++    338:       <h3>Treatment and Control of Fleas</h3>
++    339:       <p>If you have pets, it is essential to prevent fleas becoming established in carpets and bedding:</p>
++    340:
++    341:       <ul>
++    342:         <li>Vacuum carpets and furnishings where pets sleep to remove fleas and eggs. Use your vacuum cleaner on a strong suction setting</li>
++    343:         <li>Empty the vacuum cleaner bag after cleaning and place the bag into a bin outside of the home</li>
++    344:         <li>Washing your pets bedding on a regular basis with hot water will help to kill flea eggs, the larvae, and also adults within cocoons</li>
++    345:         <li>Take care when moving bedding, mats, etc, to avoid moving flea eggs around</li>
++    346:         <li>It may be wise to place pet beds in areas without carpets such as on vinyl, tiled or wooden floors</li>
++    347:       </ul>
++    348:
++    349:       <h3>Professional Flea Treatment</h3>
++    350:       <p>Warm, humid weather conditions in the summer months provide ideal conditions for fleas to flourish. Flea eggs and larvae may be found where pets feed and rest. These areas should be targeted by a pest technician to gain control of an infestation.</p>
++    351:
++    352:       <p>Prior to a pest technician arriving, you should vacuum all floors. Washing the pets and bedding with an insecticidal preparation will aid in the control of fleas and their eggs.</p>
++    353:
++    354:       <p><strong>Always use a licensed pest control company when looking for professional flea exterminator to eliminate fleas and their eggs.</strong></p>
++    355:
++    356:       <h3>Why Professional Help is Essential</h3>
++    357:       <p>Flea pupae can lay dormant in carpets and soil for more than twelve months and can be stimulated to emerge as an adult flea by vibrations. Insects can slow down their growth and development at different stages in order to make the most of favourable conditions.</p>
++    358:
++    359:       <p>Fleas will only become active when the conditions are favourable - when the temperature is right and if there is a blood meal available. Fleas feed on blood and need it to survive.</p>
++    360:
++    361:       <p>Fleas will breed in any carpet type and have even been known to harbour in the gaps in wooden floor boards. It's important to have all the floors treated with a liquid insecticide to successfully rid a home of fleas.</p>
++    362:
++    363:       <p><strong>Important:</strong> Pets also need to be treated at the same time as the property is being sprayed. The best products for this is either "Front line" or "Advantage." Your pets also need to have ongoing flea treatments to keep them free of fleas for the year, usually done on a monthly basis.</p>
++    364:
++    365:       <p>Contact Astra Pest Control at <strong>(07) 3245 5126</strong> for professional flea treatment in Brisbane.</p>
++    366:     `
++    367:   }
+
+Appending to: webtask/client/src/blogContent.js
+ - Completed in 0.4s
+
+I'll append content to file: webtask/client/src/blogContent.js (using tool: write)
+Purpose: Add cockroach control blog content with video
+
++    368: ,
++    369:   8: {
++    370:     title: 'Cockroach Control: Protect Your Family',
++    371:     date: '2024-11-20',
++    372:     category: 'Pest Control',
++    373:     content: `
++    374:       <h2>Protect Your Family from Cockroaches!</h2>
++    375:       <p><strong>Cockroaches are a high risk pest to have in your home...</strong> They carry a range of serious illnesses including salmonella, dysentery, and gastroenteritis.</p>
++    376:
++    377:       <p>The risk is particularly high in homes with children, the elderly or those fighting illnesses. Cockroach droppings have even been implicated as being a contributing factor leading to childhood asthma.</p>
++    378:
++    379:       <p>Beyond significant health risks, cockroaches are a disturbing pest to many homeowners. They also produce an obnoxious odor that contaminates nearby food and belongings.</p>
++    380:
++    381:       <p>Cockroaches can breed rapidly and are highly resilient. A quick response is essential to prevent cockroaches in your home.</p>
++    382:
++    383:       <h3>How to Prevent Cockroach Infestations</h3>
++    384:       <ul>
++    385:         <li>Store food in containers or in sealed plastic bags</li>
++    386:         <li>Clean all garbage and spills immediately</li>
++    387:         <li>Clean food debris from under refrigerators or ovens</li>
++    388:         <li>Clean used dishes immediately after meals</li>
++    389:         <li>Remove pet food, water and litter trays overnight</li>
++    390:         <li>Keep garbage or compost in sealed bins</li>
++    391:         <li>Do not leave liquids in sinks or buckets overnight</li>
++    392:       </ul>
++    393:
++    394:       <h3>Professional Cockroach Control Methods</h3>
++    395:       <p>Astra Pest Control deals with cockroach control using a variety of techniques, tools and products.</p>
++    396:
++    397:       <p>First, a professional pest expert will visit the site and do an inspection to determine the details of the infestation (what type of roach and severity of problem).</p>
++    398:
++    399:       <h4>Standard Treatment</h4>
++    400:       <p>If the infestation is not too major, the process of removal starts with a general spray and clean of trouble areas such as skirting boards, walls, garbage areas, exterior structures, etc. The spray is non-toxic to humans and water-based to ensure no harm comes to homeowners, children and pets.</p>
++    401:
++    402:       <p>Then, a dust is distributed throughout the cracks, crevices and wall cavities. The dust we use is very effective because cockroaches come in contact with the substance and tend to spread it to the nest and therefore the other roaches.</p>
++    403:
++    404:       <h4>Severe Infestation Treatment</h4>
++    405:       <p>If the infestation becomes severe, the same spray and dust treatment is used. However, we put a gel substance in cupboards/trouble areas that stays active for twelve months and is, therefore, highly effective in the elimination of the infestation.</p>
++    406:
++    407:       <div style="margin: 32px 0; text-align: center;">
++    408:         <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/NyGH_W7U0Mo" title="Cockroach Life Cycle & Habits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++    409:       </div>
++    410:
++    411:       <h3>Recognizing Cockroaches</h3>
++    412:       <p>One of the best ways to keep cockroaches out of your home is to keep the kitchen area hygienically clean. It pays to remove the fridge and dishwasher once a year and give the floor and the back of the appliances a good clean.</p>
++    413:
++    414:       <p>One main area to try and keep clean in the kitchen is the cupboard hinges, this is where cockroaches will lay eggs and harbour. A tell tale sign that you have cockroaches present in your home is feces droppings in the cupboards and on the hinges.</p>
++    415:
++    416:       <h3>Important Note</h3>
++    417:       <p>It is important for homeowners to be aware that, in order to keep cockroaches from becoming a serious problem in the future, the areas must be kept clean and tidy to discourage their return.</p>
++    418:
++    419:       <p>Typically after a treatment you may see an increase in cockroach activity. This is because some of the pest products have flushing agents in them, making the cockroaches run to try and escape the treatment.</p>
++    420:
++    421:       <p>We also dust the roof void with an electric blower. This is placed just inside the man hole cover and the dust settles on the roof floor. This is very effective in eradicating cockroaches from a home.</p>
++    422:
++    423:       <p><strong>Do you have a problem with cockroaches?</strong> Call us today at <strong>(07) 3245 5126</strong> for free advice. We can help with our environmentally friendly products and we will rid your home or commercial premises of cockroaches.</p>
++    424:     `
++    425:   }
+
+Appending to: webtask/client/src/blogContent.js
+ - Completed in 0.2s

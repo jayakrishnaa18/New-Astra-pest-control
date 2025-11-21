@@ -78,7 +78,6 @@ function App() {
             <Route path="/cleaning/duo-system" element={<DuoCleaning />} />
             <Route path="/cleaning/:service" element={<Services />} />
             <Route path="/pest-control" element={<PestControl />} />
-            <Route path="/pest-control/:pest" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/hints-tips" element={<HintsTips />} />
             <Route path="/faq" element={<FAQ />} />

@@ -4,14 +4,15 @@ import './ServicePages.css';
 
 function PestControl() {
   const pests = [
-    { name: 'Cockroaches', icon: '🪳', desc: 'Complete cockroach elimination', link: '/pest-control/cockroaches' },
-    { name: 'Termites', icon: '🐜', desc: 'Termite inspection & treatment', link: '/pest-control/termites' },
-    { name: 'Bed Bugs', icon: '🐛', desc: 'Thorough bed bug removal', link: '/pest-control/bed-bugs' },
-    { name: 'Spiders', icon: '🕷️', desc: 'Safe spider control', link: '/pest-control/spiders' },
-    { name: 'Rodents', icon: '🐀', desc: 'Mice & rat extermination', link: '/pest-control/rats' },
-    { name: 'Ants', icon: '🐜', desc: 'Ant colony elimination', link: '/pest-control/ants' },
-    { name: 'Fleas', icon: '🦟', desc: 'Complete flea treatment', link: '/pest-control/fleas' },
-    { name: 'Silverfish', icon: '🐟', desc: 'Silverfish control', link: '/pest-control/silverfish' }
+    { name: 'Cockroaches', icon: '🪳', desc: 'Complete cockroach elimination', link: '/blog/12' },
+    { name: 'Termites', icon: '🐜', desc: 'Termite inspection & treatment', link: '/blog/17' },
+    { name: 'Bed Bugs', icon: '🐛', desc: 'Thorough bed bug removal', link: '/blog/15' },
+    { name: 'Spiders', icon: '🕷️', desc: 'Safe spider control', link: '/blog/14' },
+    { name: 'Rats', icon: '🐀', desc: 'Mice & rat extermination', link: '/blog/16' },
+    { name: 'Fleas', icon: '🦟', desc: 'Complete flea treatment', link: '/blog/11' },
+    { name: 'Silverfish', icon: '🐟', desc: 'Silverfish control', link: '/blog/13' },
+    { name: 'Lice', icon: '🦠', desc: 'Lice treatment & prevention', link: '/blog/18' },
+    { name: 'Carpet Beetles', icon: '🪲', desc: 'Carpet beetle elimination', link: '/blog/19' }
   ];
 
   const products = [

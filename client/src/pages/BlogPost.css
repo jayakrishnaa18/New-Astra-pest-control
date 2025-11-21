@@ -47,6 +47,7 @@
 
 .post-header .container-narrow {
   max-width: 780px;
+  margin: 0 auto;
 }
 
 .back-link {
@@ -57,7 +58,7 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   transition: all 0.3s;
 }
 
@@ -70,7 +71,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .post-category {
@@ -87,11 +88,13 @@
 
 .meta-separator {
   color: #cbd5e1;
+  font-weight: 300;
 }
 
 .post-meta-header time {
   color: #64748b;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .post-title {
