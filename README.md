@@ -1,141 +1,101 @@
-# Astra Pest Control - MERN Stack Website
+# Astra Pest Control Website
 
-A modern, SEO-optimized pest control services website built with the MERN stack featuring advanced UI/UX design.
+Professional cleaning and pest control services website built with React and Node.js.
 
-## Recent Updates (Nov 2024)
+## Deployment to Render
 
-### UI/UX Enhancements
-- Modern timeline design on Hints & Tips page with scroll animations
-- Sticky CTA bar with Call Now and Get Free Quote buttons
-- Floating Scroll to Top button
-- Transparent video feature cards with glass-morphism effect
-- Enhanced button animations with gradient borders and shine effects
-- Smooth scrolling across entire website
-- Responsive header padding optimization
-- Fixed About page values grid layout
+### Step 1: Prepare Your Repository
+1. Ensure all changes are committed and pushed to GitHub
+2. Make sure the `v2` branch is up to date
 
-### Performance & Navigation
-- Optimized spacing between sections
-- Fixed icon alignment issues in buttons
-- Improved mobile responsiveness
-- Enhanced scroll-based animations
+### Step 2: Create Render Account
+1. Go to [render.com](https://render.com)
+2. Sign up with your GitHub account
 
-## Features
+### Step 3: Deploy Web Service
+1. Click "New +" → "Web Service"
+2. Connect your GitHub repository: `jayakrishnaa18/New-Astra-pest-control`
+3. Select the `v2` branch
+4. Configure the service:
+   - **Name**: astra-pest-control
+   - **Region**: Oregon (US West)
+   - **Branch**: v2
+   - **Root Directory**: (leave empty)
+   - **Runtime**: Node
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm start`
+   - **Plan**: Free
 
-### SEO Optimization
-- React Helmet for dynamic meta tags
-- Structured data (JSON-LD) for local business
-- Sitemap.xml generation
-- Robots.txt
-- Semantic HTML structure
-- Fast loading with code splitting
-- Mobile-responsive design
+### Step 4: Add Environment Variables
+In the Render dashboard, add these environment variables:
 
-### Modern Design
-- Clean, professional UI inspired by Allure Pest
-- Smooth animations and transitions
-- Mobile-first responsive design
-- Modern color scheme and typography
-- Interactive components
-
-### Functionality
-- Quote request form with email notifications
-- Services API with dynamic content
-- Contact form with validation
-- MongoDB integration
-- Express.js backend with security middleware
-
-## Setup Instructions
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB
-- Git
-
-### Installation
-
-1. **Clone and setup:**
-```bash
-cd webtask
-npm install
-cd client && npm install
-cd ..
+```
+NODE_ENV=production
+PORT=10000
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
+EMAIL_TO=info@best1cleaning.com
+CLIENT_URL=https://your-app-name.onrender.com
 ```
 
-2. **Environment Configuration:**
-```bash
-cp .env.example .env
-# Edit .env with your MongoDB URI and email credentials
-```
+### Step 5: Deploy
+1. Click "Create Web Service"
+2. Wait for the build to complete (5-10 minutes)
+3. Your site will be live at: `https://your-app-name.onrender.com`
 
-3. **Start MongoDB:**
-```bash
-# Make sure MongoDB is running on your system
-mongod
-```
+## Environment Variables Explained
 
-4. **Run the application:**
+- **NODE_ENV**: Set to `production` for deployment
+- **PORT**: Render uses port 10000 by default
+- **SMTP_HOST**: Your email provider's SMTP server
+- **SMTP_PORT**: Usually 587 for TLS
+- **SMTP_USER**: Email address for sending
+- **SMTP_PASS**: App password (not regular password)
+- **EMAIL_TO**: Where contact form submissions go
+- **CLIENT_URL**: Your Render app URL (update after first deploy)
+
+## Getting Gmail App Password
+
+1. Go to Google Account settings
+2. Enable 2-Factor Authentication
+3. Go to Security → App Passwords
+4. Generate a new app password for "Mail"
+5. Use this password in SMTP_PASS
+
+## Local Development
+
 ```bash
-# Development mode (runs both server and client)
+# Install dependencies
+npm run install-all
+
+# Start development server
 npm run dev
 
-# Or run separately:
-npm run server  # Backend only
-npm run client  # Frontend only
-```
-
-5. **Build for production:**
-```bash
+# Build for production
 npm run build
+
+# Start production server
 npm start
 ```
 
-## Project Structure
+## Tech Stack
 
-```
-webtask/
-├── client/                 # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/     # Reusable components
-│   │   ├── pages/          # Page components
-│   │   └── utils/          # Utility functions
-├── server/                 # Express backend
-│   ├── models/             # MongoDB models
-│   ├── routes/             # API routes
-│   ├── middleware/         # Custom middleware
-│   └── config/             # Configuration files
-└── package.json
-```
+- **Frontend**: React, React Router
+- **Backend**: Node.js, Express
+- **Email**: Nodemailer
+- **Deployment**: Render
 
-## SEO Features Implemented
+## Features
 
-1. **Meta Tags:** Dynamic title, description, keywords for each page
-2. **Structured Data:** Local business schema markup
-3. **Open Graph:** Social media sharing optimization
-4. **Sitemap:** Auto-generated XML sitemap
-5. **Performance:** Compression, caching headers
-6. **Security:** Helmet.js security headers
-7. **Mobile:** Responsive design with proper viewport
+- Responsive design (320px - desktop)
+- Contact form with email notifications
+- Service pages for cleaning and pest control
+- Blog with pest control guides
+- FAQ section
+- Professional UI/UX
 
-## API Endpoints
+## Support
 
-- `POST /api/quotes` - Submit quote request
-- `GET /api/services` - Get all services
-- `GET /sitemap.xml` - SEO sitemap
-- `GET /robots.txt` - Search engine instructions
-
-## Deployment
-
-The app is production-ready and can be deployed to:
-- Heroku
-- Vercel
-- AWS
-- DigitalOcean
-- Any Node.js hosting platform
-
-Make sure to set environment variables in your hosting platform.
-
-## License
-
-MIT License
+For issues or questions, contact: info@best1cleaning.com
