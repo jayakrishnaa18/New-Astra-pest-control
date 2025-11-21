@@ -51,18 +51,19 @@ const transporter = nodemailer.createTransport({
 // Quote submission endpoint
 app.post('/api/quotes', async (req, res) => {
   try {
-    const { name, email, phone, service, message } = req.body;
+    const { firstName, lastName, email, phone, service, timeframe, message } = req.body;
+    const name = `${firstName} ${lastName}`;
     
     console.log('📝 Quote request received:', { name, email, phone, service });
 
-    if (!name || !email || !phone || !service) {
+    if (!firstName || !lastName || !email || !phone || !service) {
       return res.status(400).json({ success: false, message: 'Please fill in all required fields' });
     }
 
     // Admin notification email
     const adminMailOptions = {
-      from: process.env.MAIL_FROM,
-      to: process.env.MAIL_TO,
+      from: process.env.SMTP_USER,
+      to: process.env.EMAIL_TO || 'info@best1cleaning.com',
       subject: `🔔 New Quote Request - ${service}`,
       html: `
         <!DOCTYPE html>
@@ -139,7 +140,7 @@ app.post('/api/quotes', async (req, res) => {
 
     // Customer acknowledgment email
     const customerMailOptions = {
-      from: process.env.MAIL_FROM,
+      from: process.env.SMTP_USER,
       to: email,
       subject: 'Thank You for Your Quote Request - Astra Pest Control',
       html: `

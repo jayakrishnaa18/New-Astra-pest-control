@@ -58,7 +58,7 @@
   cursor: pointer;
   z-index: 60;
   transition: all 0.3s;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(31, 41, 55, 0.8);
 }
 
 .mobile-toggle.scrolled {

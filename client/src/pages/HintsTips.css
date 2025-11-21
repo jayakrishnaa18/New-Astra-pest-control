@@ -600,7 +600,8 @@
   }
 
   .tips-content {
-    padding: 0 16px 40px;
+    padding: 40px 16px;
+    background: #fff;
   }
 
   .timeline-wrapper {
@@ -625,6 +626,7 @@
   .tip-content {
     padding: 20px;
     margin-right: 60px;
+    background: #fff;
   }
 
   .tip-content h2 {
