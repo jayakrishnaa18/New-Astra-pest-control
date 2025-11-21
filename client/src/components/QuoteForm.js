@@ -76,20 +76,33 @@ function QuoteForm() {
   };
 
   return (
-    <form className="quote-form-modern" onSubmit={handleSubmit}>
-      <div className="form-header-text">
-        <h3>Send Us a Message</h3>
-        <p>Fill out the form below and our team will get back to you within 24 hours</p>
-      </div>
-
-      {message && (
-        <div className={`form-message ${status}`}>
-          {message}
+    <>
+      {(status === 'success' || status === 'error') && (
+        <div className="form-message-overlay">
+          <div className={`form-message-box ${status}`}>
+            <div className={`message-icon ${status}`}>
+              {status === 'success' ? '✓' : '✕'}
+            </div>
+            <h3>{status === 'success' ? 'Message Sent!' : 'Submission Failed'}</h3>
+            <p>{message}</p>
+            <button 
+              className="message-button"
+              onClick={() => {
+                setStatus('idle');
+                setMessage('');
+              }}
+            >
+              {status === 'success' ? 'Send Another Message' : 'Try Again'}
+            </button>
+          </div>
         </div>
       )}
 
-      {status !== 'success' && status !== 'error' && (
-        <>
+      <form className="quote-form-modern" onSubmit={handleSubmit}>
+        <div className="form-header-text">
+          <h3>Send Us a Message</h3>
+          <p>Fill out the form below and our team will get back to you within 24 hours</p>
+        </div>
           <div className="form-group-modern">
             <label>Name *</label>
             <div className="name-fields">
@@ -219,22 +232,8 @@ function QuoteForm() {
           </span>
         ) : 'Submit'}
       </button>
-      </>
-      )}
-
-      {(status === 'success' || status === 'error') && (
-        <button 
-          type="button" 
-          className="submit-btn-modern" 
-          onClick={() => {
-            setStatus('idle');
-            setMessage('');
-          }}
-        >
-          Send Another Message
-        </button>
-      )}
     </form>
+    </>
   );
 }
 
