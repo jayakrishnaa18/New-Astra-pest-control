@@ -270,18 +270,22 @@ app.post('/api/quotes', async (req, res) => {
 
     // Send emails
     try {
-      await transporter.sendMail(adminMailOptions);
+      console.log('📤 Attempting to send admin email...');
+      const adminResult = await transporter.sendMail(adminMailOptions);
       console.log('✅ Admin notification sent to:', process.env.EMAIL_TO || 'jkaliki@gitam.in');
+      console.log('📧 Message ID:', adminResult.messageId);
     } catch (emailError) {
-      console.error('❌ Admin email error:', emailError.message);
+      console.error('❌ Admin email error:', emailError);
       throw emailError;
     }
 
     try {
-      await transporter.sendMail(customerMailOptions);
+      console.log('📤 Attempting to send customer email...');
+      const customerResult = await transporter.sendMail(customerMailOptions);
       console.log('✅ Customer acknowledgment sent to:', email);
+      console.log('📧 Message ID:', customerResult.messageId);
     } catch (emailError) {
-      console.error('❌ Customer email error:', emailError.message);
+      console.error('❌ Customer email error:', emailError);
       throw emailError;
     }
 
