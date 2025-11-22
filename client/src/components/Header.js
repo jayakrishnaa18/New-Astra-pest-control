@@ -37,6 +37,7 @@ function Header() {
           <button className={`mobile-toggle ${isScrolled ? 'scrolled' : ''}`} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             <span className={isMobileMenuOpen ? 'open' : ''}></span>
             <span className={isMobileMenuOpen ? 'open' : ''}></span>
+            <span className={isMobileMenuOpen ? 'open' : ''}></span>
           </button>
 
           <nav className={`nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>

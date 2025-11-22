@@ -56,9 +56,10 @@
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  z-index: 60;
+  z-index: 1000;
   transition: all 0.3s;
   background: rgba(31, 41, 55, 0.8);
+  position: relative;
 }
 
 .mobile-toggle.scrolled {
@@ -71,23 +72,35 @@
   height: 2px;
   background: white;
   transition: all 0.3s;
-  margin-bottom: 6px;
+  position: absolute;
 }
 
-.mobile-toggle span:last-child {
-  margin-bottom: 0;
+.mobile-toggle span:nth-child(1) {
+  transform: translateY(-6px);
+}
+
+.mobile-toggle span:nth-child(2) {
+  transform: translateY(0);
+}
+
+.mobile-toggle span:nth-child(3) {
+  transform: translateY(6px);
 }
 
 .mobile-toggle.scrolled span {
   background: #1f2937;
 }
 
-.mobile-toggle span.open:first-child {
-  transform: rotate(45deg) translate(5px, 5px);
+.mobile-toggle span.open:nth-child(1) {
+  transform: rotate(45deg) translateY(0);
 }
 
-.mobile-toggle span.open:last-child {
-  transform: rotate(-45deg) translate(5px, -5px);
+.mobile-toggle span.open:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-toggle span.open:nth-child(3) {
+  transform: rotate(-45deg) translateY(0);
 }
 
 .nav {
