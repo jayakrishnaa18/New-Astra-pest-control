@@ -443,6 +443,27 @@
     padding: 12px 20px;
     font-size: 13px;
   }
+
+  .emergency-card {
+    padding: 20px 12px;
+  }
+
+  .emergency-card h3 {
+    font-size: 16px;
+  }
+
+  .emergency-card p {
+    font-size: 13px;
+  }
+
+  .emergency-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .emergency-icon {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 480px) {

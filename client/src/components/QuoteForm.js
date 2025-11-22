@@ -98,7 +98,7 @@ function QuoteForm() {
               <input 
                 type="text" 
                 name="firstName" 
-                placeholder="First" 
+                placeholder="First Name" 
                 value={formData.firstName} 
                 onChange={handleChange} 
                 required 
@@ -107,7 +107,7 @@ function QuoteForm() {
               <input 
                 type="text" 
                 name="lastName" 
-                placeholder="Last" 
+                placeholder="Last Name" 
                 value={formData.lastName} 
                 onChange={handleChange} 
                 required 

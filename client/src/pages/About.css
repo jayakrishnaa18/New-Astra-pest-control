@@ -586,4 +586,10 @@
   .cta-buttons-modern {
     flex-direction: column;
   }
+
+  .btn-modern-primary,
+  .btn-modern-secondary {
+    padding: 14px 28px !important;
+    font-size: 14px !important;
+  }
 }

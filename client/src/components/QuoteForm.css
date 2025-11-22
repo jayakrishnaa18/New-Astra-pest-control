@@ -254,4 +254,21 @@
   .name-fields {
     grid-template-columns: 1fr;
   }
+
+  .form-group-modern input,
+  .form-group-modern select,
+  .form-group-modern textarea {
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+
+  .form-group-modern input::placeholder,
+  .form-group-modern textarea::placeholder {
+    font-size: 13px;
+  }
+
+  .submit-btn-modern {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
 }

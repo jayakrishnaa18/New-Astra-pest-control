@@ -380,15 +380,23 @@ const blogPosts = [
 ];
 
 function Blog() {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const categoryParam = searchParams.get('category');
+  const pageParam = parseInt(searchParams.get('page')) || 1;
   const [selectedCategory, setSelectedCategory] = useState(categoryParam || 'All');
+  const [currentPage, setCurrentPage] = useState(pageParam);
+  
+  const POSTS_PER_PAGE = 9;
   
   useEffect(() => {
     if (categoryParam) {
       setSelectedCategory(categoryParam);
     }
   }, [categoryParam]);
+
+  useEffect(() => {
+    setCurrentPage(1); // Reset to page 1 when category changes
+  }, [selectedCategory]);
   
   const categories = ['All', 'Cleaning', 'Pest Control', 'Services', 'General'];
   
@@ -396,8 +404,18 @@ function Blog() {
     ? blogPosts 
     : blogPosts.filter(post => post.category === selectedCategory);
 
-  const featuredPost = filteredPosts[0];
-  const regularPosts = filteredPosts.slice(1);
+  const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+  const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+  const endIndex = startIndex + POSTS_PER_PAGE;
+  const currentPosts = filteredPosts.slice(startIndex, endIndex);
+
+  const featuredPost = currentPage === 1 ? currentPosts[0] : null;
+  const regularPosts = currentPage === 1 ? currentPosts.slice(1) : currentPosts;
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="blog-page-pro">
@@ -469,6 +487,34 @@ function Blog() {
               </Link>
             ))}
           </div>
+
+          {totalPages > 1 && (
+            <div className="pagination">
+              <button 
+                className="page-btn" 
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+              >
+                Previous
+              </button>
+              {[...Array(totalPages)].map((_, i) => (
+                <button
+                  key={i + 1}
+                  className={`page-btn ${currentPage === i + 1 ? 'active' : ''}`}
+                  onClick={() => handlePageChange(i + 1)}
+                >
+                  {i + 1}
+                </button>
+              ))}
+              <button 
+                className="page-btn" 
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+              >
+                Next
+              </button>
+            </div>
+          )}
         </div>
       </section>
 

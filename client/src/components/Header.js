@@ -15,6 +15,15 @@ function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [location]);
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <>
       <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
@@ -31,43 +40,43 @@ function Header() {
           </button>
 
           <nav className={`nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-            <Link to="/" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/' ? 'active' : ''}`}>
+            <Link to="/" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/' ? 'active' : ''}`}>
               Home
               <span className="nav-underline"></span>
             </Link>
             
-            <Link to="/cleaning" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/cleaning' ? 'active' : ''}`}>
+            <Link to="/cleaning" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/cleaning' ? 'active' : ''}`}>
               Cleaning
               <span className="nav-underline"></span>
             </Link>
 
-            <Link to="/pest-control" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/pest-control' ? 'active' : ''}`}>
+            <Link to="/pest-control" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/pest-control' ? 'active' : ''}`}>
               Pest Control
               <span className="nav-underline"></span>
             </Link>
 
-            <Link to="/about" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/about' ? 'active' : ''}`}>
+            <Link to="/about" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/about' ? 'active' : ''}`}>
               About
               <span className="nav-underline"></span>
             </Link>
-            <Link to="/hints-tips" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/hints-tips' ? 'active' : ''}`}>
+            <Link to="/hints-tips" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/hints-tips' ? 'active' : ''}`}>
               Hints & Tips
               <span className="nav-underline"></span>
             </Link>
-            <Link to="/faq" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/faq' ? 'active' : ''}`}>
+            <Link to="/faq" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/faq' ? 'active' : ''}`}>
               FAQ
               <span className="nav-underline"></span>
             </Link>
-            <Link to="/blog" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/blog' ? 'active' : ''}`}>
+            <Link to="/blog" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/blog' ? 'active' : ''}`}>
               Blog
               <span className="nav-underline"></span>
             </Link>
-            <Link to="/contact" className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/contact' ? 'active' : ''}`}>
+            <Link to="/contact" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/contact' ? 'active' : ''}`}>
               Contact
               <span className="nav-underline"></span>
             </Link>
             
-            <Link to="/contact" className={`book-online-btn ${isScrolled ? 'scrolled' : ''}`}>
+            <Link to="/contact" onClick={closeMobileMenu} className={`book-online-btn ${isScrolled ? 'scrolled' : ''}`}>
               <span>Book Online</span>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>

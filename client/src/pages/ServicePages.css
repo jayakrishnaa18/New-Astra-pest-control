@@ -178,6 +178,20 @@
   .service-card-clean p {
     font-size: 12px;
   }
+
+  /* Mobile button fixes */
+  .btn-hero-primary,
+  .btn-hero-secondary,
+  .btn-cta-primary,
+  .btn-cta-secondary {
+    padding: 12px 20px !important;
+    font-size: 13px !important;
+  }
+
+  .hero-cta-buttons,
+  .cta-buttons {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 360px) {

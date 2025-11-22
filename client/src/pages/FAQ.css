@@ -329,4 +329,15 @@
   .faq-cta-new {
     padding: 60px 20px;
   }
+
+  .contact-btn,
+  .cta-primary,
+  .cta-secondary {
+    padding: 14px 24px !important;
+    font-size: 14px !important;
+  }
+
+  .cta-btns {
+    gap: 12px;
+  }
 }

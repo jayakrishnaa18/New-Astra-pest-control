@@ -1539,6 +1539,16 @@
   .hero-modern {
     min-height: 80vh;
   }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+
+  .hero-actions {
+    gap: 12px;
+  }
   
   .showcase-card {
     padding: 40px;
