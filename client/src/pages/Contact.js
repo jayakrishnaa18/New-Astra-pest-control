@@ -10,7 +10,7 @@ function Contact() {
         <div className="hero-particles"></div>
         <div className="container">
           <div className="hero-content-pro">
-            <span className="hero-badge-pro">📞 Contact Us</span>
+            <span className="hero-badge-pro">Contact Us</span>
             <h1>Let's Work Together</h1>
             <p>Get in touch with Brisbane's most trusted cleaning and pest control experts</p>
           </div>
@@ -141,7 +141,11 @@ function Contact() {
 
               {/* Emergency CTA */}
               <div className="info-card-pro emergency-card">
-                <div className="emergency-icon">🚨</div>
+                <div className="emergency-icon">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
+                  </svg>
+                </div>
                 <h3>Need Emergency Service?</h3>
                 <p>We're available 24/7 for urgent pest control and flood extraction services</p>
                 <a href="tel:0732455126" className="emergency-btn">

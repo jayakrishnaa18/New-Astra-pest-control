@@ -56,7 +56,7 @@ function QuoteForm() {
     } catch (error) {
       console.error('Form submission error:', error);
       setStatus('error');
-      setMessage('⚠️ Unable to submit form online. Please call us directly at 07 3245 5126 or email info@best1cleaning.com');
+      setMessage('Unable to submit form online. Please call us directly at 07 3245 5126 or email info@best1cleaning.com');
       
       setTimeout(() => {
         setStatus('idle');
@@ -70,7 +70,7 @@ function QuoteForm() {
         <div className="form-message-overlay">
           <div className={`form-message-box ${status}`}>
             <div className={`message-icon ${status}`}>
-              {status === 'success' ? '✓' : '✕'}
+              {status === 'success' ? '✔' : '✖'}
             </div>
             <h3>{status === 'success' ? 'Message Sent!' : 'Submission Failed'}</h3>
             <p>{message}</p>

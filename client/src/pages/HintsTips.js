@@ -124,21 +124,33 @@ const HintsTips = () => {
               
               <div className="tips-list">
                 <div className="tip-item">
-                  <div className="tip-icon">🗑️</div>
+                  <div className="tip-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/>
+                    </svg>
+                  </div>
                   <div>
                     <h4>Use Plastic Bags</h4>
                     <p>Put rubbish into plastic bags before the wheelie bin</p>
                   </div>
                 </div>
                 <div className="tip-item">
-                  <div className="tip-icon">🏠</div>
+                  <div className="tip-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                    </svg>
+                  </div>
                   <div>
                     <h4>Keep Bins Away</h4>
                     <p>Keep the wheelie bin away from the house</p>
                   </div>
                 </div>
                 <div className="tip-item">
-                  <div className="tip-icon">🧼</div>
+                  <div className="tip-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                  </div>
                   <div>
                     <h4>Clean Regularly</h4>
                     <p>Give the wheelie bin a good clean once a year</p>
@@ -156,7 +168,11 @@ const HintsTips = () => {
               
               <div className="equipment-features">
                 <div className="equipment-item">
-                  <div className="equipment-icon">🚚</div>
+                  <div className="equipment-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M18 18.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm1.5-9H17V12h4.46L19.5 9.5zM6 18.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5zM20 8l3 4v5h-2c0 1.66-1.34 3-3 3s-3-1.34-3-3H9c0 1.66-1.34 3-3 3s-3-1.34-3-3H1V6c0-1.11.89-2 2-2h14v4h3zM3 6v9h.76c.55-.61 1.35-1 2.24-1s1.69.39 2.24 1H15V6H3z"/>
+                    </svg>
+                  </div>
                   <h4>Truck Mounted</h4>
                   <p>No electricity or hot water needed</p>
                 </div>

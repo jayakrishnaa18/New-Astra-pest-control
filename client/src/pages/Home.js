@@ -106,12 +106,16 @@ function Home() {
             
             <div className="video-features-grid">
               <div className="video-feature-card">
-                <div className="feature-icon-video">✓</div>
+                <div className="feature-icon-video">✔</div>
                 <h4>100% Satisfaction Guaranteed</h4>
                 <p>Quality results every time</p>
               </div>
               <div className="video-feature-card">
-                <div className="feature-icon-video">🛠️</div>
+                <div className="feature-icon-video">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                  </svg>
+                </div>
                 <h4>Professional Equipment</h4>
                 <p>State-of-the-art technology</p>
               </div>
@@ -158,7 +162,11 @@ function Home() {
                 <div className="image-overlay-modern"></div>
               </div>
               <div className="card-content-modern">
-                <div className="card-icon-modern">🛡️</div>
+                <div className="card-icon-modern">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+                  </svg>
+                </div>
                 <h3>Pest Control</h3>
                 <p>Complete pest management and prevention solutions for a safe environment</p>
                 <span className="card-link-modern">
