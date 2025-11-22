@@ -61,9 +61,12 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // Email transporter with timeout settings
+// Email transporter configuration
+// For Render: Use SendGrid SMTP (smtp.sendgrid.net:587) as Render blocks Gmail SMTP
+// For local: Can use Gmail SMTP
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT),
+  host: process.env.SMTP_HOST || 'smtp.sendgrid.net',
+  port: parseInt(process.env.SMTP_PORT) || 587,
   secure: false,
   auth: {
     user: process.env.SMTP_USER,
@@ -80,7 +83,8 @@ const transporter = nodemailer.createTransport({
 // Verify SMTP connection
 transporter.verify(function(error, success) {
   if (error) {
-    console.error('[ERROR] SMTP Connection Error:', error);
+    console.error('[ERROR] SMTP Connection Error:', error.message);
+    console.error('[INFO] Email sending will fail. Check SMTP credentials.');
   } else {
     console.log('[OK] SMTP Server is ready to send emails');
   }
@@ -295,36 +299,48 @@ app.post('/api/quotes', async (req, res) => {
     };
 
     // Send emails with error handling
-    let emailsSent = false;
+    let adminEmailSent = false;
+    let customerEmailSent = false;
+    
     try {
-      console.log('[SEND] Attempting to send admin email...');
+      console.log('[SEND] Attempting to send admin email to:', process.env.EMAIL_TO || 'jkaliki@gitam.in');
       const adminResult = await transporter.sendMail(adminMailOptions);
-      console.log('[OK] Admin notification sent to:', process.env.EMAIL_TO || 'jkaliki@gitam.in');
+      console.log('[OK] Admin notification sent successfully');
       console.log('[EMAIL] Message ID:', adminResult.messageId);
-      emailsSent = true;
+      adminEmailSent = true;
     } catch (emailError) {
-      console.error('[ERROR] Admin email error:', emailError.message);
-      // Don't throw - continue to try customer email
+      console.error('[ERROR] Admin email failed:', emailError.message);
+      console.error('[ERROR] Error code:', emailError.code);
+      if (emailError.code === 'ETIMEDOUT' || emailError.code === 'ECONNECTION') {
+        console.error('[INFO] SMTP connection blocked. Render free tier blocks SMTP. Use SendGrid instead.');
+      }
     }
 
     try {
-      console.log('[SEND] Attempting to send customer email...');
+      console.log('[SEND] Attempting to send customer email to:', email);
       const customerResult = await transporter.sendMail(customerMailOptions);
-      console.log('[OK] Customer acknowledgment sent to:', email);
+      console.log('[OK] Customer acknowledgment sent successfully');
       console.log('[EMAIL] Message ID:', customerResult.messageId);
-      emailsSent = true;
+      customerEmailSent = true;
     } catch (emailError) {
-      console.error('[ERROR] Customer email error:', emailError.message);
-      // Don't throw - form submission still succeeds
+      console.error('[ERROR] Customer email failed:', emailError.message);
+      console.error('[ERROR] Error code:', emailError.code);
     }
 
-    // Always return success - form data was received
-    res.status(201).json({ 
-      success: true, 
-      message: emailsSent 
-        ? 'Quote request submitted successfully!' 
-        : 'Quote request received! We will contact you shortly at ' + phone 
-    });
+    // Return appropriate response
+    if (adminEmailSent || customerEmailSent) {
+      res.status(201).json({ 
+        success: true, 
+        message: 'Quote request submitted successfully!' 
+      });
+    } else {
+      // Emails failed but form data received
+      console.log('[WARN] Emails failed but form data received. Returning success to user.');
+      res.status(201).json({ 
+        success: true, 
+        message: 'Quote request received! We will contact you shortly at ' + phone 
+      });
+    }
 
   } catch (error) {
     console.error('[ERROR] Error:', error.message);
