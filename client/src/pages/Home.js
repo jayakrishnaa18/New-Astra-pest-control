@@ -38,7 +38,7 @@ function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="hero-modern">
-        <div className="hero-bg" style={{backgroundImage: 'url(/carpet1.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', opacity: 0.4}}></div>
+        <div className="hero-bg" style={{backgroundImage: 'url(/carpet1.jpg)', backgroundSize: 'cover', backgroundPosition: 'center bottom', opacity: 0.4}}></div>
         <div className="container hero-wrapper">
           <div className="hero-text">
             <span className="hero-label">Brisbane's Premier Choice</span>
