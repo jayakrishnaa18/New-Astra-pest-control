@@ -1,5 +1,7 @@
 # Astra Pest Control - Project Setup Guide
 
+**Last Updated:** November 20, 2024
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -230,7 +232,11 @@ webtask/
 │   │   └── manifest.json  # PWA manifest
 │   ├── src/               # React source code
 │   │   ├── components/    # Reusable components
+│   │   │   ├── StickyCTA.js        # Sticky call-to-action bar
+│   │   │   └── ScrollToTopButton.js # Floating scroll button
 │   │   ├── pages/         # Page components
+│   │   │   ├── HintsTips.js        # Timeline design with animations
+│   │   │   └── About.js            # About page with values grid
 │   │   ├── App.js         # Main app component
 │   │   └── index.js       # Entry point
 │   └── package.json       # Frontend dependencies
@@ -246,6 +252,16 @@ webtask/
 ├── DEPLOYMENT.md         # Deployment guide
 └── SEO-GUIDE.md          # SEO documentation
 ```
+
+## 🎨 Recent UI/UX Features
+
+### Implemented Components
+- **Timeline Design**: Scroll-animated timeline on Hints & Tips page
+- **Sticky CTA Bar**: Appears after 600px scroll with Call Now and Quote buttons
+- **Scroll to Top Button**: Floating button appears after 400px scroll
+- **Glass-morphism Cards**: Transparent video feature cards with backdrop blur
+- **Smooth Scrolling**: Site-wide smooth scroll behavior
+- **Responsive Grid**: Fixed 4-column values grid on About page
 
 ---
 

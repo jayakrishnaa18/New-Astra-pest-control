@@ -1,5 +1,7 @@
 # Astra Pest Control - Deployment Guide
 
+**Last Updated:** November 20, 2024
+
 ## 🚀 Production Deployment
 
 ### Prerequisites

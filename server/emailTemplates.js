@@ -44,14 +44,14 @@ const adminEmailTemplate = (name, email, phone, service, message) => `
   <div class="email-wrapper">
     <div class="email-container">
       <div class="header">
-        <div class="logo">🏠</div>
+        <div class="logo">AP</div>
         <h1>New Quote Request</h1>
         <p>Astra Pest Control</p>
       </div>
       
       <div class="content">
         <div class="alert-banner">
-          <h3>⚡ Urgent Action Required</h3>
+          <h3>Urgent Action Required</h3>
           <p>A new customer is waiting for your response. Please contact them within 2 hours for best conversion.</p>
         </div>
         
@@ -59,23 +59,23 @@ const adminEmailTemplate = (name, email, phone, service, message) => `
         
         <div class="info-card">
           <div class="info-row">
-            <span class="info-label">👤 Full Name</span>
+            <span class="info-label">Full Name</span>
             <span class="info-value">${name}</span>
           </div>
           <div class="info-row">
-            <span class="info-label">📧 Email Address</span>
+            <span class="info-label">Email Address</span>
             <span class="info-value"><a href="mailto:${email}">${email}</a></span>
           </div>
           <div class="info-row">
-            <span class="info-label">📱 Phone Number</span>
+            <span class="info-label">Phone Number</span>
             <span class="info-value"><a href="tel:${phone}">${phone}</a></span>
           </div>
           <div class="info-row">
-            <span class="info-label">🛠️ Service Type</span>
+            <span class="info-label">Service Type</span>
             <span class="info-value">${service}</span>
           </div>
           ${message ? `<div class="info-row">
-            <span class="info-label">💬 Message</span>
+            <span class="info-label">Message</span>
             <span class="info-value">${message}</span>
           </div>` : ''}
         </div>
@@ -84,15 +84,15 @@ const adminEmailTemplate = (name, email, phone, service, message) => `
         
         <div class="cta-section">
           <p style="color: #475569; margin-bottom: 20px; font-size: 16px;">Take immediate action to secure this lead</p>
-          <a href="tel:${phone}" class="cta-button">📞 Call Customer Now</a>
+          <a href="tel:${phone}" class="cta-button">Call Customer Now</a>
         </div>
       </div>
       
       <div class="footer">
         <div class="footer-brand">Astra Pest Control</div>
         <div class="footer-tagline">Professional Cleaning & Pest Control Services</div>
-        <div class="footer-contact">📞 <a href="tel:0732455126">(07) 3245 5126</a></div>
-        <div class="footer-contact">📧 <a href="mailto:info@best1cleaning.com">info@best1cleaning.com</a></div>
+        <div class="footer-contact"><a href="tel:0732455126">(07) 3245 5126</a></div>
+        <div class="footer-contact"><a href="mailto:info@best1cleaning.com">info@best1cleaning.com</a></div>
         <div style="margin-top: 20px; font-size: 13px; opacity: 0.7;">
           Brisbane • Ipswich • Gold Coast • Sunshine Coast
         </div>
@@ -152,7 +152,7 @@ const customerEmailTemplate = (name, email, phone, service, message) => `
     .benefits h4 { color: #0f172a; font-size: 20px; margin-bottom: 20px; text-align: center; }
     .benefits-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
     .benefit-item { display: flex; align-items: center; gap: 12px; color: #475569; font-size: 15px; }
-    .benefit-item::before { content: '✓'; color: #22c55e; font-weight: 800; font-size: 20px; }
+    .benefit-item::before { content: '•'; color: #22c55e; font-weight: 800; font-size: 20px; }
     .footer { background: #0f172a; color: #94a3b8; padding: 40px; text-align: center; }
     .footer-brand { color: white; font-size: 22px; font-weight: 700; margin-bottom: 12px; }
     .footer-tagline { font-size: 15px; margin-bottom: 24px; }
@@ -173,14 +173,14 @@ const customerEmailTemplate = (name, email, phone, service, message) => `
   <div class="email-wrapper">
     <div class="email-container">
       <div class="header">
-        <div class="logo">✅</div>
+        <div class="logo">AP</div>
         <h1>Request Received!</h1>
         <p>Astra Pest Control</p>
       </div>
       
       <div class="content">
         <div class="success-badge">
-          <h2>🎉 Thank You, ${name}!</h2>
+          <h2>Thank You, ${name}!</h2>
           <p>Your quote request has been successfully submitted and is being reviewed by our team.</p>
         </div>
         
@@ -189,7 +189,7 @@ const customerEmailTemplate = (name, email, phone, service, message) => `
         </p>
         
         <div class="summary-box">
-          <h3>📋 Your Request Summary</h3>
+          <h3>Your Request Summary</h3>
           <div class="summary-item">
             <div class="summary-label">Service Requested</div>
             <div class="summary-value">${service}</div>
@@ -237,7 +237,7 @@ const customerEmailTemplate = (name, email, phone, service, message) => `
         </div>
         
         <div class="contact-banner">
-          <h3>📞 Need Immediate Assistance?</h3>
+          <h3>Need Immediate Assistance?</h3>
           <p>Our team is available to help you right away. Don't wait - contact us now!</p>
           <div class="contact-buttons">
             <a href="tel:0732455126" class="contact-btn btn-primary">Call (07) 3245 5126</a>
@@ -261,11 +261,11 @@ const customerEmailTemplate = (name, email, phone, service, message) => `
       <div class="footer">
         <div class="footer-brand">Astra Pest Control</div>
         <div class="footer-tagline">Brisbane's Trusted Cleaning & Pest Control Experts</div>
-        <div class="footer-contact">📞 <a href="tel:0732455126">(07) 3245 5126</a></div>
-        <div class="footer-contact">📧 <a href="mailto:info@best1cleaning.com">info@best1cleaning.com</a></div>
+        <div class="footer-contact"><a href="tel:0732455126">(07) 3245 5126</a></div>
+        <div class="footer-contact"><a href="mailto:info@best1cleaning.com">info@best1cleaning.com</a></div>
         <div class="social-links">
           <a href="#" class="social-link">f</a>
-          <a href="#" class="social-link">📷</a>
+          <a href="#" class="social-link">IG</a>
           <a href="#" class="social-link">G</a>
         </div>
         <div style="margin-top: 24px; font-size: 14px; opacity: 0.7;">

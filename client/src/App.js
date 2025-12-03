@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header';
+import StickyCTA from './components/StickyCTA';
+import ScrollToTopButton from './components/ScrollToTopButton';
 import Footer from './components/Footer';
 import SmoothScroll from './components/SmoothScroll';
 import Home from './pages/Home';
@@ -37,11 +40,9 @@ function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'instant'
-    });
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
   }, [pathname]);
 
   return null;
@@ -49,45 +50,48 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <Router>
-      <SmoothScroll />
-      <ScrollToTop />
-      <div className="App">
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/cleaning" element={<Cleaning />} />
-            <Route path="/cleaning/carpet-cleaning" element={<CarpetCleaning />} />
-            <Route path="/cleaning/tile-grout" element={<TileGroutCleaning />} />
-            <Route path="/cleaning/upholstery" element={<UpholsteryCleaning />} />
-            <Route path="/cleaning/leather" element={<LeatherCleaning />} />
-            <Route path="/cleaning/mould" element={<MouldRemoval />} />
-            <Route path="/cleaning/rug" element={<RugCleaning />} />
-            <Route path="/cleaning/vehicles" element={<VehicleCleaning />} />
-            <Route path="/cleaning/flood" element={<FloodExtraction />} />
-            <Route path="/cleaning/commercial" element={<CommercialCleaning />} />
-            <Route path="/cleaning/bond" element={<BondCleaning />} />
-            <Route path="/cleaning/mattress" element={<MattressCleaning />} />
-            <Route path="/cleaning/protection" element={<CarpetProtection />} />
-            <Route path="/cleaning/encapsulation" element={<EncapsulationCleaning />} />
-            <Route path="/cleaning/repairs" element={<CarpetRepairs />} />
-            <Route path="/cleaning/duo-system" element={<DuoCleaning />} />
-            <Route path="/cleaning/:service" element={<Services />} />
-            <Route path="/pest-control" element={<PestControl />} />
-            <Route path="/pest-control/:pest" element={<Services />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/hints-tips" element={<HintsTips />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <HelmetProvider>
+      <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <SmoothScroll />
+        <ScrollToTop />
+        <div className="App">
+          <Header />
+          <StickyCTA />
+          <ScrollToTopButton />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/cleaning" element={<Cleaning />} />
+              <Route path="/cleaning/carpet-cleaning" element={<CarpetCleaning />} />
+              <Route path="/cleaning/tile-grout" element={<TileGroutCleaning />} />
+              <Route path="/cleaning/upholstery" element={<UpholsteryCleaning />} />
+              <Route path="/cleaning/leather" element={<LeatherCleaning />} />
+              <Route path="/cleaning/mould" element={<MouldRemoval />} />
+              <Route path="/cleaning/rug" element={<RugCleaning />} />
+              <Route path="/cleaning/vehicles" element={<VehicleCleaning />} />
+              <Route path="/cleaning/flood" element={<FloodExtraction />} />
+              <Route path="/cleaning/commercial" element={<CommercialCleaning />} />
+              <Route path="/cleaning/bond" element={<BondCleaning />} />
+              <Route path="/cleaning/mattress" element={<MattressCleaning />} />
+              <Route path="/cleaning/protection" element={<CarpetProtection />} />
+              <Route path="/cleaning/encapsulation" element={<EncapsulationCleaning />} />
+              <Route path="/cleaning/repairs" element={<CarpetRepairs />} />
+              <Route path="/cleaning/duo-system" element={<DuoCleaning />} />
+              <Route path="/cleaning/:service" element={<Services />} />
+              <Route path="/pest-control" element={<PestControl />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/hints-tips" element={<HintsTips />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogPost />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 

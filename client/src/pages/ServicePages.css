@@ -88,6 +88,118 @@
   line-height: 1.6;
 }
 
+.services-grid-clean {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.service-card-clean {
+  background: #fff;
+  padding: 24px 20px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.service-card-clean:hover {
+  border-color: #dc2626;
+  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.12);
+  transform: translateY(-4px);
+}
+
+.service-card-icon {
+  width: 48px;
+  height: 48px;
+  background: #fef2f2;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dc2626;
+  transition: all 0.3s ease;
+}
+
+.service-card-clean:hover .service-card-icon {
+  background: #dc2626;
+  color: #fff;
+}
+
+.service-card-clean h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.service-card-clean p {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.service-card-clean .card-arrow {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .services-grid-clean {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+  }
+
+  .service-card-clean {
+    padding: 16px 12px;
+    gap: 8px;
+  }
+
+  .service-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-card-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .service-card-clean h3 {
+    font-size: 14px;
+  }
+
+  .service-card-clean p {
+    font-size: 12px;
+  }
+
+  /* Mobile button fixes */
+  .btn-hero-primary,
+  .btn-hero-secondary,
+  .btn-cta-primary,
+  .btn-cta-secondary {
+    padding: 12px 20px !important;
+    font-size: 13px !important;
+  }
+
+  .hero-cta-buttons,
+  .cta-buttons {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .services-grid-clean {
+    grid-template-columns: 1fr;
+  }
+}
+
 .services-list-modern {
   display: flex;
   flex-direction: column;
@@ -519,10 +631,20 @@
 }
 
 .pest-card-icon {
-  font-size: 56px;
+  width: 56px;
+  height: 56px;
   margin-bottom: 16px;
   position: relative;
   z-index: 1;
+  color: #dc2626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pest-card-icon svg {
+  width: 100%;
+  height: 100%;
 }
 
 .pest-card-name {

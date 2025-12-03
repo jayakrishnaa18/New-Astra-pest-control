@@ -308,13 +308,14 @@
 
 /* Values Section */
 .values-section-modern {
-  padding: 120px 20px;
+  padding: 140px 20px 120px;
   background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
 }
 
 .section-header-center {
   text-align: center;
   margin-bottom: 80px;
+  scroll-margin-top: 100px;
 }
 
 .section-header-center h2 {
@@ -327,10 +328,22 @@
 
 .values-grid-modern {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 40px;
-  max-width: 1200px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  max-width: 1400px;
   margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .values-grid-modern {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .values-grid-modern {
+    grid-template-columns: 1fr;
+  }
 }
 
 .value-card-modern {
@@ -570,11 +583,13 @@
     gap: 32px;
   }
 
-  .values-grid-modern {
-    grid-template-columns: 1fr;
-  }
-
   .cta-buttons-modern {
     flex-direction: column;
+  }
+
+  .btn-modern-primary,
+  .btn-modern-secondary {
+    padding: 14px 28px !important;
+    font-size: 14px !important;
   }
 }

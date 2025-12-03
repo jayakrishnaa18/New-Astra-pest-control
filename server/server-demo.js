@@ -56,7 +56,7 @@ app.post('/api/quotes', async (req, res) => {
     // Handle both old (name) and new (firstName + lastName) formats
     const fullName = name || `${firstName || ''} ${lastName || ''}`.trim();
     
-    console.log('📝 Quote request received:', { fullName, email, phone, service, timeframe });
+    console.log('[QUOTE] Request received:', { fullName, email, phone, service, timeframe });
 
     if (!fullName || !email || !phone || !service) {
       return res.status(400).json({ success: false, message: 'Please fill in all required fields' });
@@ -66,7 +66,7 @@ app.post('/api/quotes', async (req, res) => {
     const adminMailOptions = {
       from: process.env.MAIL_FROM,
       to: process.env.MAIL_TO,
-      subject: `🔔 New Quote Request - ${service}`,
+      subject: ` New Quote Request - ${service}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -92,51 +92,51 @@ app.post('/api/quotes', async (req, res) => {
         <body>
           <div class="container">
             <div class="header">
-              <h1>🔔 New Quote Request</h1>
+              <h1> New Quote Request</h1>
               <p>Astra Pest Control</p>
             </div>
             <div class="content">
               <div class="alert-box">
-                <strong>⚡ Action Required</strong>
+                <strong>Action Required</strong>
                 <p style="margin: 10px 0 0 0;">A new customer is waiting for your response. Please contact them as soon as possible.</p>
               </div>
               
               <h2 style="color: #0f172a; margin-bottom: 20px;">Customer Details</h2>
               <div class="detail-card">
                 <div class="detail-row">
-                  <span class="label">👤 Name:</span>
+                  <span class="label">Name:</span>
                   <span class="value">${fullName}</span>
                 </div>
                 <div class="detail-row">
-                  <span class="label">📧 Email:</span>
+                  <span class="label">Email:</span>
                   <span class="value"><a href="mailto:${email}" style="color: #dc2626; text-decoration: none;">${email}</a></span>
                 </div>
                 <div class="detail-row">
-                  <span class="label">📱 Phone:</span>
+                  <span class="label">Phone:</span>
                   <span class="value"><a href="tel:${phone}" style="color: #dc2626; text-decoration: none;">${phone}</a></span>
                 </div>
                 <div class="detail-row">
-                  <span class="label">🛠️ Service:</span>
+                  <span class="label">Service:</span>
                   <span class="value">${service}</span>
                 </div>
                 ${timeframe ? `<div class="detail-row">
-                  <span class="label">⏰ Timeframe:</span>
+                  <span class="label">Timeframe:</span>
                   <span class="value">${timeframe}</span>
                 </div>` : ''}
                 ${message ? `<div class="detail-row">
-                  <span class="label">💬 Message:</span>
+                  <span class="label">Message:</span>
                   <span class="value">${message}</span>
                 </div>` : ''}
               </div>
               
               <div style="text-align: center; margin-top: 30px;">
-                <a href="tel:${phone}" class="cta-button">📞 Call Customer Now</a>
+                <a href="tel:${phone}" class="cta-button"> Call Customer Now</a>
               </div>
             </div>
             <div class="footer">
               <p><strong>Astra Pest Control</strong></p>
               <p>Professional Cleaning & Pest Control Services</p>
-              <p style="margin-top: 10px;">📞 (07) 3245 5126 | 📧 info@best1cleaning.com</p>
+              <p style="margin-top: 10px;"> (07) 3245 5126 |  info@best1cleaning.com</p>
             </div>
           </div>
         </body>
@@ -180,19 +180,19 @@ app.post('/api/quotes', async (req, res) => {
         <body>
           <div class="container">
             <div class="header">
-              <h1>✅ Request Received!</h1>
+              <h1> Request Received!</h1>
               <p>Astra Pest Control</p>
             </div>
             <div class="content">
               <div class="success-badge">
-                <h3>🎉 Thank You, ${fullName}!</h3>
+                <h3> Thank You, ${fullName}!</h3>
                 <p style="margin: 5px 0 0 0;">Your quote request has been successfully submitted.</p>
               </div>
               
               <p style="font-size: 16px; color: #475569;">We're excited to help you with your <strong style="color: #dc2626;">${service}</strong> needs. Our professional team is reviewing your request and will get back to you shortly.</p>
               
               <div class="info-box">
-                <h3>📋 Your Request Summary</h3>
+                <h3>Your Request Summary</h3>
                 <div class="detail-item"><strong>Service Requested:</strong> ${service}</div>
                 ${timeframe ? `<div class="detail-item"><strong>Timeframe:</strong> ${timeframe}</div>` : ''}
                 <div class="detail-item"><strong>Contact Phone:</strong> ${phone}</div>
@@ -201,7 +201,7 @@ app.post('/api/quotes', async (req, res) => {
               </div>
 
               <div class="timeline">
-                <h3 style="color: #0f172a; margin-bottom: 20px;">⏰ What Happens Next?</h3>
+                <h3 style="color: #0f172a; margin-bottom: 20px;"> What Happens Next?</h3>
                 <div class="timeline-item">
                   <div class="timeline-icon">1️⃣</div>
                   <div class="timeline-content">
@@ -226,7 +226,7 @@ app.post('/api/quotes', async (req, res) => {
               </div>
 
               <div class="contact-box">
-                <h3>📞 Need Immediate Assistance?</h3>
+                <h3> Need Immediate Assistance?</h3>
                 <p style="margin-bottom: 20px; color: #475569;">Our team is available to help you right away</p>
                 <a href="tel:0732455126" class="contact-button">Call (07) 3245 5126</a>
                 <a href="mailto:info@best1cleaning.com" class="contact-button" style="background: #0f172a;">Email Us</a>
@@ -234,13 +234,13 @@ app.post('/api/quotes', async (req, res) => {
 
               <p style="color: #64748b; font-size: 14px; margin-top: 30px;">
                 <strong>Why Choose Astra Pest Control?</strong><br>
-                ✓ 15+ Years Experience | ✓ 100% Satisfaction Guarantee | ✓ Professional Equipment | ✓ Eco-Friendly Products
+                • 15+ Years Experience | • 100% Satisfaction Guarantee | • Professional Equipment | • Eco-Friendly Products
               </p>
             </div>
             <div class="footer">
               <p><strong>Astra Pest Control</strong></p>
               <p>Brisbane's Trusted Cleaning & Pest Control Experts</p>
-              <p style="margin-top: 10px;">📞 (07) 3245 5126 | 📧 info@best1cleaning.com</p>
+              <p style="margin-top: 10px;"> (07) 3245 5126 |  info@best1cleaning.com</p>
               <p style="margin-top: 15px; font-size: 12px;">Brisbane • Ipswich • Gold Coast • Sunshine Coast</p>
             </div>
           </div>
@@ -251,10 +251,10 @@ app.post('/api/quotes', async (req, res) => {
 
     // Send emails
     await transporter.sendMail(adminMailOptions);
-    console.log('✅ Admin notification sent');
+    console.log(' Admin notification sent');
 
     await transporter.sendMail(customerMailOptions);
-    console.log('✅ Customer acknowledgment sent');
+    console.log(' Customer acknowledgment sent');
 
     res.status(201).json({ 
       success: true, 
@@ -262,7 +262,7 @@ app.post('/api/quotes', async (req, res) => {
     });
 
   } catch (error) {
-    console.error('❌ Error:', error.message);
+    console.error(' Error:', error.message);
     res.status(500).json({ 
       success: false, 
       message: 'Error processing request. Please call us at 07 3245 5126' 
@@ -286,7 +286,7 @@ if (process.env.NODE_ENV === 'production') {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Astra Pest Control Server running on port ${PORT}`);
-  console.log(`📧 Email: ${process.env.SMTP_USER}`);
-  console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(` Astra Pest Control Server running on port ${PORT}`);
+  console.log(` Email: ${process.env.SMTP_USER}`);
+  console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
 });

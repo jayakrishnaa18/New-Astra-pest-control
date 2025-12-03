@@ -7,6 +7,10 @@ function Home() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
+    // Preload hero image
+    const img = new Image();
+    img.src = '/carpet1.jpg';
+
     const observerOptions = {
       threshold: 0.2,
       rootMargin: '0px 0px -100px 0px'
@@ -78,6 +82,11 @@ function Home() {
           <div className="video-showcase">
             <div className={`mobile-phone-frame ${isVideoPlaying ? 'landscape' : ''}`}>
               <div className="phone-notch"></div>
+              <div className="phone-buttons">
+                <div className="volume-up"></div>
+                <div className="volume-down"></div>
+                <div className="power-button"></div>
+              </div>
               <div className="phone-screen">
                 {!isVideoPlaying && (
                   <div className="play-overlay" onClick={handlePlayVideo}>
@@ -101,17 +110,21 @@ function Home() {
             
             <div className="video-features-grid">
               <div className="video-feature-card">
-                <div className="feature-icon-video">✓</div>
+                <div className="feature-icon-video">✔</div>
                 <h4>100% Satisfaction Guaranteed</h4>
                 <p>Quality results every time</p>
               </div>
               <div className="video-feature-card">
-                <div className="feature-icon-video">🛠️</div>
+                <div className="feature-icon-video">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                  </svg>
+                </div>
                 <h4>Professional Equipment</h4>
                 <p>State-of-the-art technology</p>
               </div>
               <div className="video-feature-card">
-                <div className="feature-icon-video">💰</div>
+                <div className="feature-icon-video"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"/></svg></div>
                 <h4>Affordable Pricing</h4>
                 <p>Best value for money</p>
               </div>
@@ -135,7 +148,7 @@ function Home() {
                 <div className="image-overlay-modern"></div>
               </div>
               <div className="card-content-modern">
-                <div className="card-icon-modern">🧹</div>
+                <div className="card-icon-modern"><svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M19.36 2.72l1.42 1.42-5.72 5.71c1.07 1.54 1.22 3.39.32 4.59L9.06 8.12c1.2-.9 3.05-.75 4.59.32l5.71-5.72M5.93 17.57c-2.01-2.01-3.24-4.41-3.58-6.65l4.88-2.09 7.44 7.44-2.09 4.88c-2.24-.34-4.64-1.57-6.65-3.58z"/></svg></div>
                 <h3>Cleaning Services</h3>
                 <p>Professional carpet, upholstery, tile & grout cleaning with guaranteed results</p>
                 <span className="card-link-modern">
@@ -153,7 +166,11 @@ function Home() {
                 <div className="image-overlay-modern"></div>
               </div>
               <div className="card-content-modern">
-                <div className="card-icon-modern">🛡️</div>
+                <div className="card-icon-modern">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+                  </svg>
+                </div>
                 <h3>Pest Control</h3>
                 <p>Complete pest management and prevention solutions for a safe environment</p>
                 <span className="card-link-modern">

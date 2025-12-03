@@ -55,6 +55,18 @@ function Footer() {
             <div className="footer-col">
               <h4>Service Areas</h4>
               <p className="service-areas">Brisbane, Ipswich, Logan, Redlands, Moreton Bay, Gold Coast, Sunshine Coast and surrounding suburbs across Queensland.</p>
+              <div className="footer-map">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839392.8999999998!2d153.1078203!3d-27.467725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915c270ff9490d%3A0xb72b4c06b07a9eb5!2sBest%201%20Cleaning!5e0!3m2!1sen!2sau!4v1732188226000!5m2!1sen!2sau"
+                  width="100%" 
+                  height="150" 
+                  style={{border: 0, borderRadius: '8px'}} 
+                  allowFullScreen="" 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Best 1 Cleaning Location"
+                ></iframe>
+              </div>
               <div className="footer-cta">
                 <h5>Get a Free Quote</h5>
                 <p>Available 24/7 for your convenience</p>
@@ -68,7 +80,7 @@ function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-content">
-            <p>&copy; 2024 Astra Pest Control. All rights reserved.</p>
+            <p>&copy; 2025 Astra Pest Control. All rights reserved.</p>
             <div className="social-links">
               <a href="https://www.facebook.com/BestoneCarpetCleaningPestControl" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

@@ -361,13 +361,173 @@
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive */
-@media (max-width: 1024px) {
-  .contact-wrapper {
-    grid-template-columns: 1fr;
+/* Mobile Responsive */
+@media (max-width: 320px) {
+  .contact-hero-pro {
+    min-height: 45vh;
+    padding: 110px 12px 50px;
+  }
+
+  .contact-hero-pro h1 {
+    font-size: 24px;
+  }
+
+  .contact-hero-pro p {
+    font-size: 13px;
+  }
+
+  .container {
+    padding: 0 12px !important;
+    max-width: 100%;
+  }
+
+  .quick-contact {
+    padding: 30px 12px;
   }
 
   .quick-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .quick-card {
+    padding: 16px;
+  }
+
+  .quick-card h3 {
+    font-size: 14px;
+  }
+
+  .quick-card p {
+    font-size: 12px;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .contact-info-section,
+  .contact-form-section {
+    padding: 20px 12px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .info-card {
+    padding: 14px;
+  }
+
+  .info-card h4 {
+    font-size: 14px;
+  }
+
+  .info-card p {
+    font-size: 12px;
+  }
+
+  .form-group label {
+    font-size: 13px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .submit-btn {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+
+  .emergency-card {
+    padding: 20px 12px;
+  }
+
+  .emergency-card h3 {
+    font-size: 16px;
+  }
+
+  .emergency-card p {
+    font-size: 13px;
+  }
+
+  .emergency-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .emergency-icon {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-hero-pro {
+    min-height: 50vh;
+    padding: 120px 16px 60px;
+  }
+  
+  .hero-content-pro h1 {
+    font-size: 32px !important;
+  }
+  
+  .quick-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .quick-card {
+    padding: 20px 16px;
+  }
+  
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .form-section-pro,
+  .info-card-pro {
+    padding: 24px 16px;
+  }
+  
+  .form-group-modern input,
+  .form-group-modern select,
+  .form-group-modern textarea {
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+  
+  .name-fields {
+    grid-template-columns: 1fr;
+  }
+  
+  .submit-btn-modern {
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact-hero-pro {
+    padding: 140px 20px 70px;
+  }
+  
+  .quick-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-wrapper {
     grid-template-columns: 1fr;
   }
 }

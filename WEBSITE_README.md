@@ -1,7 +1,9 @@
-# Best 1 Cleaning Website Redesign
+# Astra Pest Control Website
+
+**Last Updated:** November 20, 2024
 
 ## Overview
-Modern, SEO-optimized website for Best 1 Cleaning and Pest Control with red and white color scheme inspired by professional pest control sites.
+Modern, SEO-optimized website for Astra Pest Control with advanced UI/UX features including scroll animations, sticky CTAs, and glass-morphism design elements.
 
 ## ✅ Completed Features
 
@@ -14,10 +16,18 @@ Modern, SEO-optimized website for Best 1 Cleaning and Pest Control with red and 
 ### Pages
 1. **Home** - Hero section, services overview, features, CTA
 2. **Services** - Detailed service descriptions (6 services)
-3. **About** - Company information, mission, why choose us
+3. **About** - Company information, mission, why choose us, values grid
 4. **Contact** - Quote form with email confirmation
 5. **Blog** - 6 blog posts with categories
 6. **Blog Posts** - Individual post pages with full content
+7. **Hints & Tips** - Timeline design with scroll animations
+
+### New UI Components (Nov 2024)
+- **Timeline Design**: Scroll-animated vertical timeline with numbered badges
+- **Sticky CTA Bar**: Frosted glass bar with Call Now and Quote buttons
+- **Scroll to Top Button**: Floating circular button with smooth scroll
+- **Glass-morphism Cards**: Transparent video cards with backdrop blur
+- **Smooth Scrolling**: Site-wide smooth scroll behavior
 
 ### Email Functionality ✅
 - **Admin Notification**: Receives quote requests at jkaliki@gitam.in

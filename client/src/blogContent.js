@@ -316,3 +316,394 @@ blogContent[10] = {
   category: 'Cleaning',
   content: `<h2>DIY Carpet Stain Removal</h2><p>Getting stains on the carpet is almost inevitable. Here are some tips to help remove common stains.</p><h3>Act Quickly</h3><p>The faster you treat a stain, the better your chances of removing it.</p><h3>Blot, Don't Rub</h3><p>Rubbing pushes the stain deeper. Always blot gently.</p><h3>Test First</h3><p>Test any cleaning solution on a hidden area first.</p><h3>When to Call Professionals</h3><p>For stubborn stains, professional cleaning is more effective.</p><p><strong>Call Best 1 Cleaning and Pest Control: 07 3245 5126</strong></p>`
 };
+
+blogContent[11] = {
+    title: 'Complete Guide to Flea Control',
+    date: '2024-11-21',
+    category: 'Pest Control',
+    content: `
+      <h2>Understanding Fleas</h2>
+      <p>Fleas are highly specialised bloodsucking parasites belonging to the order of insects called Siphonaptera, which means "wingless siphon". Fleas will bite only accessible parts of the body and clustered bites on the lower limbs.</p>
+      
+      <h3>Life Cycle of a Flea</h3>
+      <p>Most females will lay at least 100 eggs within a life cycle of several months. The adult fleas emerge from the pupal case in 1-2 weeks but can remain dormant in their cocoons for several months depending on the availability of food and conditions.</p>
+      
+      <p>The emergence of the adult flea from the pupal stage is generally triggered by vibrations, which can happen when entering an unoccupied dwelling of previous pet owners.</p>
+
+      <h3>Treating Flea Bites</h3>
+      <p>When fleas are present homeowners generally notice them first by the bites they leave behind. It is typical of flea bites to be concentrated on and around the ankles, and can look similar to mosquito bites.</p>
+      
+      <p>Fleas can at times be selective and may only feed on one or a few people residing in a house. Children and infants can sometimes be the most affected in the home.</p>
+
+      <h3>Treatment and Control of Fleas</h3>
+      <p>If you have pets, it is essential to prevent fleas becoming established in carpets and bedding:</p>
+      
+      <ul>
+        <li>Vacuum carpets and furnishings where pets sleep to remove fleas and eggs. Use your vacuum cleaner on a strong suction setting</li>
+        <li>Empty the vacuum cleaner bag after cleaning and place the bag into a bin outside of the home</li>
+        <li>Washing your pets bedding on a regular basis with hot water will help to kill flea eggs, the larvae, and also adults within cocoons</li>
+        <li>Take care when moving bedding, mats, etc, to avoid moving flea eggs around</li>
+        <li>It may be wise to place pet beds in areas without carpets such as on vinyl, tiled or wooden floors</li>
+      </ul>
+
+      <h3>Professional Flea Treatment</h3>
+      <p>Warm, humid weather conditions in the summer months provide ideal conditions for fleas to flourish. Flea eggs and larvae may be found where pets feed and rest. These areas should be targeted by a pest technician to gain control of an infestation.</p>
+      
+      <p>Prior to a pest technician arriving, you should vacuum all floors. Washing the pets and bedding with an insecticidal preparation will aid in the control of fleas and their eggs.</p>
+      
+      <p><strong>Always use a licensed pest control company when looking for professional flea exterminator to eliminate fleas and their eggs.</strong></p>
+
+      <h3>Why Professional Help is Essential</h3>
+      <p>Flea pupae can lay dormant in carpets and soil for more than twelve months and can be stimulated to emerge as an adult flea by vibrations. Insects can slow down their growth and development at different stages in order to make the most of favourable conditions.</p>
+      
+      <p>Fleas will only become active when the conditions are favourable - when the temperature is right and if there is a blood meal available. Fleas feed on blood and need it to survive.</p>
+
+      <p>Fleas will breed in any carpet type and have even been known to harbour in the gaps in wooden floor boards. It's important to have all the floors treated with a liquid insecticide to successfully rid a home of fleas.</p>
+      
+      <p><strong>Important:</strong> Pets also need to be treated at the same time as the property is being sprayed. The best products for this is either "Front line" or "Advantage." Your pets also need to have ongoing flea treatments to keep them free of fleas for the year, usually done on a monthly basis.</p>
+      
+      <p>Contact Astra Pest Control at <strong>(07) 3245 5126</strong> for professional flea treatment in Brisbane.</p>
+    `
+};
+
+blogContent[12] = {
+    title: 'Cockroach Control: Protect Your Family',
+    date: '2024-11-20',
+    category: 'Pest Control',
+    content: `
+      <h2>Protect Your Family from Cockroaches!</h2>
+      <p><strong>Cockroaches are a high risk pest to have in your home...</strong> They carry a range of serious illnesses including salmonella, dysentery, and gastroenteritis.</p>
+      
+      <p>The risk is particularly high in homes with children, the elderly or those fighting illnesses. Cockroach droppings have even been implicated as being a contributing factor leading to childhood asthma.</p>
+      
+      <p>Beyond significant health risks, cockroaches are a disturbing pest to many homeowners. They also produce an obnoxious odor that contaminates nearby food and belongings.</p>
+      
+      <p>Cockroaches can breed rapidly and are highly resilient. A quick response is essential to prevent cockroaches in your home.</p>
+
+      <h3>How to Prevent Cockroach Infestations</h3>
+      <ul>
+        <li>Store food in containers or in sealed plastic bags</li>
+        <li>Clean all garbage and spills immediately</li>
+        <li>Clean food debris from under refrigerators or ovens</li>
+        <li>Clean used dishes immediately after meals</li>
+        <li>Remove pet food, water and litter trays overnight</li>
+        <li>Keep garbage or compost in sealed bins</li>
+        <li>Do not leave liquids in sinks or buckets overnight</li>
+      </ul>
+
+      <h3>Professional Cockroach Control Methods</h3>
+      <p>Astra Pest Control deals with cockroach control using a variety of techniques, tools and products.</p>
+      
+      <p>First, a professional pest expert will visit the site and do an inspection to determine the details of the infestation (what type of roach and severity of problem).</p>
+
+      <h4>Standard Treatment</h4>
+      <p>If the infestation is not too major, the process of removal starts with a general spray and clean of trouble areas such as skirting boards, walls, garbage areas, exterior structures, etc. The spray is non-toxic to humans and water-based to ensure no harm comes to homeowners, children and pets.</p>
+      
+      <p>Then, a dust is distributed throughout the cracks, crevices and wall cavities. The dust we use is very effective because cockroaches come in contact with the substance and tend to spread it to the nest and therefore the other roaches.</p>
+
+      <h4>Severe Infestation Treatment</h4>
+      <p>If the infestation becomes severe, the same spray and dust treatment is used. However, we put a gel substance in cupboards/trouble areas that stays active for twelve months and is, therefore, highly effective in the elimination of the infestation.</p>
+
+      <div style="margin: 32px 0; text-align: center;">
+        <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/NyGH_W7U0Mo" title="Cockroach Life Cycle & Habits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <h3>Recognizing Cockroaches</h3>
+      <p>One of the best ways to keep cockroaches out of your home is to keep the kitchen area hygienically clean. It pays to remove the fridge and dishwasher once a year and give the floor and the back of the appliances a good clean.</p>
+      
+      <p>One main area to try and keep clean in the kitchen is the cupboard hinges, this is where cockroaches will lay eggs and harbour. A tell tale sign that you have cockroaches present in your home is feces droppings in the cupboards and on the hinges.</p>
+
+      <h3>Important Note</h3>
+      <p>It is important for homeowners to be aware that, in order to keep cockroaches from becoming a serious problem in the future, the areas must be kept clean and tidy to discourage their return.</p>
+      
+      <p>Typically after a treatment you may see an increase in cockroach activity. This is because some of the pest products have flushing agents in them, making the cockroaches run to try and escape the treatment.</p>
+      
+      <p>We also dust the roof void with an electric blower. This is placed just inside the man hole cover and the dust settles on the roof floor. This is very effective in eradicating cockroaches from a home.</p>
+      
+      <p><strong>Do you have a problem with cockroaches?</strong> Call us today at <strong>(07) 3245 5126</strong> for free advice. We can help with our environmentally friendly products and we will rid your home or commercial premises of cockroaches.</p>
+    `
+};
+
+blogContent[13] = {
+  title: 'Silverfish Identification and Control',
+  date: '2024-11-19',
+  category: 'Pest Control',
+  content: `
+    <h2>Understanding Silverfish</h2>
+    <p>Silverfish are very primitive insects under Order Thysanura. They are agile, fast running, scale covered, whitish, wingless insects, most have silvery appearance and a body that tapers to the rear.</p>
+    
+    <p>About five species of silverfish have successfully invaded buildings. Silverfish are generally found in relatively undisturbed areas such as bookcases, storage rooms and ceilings, they can damage paper and fabrics. These areas are perfect for silverfish.</p>
+    
+    <h3>Behavior and Habits</h3>
+    <p>You'll see silverfish come out at night as they are a nocturnal insect. They move extremely quickly on their feet, though will tend to stay close to a source of interest.</p>
+    
+    <p>Silverfish eat anything that is high in starch and protein. So, you'll find they'll happily munch on clothing, books, glue, photographs, dead insects and fungi or mould.</p>
+    
+    <p>If you are seeing signs of photos or your favorite books being attacked, you probably have a silverfish problem and need to have an experienced pest technician come to your home or office. This is why a pest treatment once a year should help to prevent any such problems occurring.</p>
+    
+    <h3>Control of Silverfish</h3>
+    <p>A thorough inspection of the premises is an important step in the treatment and control of these insects. This should involve moving and opening articles that have been stored for some time. This will help to disturb the silverfish.</p>
+    
+    <p>We would use a flushing agent in some cases to get them to move from where they feel safe. It is also possible to have a population residing in wall cavities. This can make it a more complex procedure.</p>
+    
+    <h3>Biology and Habits</h3>
+    <p>In their natural habitat, silverfish live under bark and in soil, leaf litter and rotting logs. Being nocturnal, they mostly hide during the day, becoming active at night when they are looking for food. They seem to be omnivorous, although they have a preference for materials of vegetable origin.</p>
+    
+    <div style="margin: 32px 0; text-align: center;">
+      <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/90hY0248Um0" title="Silverfish Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional silverfish treatment.</strong></p>
+  `
+};
+
+
+blogContent[14] = {
+  title: 'Spider Control and Prevention Guide',
+  date: '2024-11-18',
+  category: 'Pest Control',
+  content: `
+    <h2>Professional Spider Control</h2>
+    <p>Spiders are treated in a similar way to ants. However, the areas that need to be treated/sprayed are more specific and isolated. Gutters must be treated, as well as any webs and crevices in which spiders may be living.</p>
+    
+    <p>The spraying and treating of surfaces (walls, floors, roofs) does not ensure that spiders that travel across them will die. This is primarily because the substance does not penetrate into the spider's system and therefore does not harm them. Thus, one of the only sure ways to remove spider infestations is via physical impact.</p>
+    
+    <h3>Safety Tips</h3>
+    <ol>
+      <li>Wear gloves when gardening or handling soil and rubbish</li>
+      <li>Wear sensible footwear outside particularly at night when most ground dwelling spiders are active</li>
+      <li>Where digging or gardening has occurred nearby be alert for disturbed ground-dwelling spiders</li>
+      <li>Don't leave toys or clothes on the ground overnight as spiders may use them as a temporary rest site</li>
+      <li>Be alert for wandering ground dwelling spiders after long periods of very wet weather</li>
+      <li>Be alert for wandering ground dwelling spiders following the widespread application of insecticides</li>
+    </ol>
+    
+    <h3>Spider Life Cycle & Habits</h3>
+    <p>Spiders can become a nuisance if left to breed around the home. They will spin webs from bushes to the home and use both as a nesting area. Spiders would have to be one of the hardest insects to keep away, the reason for this is because of the way they move around.</p>
+    
+    <p>They use the delicate art of web spinning to get around. This means they don't have to come in contact with surfaces that may have been sprayed by a pest controller.</p>
+    
+    <p>Their prey is caught in webs that they spin. This gives them a contamination free meal, making it very difficult to eradicate them. The best way to solve a spider problem at your home is to hit them direct with a liquid insecticide. This is called an instant knock down.</p>
+    
+    <p>Once a treatment has been carried out for spiders, it's best to fully remove the webs that remain. This will help to keep them at bay for longer.</p>
+    
+    <div style="margin: 32px 0; text-align: center;">
+      <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/LspNUdaA01w" title="Spider Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional spider treatment.</strong></p>
+  `
+};
+
+
+blogContent[15] = {
+  title: 'Bed Bug Extermination Methods',
+  date: '2024-11-17',
+  category: 'Pest Control',
+  content: `
+    <h2>"Don't let the bed bugs bite!" Get rid of bed bugs.</h2>
+    <p>For many, bed bugs are just a myth kept alive by goodnight wishes. However, do not be fooled; bed bugs are very much alive and are a constant nuisance for many households.</p>
+    
+    <p>Bed bugs are a brown/dark red insect reaching to about 5mm when fully-grown. The little blighters love nothing more than to suck the blood from their host's neck, shoulders and arms as they are attracted to the warmth and carbon dioxide of these areas.</p>
+    
+    <p>Although painless at the time, the bite of a bed bug will often become swollen and itchy, as they inject saliva when feasting which can irritate many.</p>
+    
+    <h3>Life Cycle</h3>
+    <p>Bed bugs are able to go long periods of time before needing another blood feed, which is something that makes infestation difficult to control. The life cycle of a bed bug from egg to death can be up to a year depending on food supply and their environment.</p>
+    
+    <p>A female bed bug can lay up to 500 eggs in batches of about 50, so infestation is a common problem when dealing with these creatures. Blood spots on bed sheets are often a sure sign of bed bugs.</p>
+    
+    <h3>Professional Bed Bug Extermination Methods</h3>
+    <p>If possible, we first ask the customer to strip and hot-wash linen and to bag and sun clothing.</p>
+    
+    <p>Our team begins the treatment with a thorough powerhead vacuum of mattresses and carpet. Once completed, skirting boards, cracks and crevices and carpet are treated with a non-toxic spray.</p>
+    
+    <p>Bird lice are treated in a similar way. In older houses especially, the ceilings tend to expand and contract, creating gaps. If there are birds in the roof, the lice can fall through these cracks onto furniture.</p>
+    
+    <h3>Life Cycle & Habits of Bed Bugs</h3>
+    <p>Bedbugs live in the edges of mattresses. They will harbour deep within mattresses or even upholstery. They will also dwell in the edges of carpets, curtains and even behind pictures.</p>
+    
+    <p>To successfully treat bedbugs, an intense treatment is needed. A pest control technician should ensure that all areas of an affected room are well treated.</p>
+    
+    <p>When you hire a pest control company to get rid of bedbugs, you must be sure they have the knowledge and equipment to effectively remove them from your home. Just doing a surface spray will have little effect on these pests.</p>
+    
+    <p>With a severe bed bugs problem it may be wise to have your carpets and mattresses professionally steam cleaned. This should be done before the treatment is carried out. Astra Pest Control are experts in both pest control and carpet cleaning, so this means both services can be carried out on the same day saving you time and money.</p>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional bed bug treatment.</strong></p>
+  `
+};
+
+
+blogContent[16] = {
+  title: 'Rodent Control: Rats and Mice',
+  date: '2024-11-16',
+  category: 'Pest Control',
+  content: `
+    <h2>Professional Rodent Control</h2>
+    <p>The rodents that are of the most concern in the urban pest control context are the Norway rat (Rattus norvegicus) and Roof rat (Rattus rattus).</p>
+    
+    <p>The Norway rat is very widespread and is possibly the most economically detrimental pest rodent in Australia. They can infest warehouses, factories, flour mills, garbage dumps, shops, supermarkets, domestic dwellings, grain storage facilities, sewers and other locations that may offer shelter and food.</p>
+    
+    <h3>Feeding Habits</h3>
+    <p>Rats are omnivorous in their feeding habits and will eat all human or animal foods and feed stocks (e.g. meat, cereals and fish). Rats often carry food away to their nesting sites. They need regular access to water.</p>
+    
+    <p>Rats are regarded as very adaptable, omnivorous scavengers. They are very agile animals and mostly nocturnal, but they may range and feed during the day, particularly if the population is very large or food is short.</p>
+    
+    <h3>Damage and Behavior</h3>
+    <p>The constant gnawing of rodents can be the cause of serious damage to a range of materials like doors, skirtings and other parts of buildings, upholstery or machinery, electrical wires.</p>
+    
+    <p>Rats are very much creatures of habit, they use the same routes of travel to and from food sources. They are referred to as being "neophobic," suggesting they have a fear of new objects. They have poor sight, but good hearing and sense of smell and taste. They are also very good climbers.</p>
+    
+    <h3>Signs of Infestation</h3>
+    <p>Rats can be found in various places around the home. Most people hear them in the roof or walls during the night. Scratching sounds from the roof void are a sure sign of a rodent problem.</p>
+    
+    <p>Rodents can do lots of damage to the wiring of homes and commercial premises. Having a professional deal with them in a timely manner will prevent serious damage from occurring.</p>
+    
+    <h3>Prevention Tips</h3>
+    <p>In and around the home, there are all sorts of places rodents like to call home. The best thing to do to help prevent them from making your place home is to:</p>
+    
+    <ul>
+      <li>Remove rubbish from around the yard and disused items, like old roof sheeting or pieces of wood</li>
+      <li>Make sure your wheelie bin is cleaned on a regular basis</li>
+      <li>If you own chickens, put food out in the morning only so they can eat it all during the day</li>
+      <li>Keep food storage areas clean and sealed</li>
+    </ul>
+    
+    <div style="margin: 32px 0; text-align: center;">
+      <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/zk-CNjMckqE" title="Rodent Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional rodent control.</strong></p>
+  `
+};
+
+
+blogContent[17] = {
+  title: 'Termite Inspection and Treatment',
+  date: '2024-11-15',
+  category: 'Pest Control',
+  content: `
+    <h2>Professional Termite Control</h2>
+    <p>There are over 300 species of termites in Australia, which are generally grouped according to their feeding behaviour. The commonly used general groupings are subterranean, soil-feeding, dry wood, damp wood and grass eating.</p>
+    
+    <p>Of these, subterranean and dry woods are primarily responsible for damage to human-made structures.</p>
+    
+    <h3>Common Termite Species</h3>
+    <p>The families and species most often encountered include:</p>
+    <ul>
+      <li>Mastotermes darwiniensis (Giant northern termite)</li>
+      <li>Coptotermes species (Most destructive)</li>
+      <li>Cryptotermes species (Drywood termites)</li>
+      <li>Schedorhinotermes intermedius</li>
+    </ul>
+    
+    <h3>Moisture and Temperature</h3>
+    <p>Termites possess narrow cuticles and are thus vulnerable to desiccation. A large part of their life cycle is spent in the high moisture and temperature environments inside their working areas and colony.</p>
+    
+    <p>The main area in a colony of subterranean termites has a relative humidity of roughly 100 per cent. Subterranean termites get moisture from soil for the most part, allowing them to keep the humidity in the colony.</p>
+    
+    <p>When there is termite infestation on a building's topmost floors that have no contact with the ground, the water source is typically a plumbing leak or faulty drainage from the roof.</p>
+    
+    <h3>Food Sources</h3>
+    <p>Most species are grass and debris feeders, and are not usually pests of buildings. Termites of economic importance to wooden buildings eat cellulose, starches and sugars (carbohydrates) that they obtain from wood.</p>
+    
+    <p>The sapwood of timber in service is preferred by termites to heartwood because it has a better food value and is less durable. The heartwood of some tree species contains toxins, which make the species resistant to termites.</p>
+    
+    <h3>Professional Treatment</h3>
+    <p>For termite control in Brisbane, we cover all suburbs. We also serve Ipswich, Gold Coast, and Sunshine Coast.</p>
+    
+    <div style="margin: 32px 0; text-align: center;">
+      <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/aLopGSID-L0" title="Termite Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional termite inspection and treatment.</strong></p>
+  `
+};
+
+
+blogContent[18] = {
+  title: 'Lice Treatment and Prevention',
+  date: '2024-11-13',
+  category: 'Pest Control',
+  content: `
+    <h2>Understanding Lice</h2>
+    <p>Lice are highly specialised external parasites of birds and mammals. They belong to Order Phthiraptera, which comprises of 3000 species worldwide, and around 200 are represented in Australia.</p>
+    
+    <p>Adult lice are 1.5 – 3.5 mm long; they are wingless and have a flattened body shape. The antennae are usually short, they have small compound eyes, and legs usually carry conspicuous claws, this claw help with movement among hair.</p>
+    
+    <h3>Life Cycle</h3>
+    <p>Lice undergo a gradual metamorphosis. The eggs are sometimes called "nits" and are usually glued to their host's hair or in the case of body louse they are found in the seams of clothing that are in close contact with the body.</p>
+    
+    <p>The eggs can hatch in 5-10 days, and nymphs feed on blood from the host, they usually pass through three instars before reaching maturity. The life cycle can take 3-4 weeks. Adults live for about a month, in this time the female may lay around 200 eggs.</p>
+    
+    <h3>Habits</h3>
+    <p>Lice spend their entire life on the host; both sexes and all developmental stages are obligate bloodsuckers and can feed intermittently throughout the day or night.</p>
+    
+    <p>The head louse is mostly associated with the hair of the head. Lice are sensitive to temperature and tend to leave a dead or dying host to seek another. Temperature and smell play an important part in host detection. Lice can spread when there is close contact between hosts.</p>
+    
+    <p>Body lice feeding involve breaking the skin and injecting saliva. This can cause irritation and scratching, in severe cases this can lead to local infection of bite wounds.</p>
+    
+    <h3>Control of Lice</h3>
+    <p>Where a louse infestation has been discovered, persons that have been in contact with the infested person should be checked out immediately, as this can limit the spread.</p>
+    
+    <ul>
+      <li>Frequent bathing and washing with soap and water</li>
+      <li>Frequent changing of underwear</li>
+      <li>Clothing and bedding should be washed in hot water</li>
+      <li>Steam cleaning of carpets, upholstery, mattresses are advisable</li>
+      <li>Special designed combs can give partial control of head lice</li>
+    </ul>
+    
+    <h3>Bird Lice</h3>
+    <p>Lice can be brought into a home from birds. Birds will nest in the roof void of a home and are carriers of lice. The most susceptible type of home for harbouring lice is the Queenslander.</p>
+    
+    <p>Once the lice have made home in the roof, they can find their way into the rest of the home by cracks around the ceiling or even from down lights in the roof. To successfully treat lice, the roof void needs to be treated. This is done by using an electric blower to fill the roof with a permethrin dust.</p>
+    
+    <p>Gaps and excess holes need to be fixed to prevent any birds from nesting within the roof void once the treatment has been completed.</p>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional lice treatment.</strong></p>
+  `
+};
+
+
+blogContent[19] = {
+  title: 'Carpet Beetle Control Guide',
+  date: '2024-11-14',
+  category: 'Pest Control',
+  content: `
+    <h2>Understanding Carpet Beetles</h2>
+    <p>Like clothes moths, carpet beetles have a marked preference for materials of animal origin, but they will attack a wider range of materials than clothes moths.</p>
+    
+    <p>Carpet beetle larvae may feed on or in wool, fur, hair, silk, clothes, fabrics, carpets, rugs, underfelts, felts, fibre-type insulation, dried insect specimens, animal carcasses, bee and wasp nests and stored foods including dried meats, seeds, grains and cereals.</p>
+    
+    <h3>Signs of Infestation</h3>
+    <p>The presence of flying or crawling adult carpet beetles may indicate the presence of an infestation. Sighting of damaged materials, sand-like larval droppings, bristly cast skins and perhaps live larvae will confirm activity.</p>
+    
+    <h3>Control of Carpet Beetles</h3>
+    <p>Where an infestation of carpet beetles requires treatment, it is important that a thorough and extensive inspection be carried out in the premises. If treatment is directed merely towards localised and obvious feeding areas, less obvious feeding areas may continue to supply adults to the rest of the premises after treatment.</p>
+    
+    <h3>Non Chemical Control</h3>
+    <p>Hygiene plays an important role in the prevention of fabric pests. The vacuuming or cleaning of carpets, rugs, upholstery should be thorough and frequent.</p>
+    
+    <p>Attention to carpet edges and down behind seat cushions, such areas are often neglected, and with the build up of dust and skin scales, they are often sites of infestation.</p>
+    
+    <p>When clothes are to be stored for some time, they should be thoroughly cleaned and dried then wrapped up tightly in plastic before storage. Clothes should never be stored in a soiled state for any length of time.</p>
+    
+    <h3>Professional Treatment</h3>
+    <p>When Astra Pest Control is hired to rid your home of carpet beetles, we first do an inspection of each room. This will give us a good idea as to how much damage has been caused and what treatment we should do.</p>
+    
+    <p>There are two main treatments for carpet beetles that we have found to work very well:</p>
+    <ol>
+      <li>Apply a liquid insecticide down around the edges of the carpet. This is the most common place to find carpet beetles (Anthrenocerus australis).</li>
+      <li>Apply a permethrin dust underneath the carpet and underlay. This is done with a specially designed nozzle that attaches to an electric blower.</li>
+    </ol>
+    
+    <p>Astra Pest Control also gives a full warranty on our services. This gives our customers peace of mind, knowing they have hired a professional pest controller to get rid of carpet beetles from their home.</p>
+    
+    <div style="margin: 32px 0; text-align: center;">
+      <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/n35VWFvgBgo" title="Carpet Beetle Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional carpet beetle treatment.</strong></p>
+  `
+};
