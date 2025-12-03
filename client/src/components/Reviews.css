@@ -23,11 +23,11 @@
 .rating-number {
   font-size: 32px;
   font-weight: 800;
-  color: #dc2626;
+  color: #3b82f6;
 }
 
 .stars {
-  color: #fbbf24;
+  color: #10b981;
   font-size: 24px;
   letter-spacing: 2px;
 }
@@ -82,11 +82,11 @@
 .review-card-modern:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
-  border-color: #dc2626;
+  border-color: #3b82f6;
 }
 
 .review-stars {
-  color: #fbbf24;
+  color: #10b981;
   font-size: 20px;
   margin-bottom: 16px;
   letter-spacing: 4px;
@@ -117,7 +117,7 @@
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #dc2626;
+  border: 2px solid #3b82f6;
   flex-shrink: 0;
 }
 

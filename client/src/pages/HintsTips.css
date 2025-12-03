@@ -67,7 +67,7 @@
   top: 0;
   width: 3px;
   height: calc(var(--timeline-progress) * 100%);
-  background: linear-gradient(180deg, #dc2626, #ef4444);
+  background: linear-gradient(180deg, #3b82f6, #ef4444);
   transition: height 0.1s ease-out;
   box-shadow: 0 0 15px rgba(220, 38, 38, 0.6);
   animation: glowPulse 2s ease-in-out infinite;
@@ -115,7 +115,7 @@
   top: 32px;
   width: 56px;
   height: 56px;
-  background: #dc2626;
+  background: #3b82f6;
   color: #ffffff;
   border-radius: 50%;
   display: flex;
@@ -187,18 +187,18 @@
 
 .stain-tag {
   padding: 6px 14px;
-  background: #fee2e2;
-  color: #dc2626;
+  background: #dbeafe;
+  color: #3b82f6;
   border-radius: 6px;
   font-size: 13px;
   font-weight: 600;
 }
 
 .tip-highlight {
-  background: #fef2f2;
+  background: #eff6ff;
   padding: 16px 20px;
   border-radius: 8px;
-  border-left: 3px solid #dc2626;
+  border-left: 3px solid #3b82f6;
   font-weight: 600;
   color: #111827;
   font-size: 14px;
@@ -209,12 +209,12 @@
   background: #f9fafb;
   padding: 16px 20px;
   border-radius: 8px;
-  border-left: 3px solid #dc2626;
+  border-left: 3px solid #3b82f6;
   margin: 20px 0;
 }
 
 .tip-callout strong {
-  color: #dc2626;
+  color: #3b82f6;
   font-weight: 700;
 }
 
@@ -222,7 +222,7 @@
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  background: #dc2626;
+  background: #3b82f6;
   color: #ffffff;
   padding: 16px 24px;
   border-radius: 8px;
@@ -417,8 +417,8 @@
 .blog-category {
   display: inline-block;
   padding: 3px 10px;
-  background: #fee2e2;
-  color: #dc2626;
+  background: #dbeafe;
+  color: #3b82f6;
   border-radius: 4px;
   font-size: 11px;
   font-weight: 600;
@@ -484,7 +484,7 @@
 .btn-cta-primary {
   display: inline-block;
   padding: 14px 32px;
-  background: #dc2626;
+  background: #3b82f6;
   color: #ffffff;
   border-radius: 8px;
   font-weight: 600;
