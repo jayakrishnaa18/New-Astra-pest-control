@@ -55,10 +55,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/carpet1.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.4;
+  background: #1a1a1a;
 }
 
 .hero-wrapper {
