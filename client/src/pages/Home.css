@@ -156,47 +156,6 @@
   border-color: #cbd5e1;
 }
 
-  .mobile-phone-frame {
-    width: 140px;
-    height: 300px;
-    border-radius: 22px;
-    padding: 4px;
-  }
-  
-  .mobile-phone-frame.landscape {
-    transform: rotate(90deg) scale(0.65);
-  }
-  
-  .phone-notch {
-    width: 80px;
-    height: 16px;
-    top: 6px;
-  }
-  
-  .volume-up,
-  .volume-down {
-    left: -2px;
-    width: 2px;
-  }
-  
-  .volume-up {
-    top: 90px;
-    height: 28px;
-  }
-  
-  .volume-down {
-    top: 130px;
-    height: 28px;
-  }
-  
-  .power-button {
-    right: -2px;
-    top: 110px;
-    width: 2px;
-    height: 35px;
-  }
-}
-
 /* Guarantee Banner */
 .guarantee-banner {
   background: #f8fafc;
