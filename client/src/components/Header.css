@@ -44,6 +44,7 @@
 .logo img {
   height: 64px;
   transition: all 0.5s;
+  filter: brightness(0) saturate(100%) invert(46%) sepia(98%) saturate(2618%) hue-rotate(205deg) brightness(101%) contrast(93%);
 }
 
 .mobile-toggle {
