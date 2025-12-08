@@ -329,13 +329,52 @@ export const blogContent = {
     date: '2024-11-20',
     category: 'Pest Control',
     content: `
-      <h2>Cockroach Control in Richlands</h2>
-      <p>Cockroaches carry diseases including salmonella and dysentery. They pose serious health risks, especially to children and elderly residents.</p>
-      <h3>Common Species</h3>
-      <p>German cockroaches (small, light brown), Oriental cockroaches (large, dark), and American cockroaches (reddish-brown, can fly).</p>
-      <h3>Prevention Tips</h3>
-      <ul><li>Store food in sealed containers</li><li>Clean up spills immediately</li><li>Fix leaking pipes</li><li>Seal cracks and crevices</li></ul>
-      <p><strong>Call (07) 3245 5126 for same-day cockroach control in Richlands.</strong></p>
+      <h2>Protect Your Family from Cockroaches!</h2>
+      <p>Cockroaches are a high risk pest to have in your home... They carry a range of serious illnesses including salmonella, dysentery, and gastroenteritis.</p>
+      
+      <p>The risk is particularly high in homes with children, the elderly or those fighting illnesses. Cockroach droppings have even been implicated as being a contributing factor leading to childhood asthma.</p>
+      
+      <p>Beyond significant health risks, cockroaches are a disturbing pest to many homeowners. They also produce an obnoxious odor that contaminates nearby food and belongings.</p>
+      
+      <p>Cockroaches can breed rapidly and are highly resilient. A quick response is essential to prevent cockroaches in your home.</p>
+      
+      <h3>How to Prevent Cockroach Infestations</h3>
+      <ul>
+        <li>Store food in containers or in sealed plastic bags</li>
+        <li>Clean all garbage and spills immediately</li>
+        <li>Clean food debris from under refrigerators or ovens</li>
+        <li>Clean used dishes immediately after meals</li>
+        <li>Remove pet food, water and litter trays overnight</li>
+        <li>Keep garbage or compost in sealed bins</li>
+        <li>Do not leave liquids in sinks or buckets overnight</li>
+      </ul>
+      
+      <h3>Professional Cockroach Control Methods</h3>
+      <p>Astra Pest Control deals with cockroach control using a variety of techniques, tools and products.</p>
+      
+      <p>First, a professional pest expert will visit the site and do an inspection to determine the details of the infestation (what type of roach and severity of problem).</p>
+      
+      <h4>Standard Treatment</h4>
+      <p>If the infestation is not too major, the process of removal starts with a general spray and clean of trouble areas such as skirting boards, walls, garbage areas, exterior structures, etc. The spray is non-toxic to humans and water-based to ensure no harm comes to homeowners, children and pets.</p>
+      
+      <p>Then, a dust is distributed throughout the cracks, crevices and wall cavities. The dust we use is very effective because cockroaches come in contact with the substance and tend to spread it to the nest and therefore the other roaches.</p>
+      
+      <h4>Severe Infestation Treatment</h4>
+      <p>If the infestation becomes severe, the same spray and dust treatment is used. However, we put a gel substance in cupboards/trouble areas that stays active for twelve months and is, therefore, highly effective in the elimination of the infestation.</p>
+      
+      <h3>Recognizing Cockroaches</h3>
+      <p>One of the best ways to keep cockroaches out of your home is to keep the kitchen area hygienically clean. It pays to remove the fridge and dishwasher once a year and give the floor and the back of the appliances a good clean.</p>
+      
+      <p>One main area to try and keep clean in the kitchen is the cupboard hinges, this is where cockroaches will lay eggs and harbour. A tell tale sign that you have cockroaches present in your home is feces droppings in the cupboards and on the hinges.</p>
+      
+      <h3>Important Note</h3>
+      <p>It is important for homeowners to be aware that, in order to keep cockroaches from becoming a serious problem in the future, the areas must be kept clean and tidy to discourage their return.</p>
+      
+      <p>Typically after a treatment you may see an increase in cockroach activity. This is because some of the pest products have flushing agents in them, making the cockroaches run to try and escape the treatment.</p>
+      
+      <p>We also dust the roof void with an electric blower. This is placed just inside the man hole cover and the dust settles on the roof floor. This is very effective in eradicating cockroaches from a home.</p>
+      
+      <p><strong>Do you have a problem with cockroaches? Call us today at (07) 3245 5126 for free advice. We can help with our environmentally friendly products and we will rid your home or commercial premises of cockroaches.</strong></p>
     `
   },
   9: {
