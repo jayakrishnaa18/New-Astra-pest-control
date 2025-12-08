@@ -65,9 +65,9 @@ app.use(express.urlencoded({ extended: true }));
 // For Render: Use SendGrid SMTP (smtp.sendgrid.net:587) as Render blocks Gmail SMTP
 // For local: Can use Gmail SMTP
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST || 'smtp.sendgrid.net',
-  port: parseInt(process.env.SMTP_PORT) || 587,
-  secure: false,
+  host: process.env.SMTP_HOST || 'smtp.gmail.com',
+  port: parseInt(process.env.SMTP_PORT) || 465,
+  secure: true, // Use SSL for port 465
   auth: {
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_PASS
