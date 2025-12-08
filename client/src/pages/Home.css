@@ -316,31 +316,33 @@
 /* Stunning Video Section */
 /* Services Showcase */
 .services-showcase {
-  padding: 80px 0;
-  background: #ffffff;
+  padding: 80px 20px;
+  background: #faf8f5;
 }
 
 .showcase-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .section-label {
   display: inline-block;
-  padding: 8px 20px;
-  background: #fee2e2;
-  color: #dc2626;
-  border-radius: 20px;
-  font-size: 14px;
+  padding: 6px 18px;
+  background: #dc2626;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 13px;
   font-weight: 600;
   margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .section-heading {
-  font-size: 38px;
+  font-size: 32px;
   font-weight: 700;
   color: #0f172a;
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
   line-height: 1.4;
 }
