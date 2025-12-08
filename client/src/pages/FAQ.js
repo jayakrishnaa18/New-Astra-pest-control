@@ -7,52 +7,52 @@ function FAQ() {
 
   const faqs = [
     {
-      question: "What services do you offer?",
-      answer: "We provide professional carpet cleaning, upholstery cleaning, tile & grout cleaning, pest control, termite treatment, and more. All services come with a 100% satisfaction guarantee."
+      question: "What pest control services do you offer in Richlands?",
+      answer: "We provide comprehensive pest control including cockroach treatment, ant control, spider removal, rodent control, termite inspections, termite treatments, and commercial pest management for Richlands and surrounding suburbs."
     },
     {
-      question: "How much does carpet cleaning cost?",
-      answer: "Pricing varies based on the size and condition of your carpet. We offer free quotes! Call us at (07) 3245 5126 for an accurate estimate tailored to your needs."
+      question: "Do you offer termite inspections in Richlands?",
+      answer: "Yes! We provide thorough termite inspections with detailed reports. Our licensed technicians use the latest detection equipment to identify termite activity and potential risks in your Richlands property."
     },
     {
-      question: "Are your cleaning products safe for pets and children?",
-      answer: "Absolutely! We use eco-friendly, non-toxic cleaning products that are completely safe for your family and pets. Your safety is our top priority."
+      question: "How much does pest control cost in Richlands?",
+      answer: "Pricing varies based on property size and pest type. We offer free quotes! Call us at (07) 3245 5126 for an accurate estimate tailored to your Richlands property."
     },
     {
-      question: "How long does carpet cleaning take?",
-      answer: "Most carpet cleaning jobs take 2-4 hours depending on the size. Carpets typically dry within 6-8 hours, though we recommend waiting 24 hours before heavy use."
-    },
-    {
-      question: "Do you offer same-day service?",
-      answer: "Yes! We offer same-day service for both cleaning and pest control emergencies. Just give us a call and we'll do our best to accommodate your schedule."
-    },
-    {
-      question: "What areas do you service?",
-      answer: "We service Brisbane, Ipswich, Gold Coast, Sunshine Coast, and all surrounding suburbs across Queensland."
-    },
-    {
-      question: "How often should I get my carpets professionally cleaned?",
-      answer: "We recommend professional carpet cleaning at least twice a year. High-traffic areas or homes with pets may benefit from quarterly cleaning."
-    },
-    {
-      question: "Are your pest control treatments safe?",
-      answer: "Yes! We use environmentally friendly, low-toxicity products. Our treatments are safe for your family and pets when applied by our certified technicians."
+      question: "Are your pest control treatments safe for pets and children?",
+      answer: "Absolutely! We use environmentally friendly, low-toxicity products that are completely safe for your family and pets. All treatments are applied by certified technicians following strict safety protocols."
     },
     {
       question: "How long does pest control treatment last?",
-      answer: "Most treatments provide 6-12 months of protection. We offer warranties and can schedule follow-up treatments as needed."
+      answer: "Most general pest treatments provide 6-12 months of protection. Termite barriers can last up to 8 years. We offer warranties and can schedule follow-up treatments as needed."
     },
     {
-      question: "Do you offer a guarantee?",
-      answer: "Yes! We offer a 100% satisfaction guarantee on all services. If you're not happy, we'll make it right at no extra cost. We also provide bond-back guarantees for rental properties."
+      question: "What areas around Richlands do you service?",
+      answer: "We proudly service Richlands and all surrounding suburbs including Inala, Darra, Wacol, Ellen Grove, Forest Lake, Durack, Pallara, Oxley, and Corinda."
+    },
+    {
+      question: "Do you offer same-day pest control service?",
+      answer: "Yes! We offer same-day service for pest control emergencies in Richlands. Just give us a call and we'll do our best to accommodate your schedule."
+    },
+    {
+      question: "What types of termite treatments do you offer?",
+      answer: "We offer chemical barrier treatments, termite baiting systems, and timber treatments. Our licensed technicians will recommend the best solution based on your property's specific needs and termite activity."
+    },
+    {
+      question: "How do I know if I have termites?",
+      answer: "Common signs include mud tubes on walls, hollow-sounding timber, discarded wings, and visible damage to wood. If you suspect termites in your Richlands property, contact us immediately for a professional inspection."
+    },
+    {
+      question: "Do you provide commercial pest control services?",
+      answer: "Yes! We provide tailored pest management solutions for businesses, restaurants, warehouses, and commercial properties in Richlands. We offer regular maintenance programs and emergency services."
+    },
+    {
+      question: "Do you offer a guarantee on your services?",
+      answer: "Yes! We offer a 100% satisfaction guarantee on all pest control services. If pests return within the warranty period, we'll re-treat at no extra cost."
     },
     {
       question: "What payment methods do you accept?",
       answer: "We accept cash, all major credit cards (Visa, Mastercard, Amex), bank transfers, and EFTPOS. Payment is due upon completion of service."
-    },
-    {
-      question: "Do I need to be home during the service?",
-      answer: "Not necessarily. Many customers provide access and leave us to work. However, we're happy to work around your schedule if you prefer to be present."
     }
   ];
 

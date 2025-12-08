@@ -32,7 +32,7 @@ const blogPosts = [
     date: '2022-04-26',
     category: 'Cleaning',
     author: 'Sairam',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?w=800&q=80',
     readTime: '10 min read',
     link: '/blog/3'
   },
@@ -43,7 +43,7 @@ const blogPosts = [
     date: '2022-04-19',
     category: 'Cleaning',
     author: 'Sairam',
-    image: 'https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
     readTime: '6 min read',
     link: '/blog/4'
   },
@@ -65,7 +65,7 @@ const blogPosts = [
     date: '2017-07-01',
     category: 'Pest Control',
     author: 'Sairam',
-    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
     readTime: '5 min read',
     link: '/blog/6'
   },
@@ -76,7 +76,7 @@ const blogPosts = [
     date: '2024-11-21',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=800&q=80',
     readTime: '8 min read',
     link: '/blog/7'
   },
@@ -87,7 +87,7 @@ const blogPosts = [
     date: '2024-11-20',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80',
     readTime: '10 min read',
     link: '/blog/8'
   },
@@ -98,7 +98,7 @@ const blogPosts = [
     date: '2024-11-19',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
     readTime: '6 min read',
     link: '/blog/9'
   },
@@ -109,7 +109,7 @@ const blogPosts = [
     date: '2024-11-18',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&q=80',
     readTime: '7 min read',
     link: '/blog/10'
   },
@@ -120,7 +120,7 @@ const blogPosts = [
     date: '2024-11-17',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80',
     readTime: '9 min read',
     link: '/blog/11'
   },
@@ -131,7 +131,7 @@ const blogPosts = [
     date: '2024-11-16',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
     readTime: '8 min read',
     link: '/blog/12'
   },
@@ -142,7 +142,7 @@ const blogPosts = [
     date: '2024-11-19',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&q=80',
     readTime: '6 min read',
     link: '/blog/13'
   },
@@ -153,51 +153,51 @@ const blogPosts = [
     date: '2024-11-18',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80',
     readTime: '7 min read',
     link: '/blog/14'
   },
   {
     id: 15,
-    title: 'Bed Bug Extermination Methods',
-    excerpt: 'Don\'t let the bed bugs bite! Professional methods to eliminate bed bugs from your home completely.',
-    date: '2024-11-17',
+    title: 'Termite Inspection Guide for Richlands Homeowners',
+    excerpt: 'Essential guide to termite inspections, signs of infestation, and protection for your Richlands property.',
+    date: '2024-12-08',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80',
     readTime: '9 min read',
     link: '/blog/15'
   },
   {
     id: 16,
-    title: 'Rodent Control: Rats and Mice',
-    excerpt: 'Effective strategies for preventing and eliminating rat and mouse infestations in residential and commercial properties.',
-    date: '2024-11-16',
+    title: 'Ant Control Solutions for Richlands Homes',
+    excerpt: 'Effective ant control methods, species identification, and prevention tips for Richlands residents.',
+    date: '2024-12-08',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
     readTime: '8 min read',
     link: '/blog/16'
   },
   {
     id: 17,
-    title: 'Termite Inspection and Treatment',
-    excerpt: 'Protect your property from termite damage with professional inspection and treatment methods.',
-    date: '2024-11-15',
+    title: 'Spider Control: Keep Your Richlands Home Safe',
+    excerpt: 'Identify dangerous spiders, professional treatment methods, and prevention strategies for Richlands homes.',
+    date: '2024-12-07',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80',
-    readTime: '12 min read',
+    image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
+    readTime: '7 min read',
     link: '/blog/17'
   },
   {
     id: 18,
-    title: 'Lice Treatment and Prevention',
-    excerpt: 'Comprehensive guide to identifying, treating, and preventing lice infestations in your home.',
-    date: '2024-11-13',
+    title: 'Rodent Control: Rats and Mice in Richlands',
+    excerpt: 'Comprehensive rodent control guide covering health risks, prevention, and professional treatment options.',
+    date: '2024-12-06',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
     readTime: '6 min read',
     link: '/blog/18'
   },
@@ -208,7 +208,7 @@ const blogPosts = [
     date: '2024-11-14',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600566752229-250ed79470e6?w=800&q=80',
     readTime: '7 min read',
     link: '/blog/19'
   },
@@ -219,7 +219,7 @@ const blogPosts = [
     date: '2024-01-15',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600607688960-e095ff83135a?w=800&q=80',
     readTime: '8 min read',
     link: '/cleaning/carpet-cleaning'
   },
@@ -230,7 +230,7 @@ const blogPosts = [
     date: '2024-01-14',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600607688066-890987acc316?w=800&q=80',
     readTime: '6 min read',
     link: '/cleaning/tile-grout'
   },
@@ -241,7 +241,7 @@ const blogPosts = [
     date: '2024-01-13',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
     readTime: '7 min read',
     link: '/cleaning/upholstery'
   },
@@ -252,7 +252,7 @@ const blogPosts = [
     date: '2024-01-12',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80',
     readTime: '5 min read',
     link: '/cleaning/leather'
   },
@@ -263,7 +263,7 @@ const blogPosts = [
     date: '2024-01-11',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80',
     readTime: '6 min read',
     link: '/cleaning/mould'
   },
@@ -274,7 +274,7 @@ const blogPosts = [
     date: '2024-01-10',
     category: 'Pest Control',
     author: 'Astra Team',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1628744876497-eb30460be9f6?w=800&q=80',
     readTime: '5 min read',
     link: '/cleaning/rug'
   },
@@ -376,6 +376,61 @@ const blogPosts = [
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80',
     readTime: '7 min read',
     link: '/cleaning/duo-system'
+  },
+  {
+    id: 20,
+    title: 'Home Maintenance Tips for Richlands Homeowners',
+    excerpt: 'Essential home maintenance checklist to protect your property value and prevent costly repairs.',
+    date: '2024-12-08',
+    category: 'General',
+    author: 'Astra Team',
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80',
+    readTime: '10 min read',
+    link: '/blog/20'
+  },
+  {
+    id: 21,
+    title: 'Seasonal Pest Prevention Guide for Brisbane Homes',
+    excerpt: 'Year-round pest prevention strategies to keep your Brisbane home pest-free through every season.',
+    date: '2024-12-07',
+    category: 'General',
+    author: 'Astra Team',
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    readTime: '8 min read',
+    link: '/blog/21'
+  },
+  {
+    id: 22,
+    title: 'Signs Your Home Needs Professional Pest Inspection',
+    excerpt: 'Learn the warning signs that indicate it\'s time to call a professional pest control service.',
+    date: '2024-12-06',
+    category: 'General',
+    author: 'Astra Team',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80',
+    readTime: '7 min read',
+    link: '/blog/22'
+  },
+  {
+    id: 23,
+    title: 'Protecting Your Home Investment: Pest Control Guide',
+    excerpt: 'How regular pest control protects your property value and saves money on repairs.',
+    date: '2024-12-05',
+    category: 'General',
+    author: 'Astra Team',
+    image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&q=80',
+    readTime: '9 min read',
+    link: '/blog/23'
+  },
+  {
+    id: 24,
+    title: 'DIY vs Professional Pest Control: What You Need to Know',
+    excerpt: 'Compare DIY pest control methods with professional services to make the best choice for your home.',
+    date: '2024-12-04',
+    category: 'General',
+    author: 'Astra Team',
+    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80',
+    readTime: '8 min read',
+    link: '/blog/24'
   }
 ];
 
@@ -398,7 +453,7 @@ function Blog() {
     setCurrentPage(1); // Reset to page 1 when category changes
   }, [selectedCategory]);
   
-  const categories = ['All', 'Cleaning', 'Pest Control', 'Services', 'General'];
+  const categories = ['All', 'Cleaning', 'Pest Control', 'General'];
   
   const filteredPosts = selectedCategory === 'All' 
     ? blogPosts 

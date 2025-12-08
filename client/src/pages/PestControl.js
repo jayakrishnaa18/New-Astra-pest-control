@@ -171,8 +171,7 @@ function PestControl() {
       <section className="service-areas-section">
         <div className="container">
           <div className="service-areas-content">
-            <h2>Serving All Major Cities</h2>
-            <p>Brisbane • Gold Coast • Sunshine Coast • Ipswich • Sydney • Melbourne • Adelaide • Darwin • Perth</p>
+            <h2>Proudly Serving Richlands & Surrounding Areas</h2>
           </div>
         </div>
       </section>

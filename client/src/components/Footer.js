@@ -67,11 +67,6 @@ function Footer() {
                   title="Best 1 Cleaning Location"
                 ></iframe>
               </div>
-              <div className="footer-cta">
-                <h5>Get a Free Quote</h5>
-                <p>Available 24/7 for your convenience</p>
-                <Link to="/contact" className="btn-footer-cta">Request Quote</Link>
-              </div>
             </div>
           </div>
         </div>

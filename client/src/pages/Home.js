@@ -133,67 +133,108 @@ function Home() {
         </div>
       </section>
 
-      {/* Services Showcase with Images */}
+      {/* Services Showcase */}
       <section className="services-showcase">
         <div className="container">
           <div className="showcase-header">
             <span className="section-label">Our Services</span>
             <h2 className="section-heading">Professional Pest & Termite Solutions for Richlands</h2>
+            <p className="section-description">Comprehensive protection for your home and business with expert care</p>
           </div>
           
-          <div className="showcase-grid">
-            <div className="showcase-stats">
-              <div className="stat-item">
-                <h3>15+</h3>
-                <p>Years Experience</p>
+          <div className="services-grid-new">
+            <Link to="/pest-control" className="service-card-large">
+              <div className="service-image">
+                <img src="/cockroach.jpg" alt="Pest Control Services" />
+                <div className="service-overlay">
+                  <span className="service-badge">Most Popular</span>
+                </div>
               </div>
-              <div className="stat-item">
-                <h3>5000+</h3>
-                <p>Happy Customers</p>
-              </div>
-            </div>
-            
-            <Link to="/pest-control" className="showcase-card-modern">
-              <div className="card-image-modern">
-                <img src="/cockroach.jpg" alt="Pest Control" />
-                <div className="image-overlay-modern"></div>
-              </div>
-              <div className="card-content-modern">
-                <div className="card-icon-modern">
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <div className="service-content">
+                <div className="service-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
                   </svg>
                 </div>
-                <h3>Pest & Termite Control</h3>
-                <p>Expert pest and termite removal services for homes and businesses in Richlands. Licensed technicians, guaranteed results.</p>
-                <span className="card-link-modern">
-                  Explore Services
+                <h3>General Pest Control</h3>
+                <p>Complete protection against cockroaches, ants, spiders, and common household pests</p>
+                <ul className="service-features">
+                  <li>Interior & exterior treatment</li>
+                  <li>Safe for pets & children</li>
+                  <li>6-month warranty</li>
+                </ul>
+                <span className="service-link">
+                  Learn More
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                 </span>
               </div>
             </Link>
-            
-            <div className="showcase-features">
-              <div className="feature-badge">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-                <span>Licensed & Insured</span>
-              </div>
-              <div className="feature-badge">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-                <span>Same Day Service</span>
-              </div>
-              <div className="feature-badge">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-                <span>100% Guaranteed</span>
-              </div>
+
+            <div className="service-cards-small">
+              <Link to="/pest-control#termites" className="service-card-small">
+                <div className="service-icon-small">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                  </svg>
+                </div>
+                <h4>Termite Inspections</h4>
+                <p>Thorough inspections with detailed reports</p>
+                <span className="arrow">→</span>
+              </Link>
+
+              <Link to="/pest-control#termites" className="service-card-small">
+                <div className="service-icon-small">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                </div>
+                <h4>Termite Treatment</h4>
+                <p>Advanced barrier systems & baiting</p>
+                <span className="arrow">→</span>
+              </Link>
+
+              <Link to="/pest-control#rodents" className="service-card-small">
+                <div className="service-icon-small">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                </div>
+                <h4>Rodent Control</h4>
+                <p>Effective removal & prevention strategies</p>
+                <span className="arrow">→</span>
+              </Link>
+
+              <Link to="/pest-control#commercial" className="service-card-small">
+                <div className="service-icon-small">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                  </svg>
+                </div>
+                <h4>Commercial Services</h4>
+                <p>Tailored solutions for businesses</p>
+                <span className="arrow">→</span>
+              </Link>
+            </div>
+          </div>
+
+          <div className="services-trust-bar">
+            <div className="trust-item">
+              <strong>15+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div className="trust-item">
+              <strong>5000+</strong>
+              <span>Happy Customers</span>
+            </div>
+            <div className="trust-item">
+              <strong>100%</strong>
+              <span>Satisfaction Guarantee</span>
+            </div>
+            <div className="trust-item">
+              <strong>24/7</strong>
+              <span>Emergency Service</span>
             </div>
           </div>
         </div>
