@@ -43,12 +43,12 @@ function Footer() {
             <div className="footer-col">
               <h4>Our Services</h4>
               <ul className="footer-links">
-                <li><Link to="/cleaning">Carpet Cleaning</Link></li>
-                <li><Link to="/cleaning">Upholstery Cleaning</Link></li>
-                <li><Link to="/cleaning">Tile & Grout Cleaning</Link></li>
                 <li><Link to="/pest-control">General Pest Control</Link></li>
-                <li><Link to="/pest-control">Termite Treatment</Link></li>
-                <li><Link to="/pest-control">Rodent Control</Link></li>
+                <li><Link to="/blog/15">Termite Inspection</Link></li>
+                <li><Link to="/blog/15">Termite Treatment</Link></li>
+                <li><Link to="/blog/8">Cockroach Control</Link></li>
+                <li><Link to="/blog/18">Rodent Control</Link></li>
+                <li><Link to="/blog/11">Bed Bug Treatment</Link></li>
               </ul>
             </div>
 

@@ -122,103 +122,110 @@ const customerEmailTemplate = (name, service, timeframe) => `
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f5f5f5;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5; padding: 20px;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5; padding: 20px 0;">
     <tr>
       <td align="center">
-        <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; max-width: 600px;">
           
           <!-- Header -->
           <tr>
-            <td style="background-color: #dc2626; padding: 50px 30px; text-align: center;">
-              <div style="width: 80px; height: 80px; background-color: #ffffff; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 40px;">✅</div>
-              <h1 style="color: #ffffff; margin: 0; font-size: 32px; font-weight: bold;">Quote Request Received!</h1>
+            <td style="background-color: #dc2626; padding: 40px 20px; text-align: center;">
+              <table width="80" cellpadding="0" cellspacing="0" align="center" style="margin-bottom: 20px;">
+                <tr>
+                  <td style="background-color: #ffffff; width: 80px; height: 80px; border-radius: 50%; text-align: center; font-size: 40px; line-height: 80px;">✅</td>
+                </tr>
+              </table>
+              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: bold;">Quote Request Received!</h1>
               <p style="color: #ffffff; margin: 10px 0 0 0; font-size: 16px;">We'll contact you within 24 hours</p>
             </td>
           </tr>
           
           <!-- Success Badge -->
           <tr>
-            <td style="padding: 30px; text-align: center;">
+            <td style="padding: 30px 20px; text-align: center;">
               <span style="display: inline-block; background-color: #dcfce7; color: #166534; padding: 10px 20px; border-radius: 20px; font-weight: 600; font-size: 14px;">✓ Request Confirmed</span>
             </td>
           </tr>
           
-          <!-- Content -->
+          <!-- Greeting -->
           <tr>
-            <td style="padding: 0 30px 30px 30px;">
-              <p style="color: #0f172a; font-size: 20px; font-weight: 600; margin: 0 0 20px 0;">Hi ${name},</p>
-              
-              <p style="color: #475569; font-size: 16px; line-height: 1.7; margin: 0 0 30px 0;">
+            <td style="padding: 0 20px;">
+              <p style="color: #0f172a; font-size: 18px; font-weight: 600; margin: 0 0 15px 0;">Hi ${name},</p>
+              <p style="color: #475569; font-size: 15px; line-height: 1.6; margin: 0 0 25px 0;">
                 Thank you for choosing Astra Pest Control! We've received your quote request and our team is reviewing it now. 
                 We'll contact you shortly to discuss your pest control needs and provide a free, no-obligation quote.
               </p>
-              
-              <!-- Request Summary -->
-              <table width="100%" cellpadding="20" cellspacing="0" style="background-color: #faf8f5; border-radius: 8px; border: 2px solid #e5e7eb; margin-bottom: 30px;">
+            </td>
+          </tr>
+          
+          <!-- Request Summary -->
+          <tr>
+            <td style="padding: 0 20px 25px 20px;">
+              <table width="100%" cellpadding="20" cellspacing="0" style="background-color: #faf8f5; border: 2px solid #e5e7eb;">
                 <tr>
                   <td>
-                    <h3 style="color: #0f172a; font-size: 18px; margin: 0 0 15px 0;">📋 Your Request Summary</h3>
-                    <table width="100%" cellpadding="8" cellspacing="0">
-                      <tr>
-                        <td style="color: #64748b; font-size: 14px; font-weight: 600;">Service:</td>
-                        <td style="color: #0f172a; font-size: 15px; font-weight: 600; text-align: right;">${service}</td>
-                      </tr>
-                      <tr>
-                        <td style="color: #64748b; font-size: 14px; font-weight: 600;">Timeframe:</td>
-                        <td style="color: #0f172a; font-size: 15px; font-weight: 600; text-align: right;">${timeframe}</td>
-                      </tr>
-                    </table>
+                    <h3 style="color: #0f172a; font-size: 16px; margin: 0 0 15px 0;">📋 Your Request Summary</h3>
+                    <p style="margin: 8px 0; color: #64748b; font-size: 14px;">
+                      <strong>Service:</strong> <span style="color: #0f172a;">${service}</span>
+                    </p>
+                    <p style="margin: 8px 0; color: #64748b; font-size: 14px;">
+                      <strong>Timeframe:</strong> <span style="color: #0f172a;">${timeframe}</span>
+                    </p>
                   </td>
                 </tr>
               </table>
-              
-              <!-- Why Choose Us -->
-              <h3 style="color: #0f172a; font-size: 20px; margin: 0 0 20px 0;">Why Choose Astra Pest Control?</h3>
-              
-              <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
-                <tr>
-                  <td width="40" valign="top">
-                    <div style="width: 36px; height: 36px; background-color: #fef2f2; border-radius: 6px; text-align: center; line-height: 36px; font-size: 20px;">🏆</div>
-                  </td>
-                  <td valign="top">
-                    <p style="margin: 0; color: #0f172a; font-size: 15px; font-weight: 600;">15+ Years Experience</p>
-                    <p style="margin: 5px 0 0 0; color: #64748b; font-size: 14px;">Trusted pest control experts serving Richlands since 2008</p>
-                  </td>
-                </tr>
-              </table>
+            </td>
+          </tr>
+          
+          <!-- Why Choose Us -->
+          <tr>
+            <td style="padding: 0 20px 25px 20px;">
+              <h3 style="color: #0f172a; font-size: 18px; margin: 0 0 20px 0;">Why Choose Astra Pest Control?</h3>
               
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
                 <tr>
-                  <td width="40" valign="top">
-                    <div style="width: 36px; height: 36px; background-color: #fef2f2; border-radius: 6px; text-align: center; line-height: 36px; font-size: 20px;">✅</div>
+                  <td width="50" valign="top">
+                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">🏆</div>
                   </td>
                   <td valign="top">
-                    <p style="margin: 0; color: #0f172a; font-size: 15px; font-weight: 600;">100% Satisfaction Guarantee</p>
-                    <p style="margin: 5px 0 0 0; color: #64748b; font-size: 14px;">We stand behind our work with a complete satisfaction guarantee</p>
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">15+ Years Experience</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Trusted pest control experts serving Richlands since 2008</p>
                   </td>
                 </tr>
               </table>
               
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
                 <tr>
-                  <td width="40" valign="top">
-                    <div style="width: 36px; height: 36px; background-color: #fef2f2; border-radius: 6px; text-align: center; line-height: 36px; font-size: 20px;">🔒</div>
+                  <td width="50" valign="top">
+                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">✅</div>
                   </td>
                   <td valign="top">
-                    <p style="margin: 0; color: #0f172a; font-size: 15px; font-weight: 600;">Licensed & Insured</p>
-                    <p style="margin: 5px 0 0 0; color: #64748b; font-size: 14px;">Fully licensed technicians with comprehensive insurance coverage</p>
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">100% Satisfaction Guarantee</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">We stand behind our work with a complete satisfaction guarantee</p>
                   </td>
                 </tr>
               </table>
               
-              <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 30px;">
+              <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
                 <tr>
-                  <td width="40" valign="top">
-                    <div style="width: 36px; height: 36px; background-color: #fef2f2; border-radius: 6px; text-align: center; line-height: 36px; font-size: 20px;">⚡</div>
+                  <td width="50" valign="top">
+                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">🔒</div>
                   </td>
                   <td valign="top">
-                    <p style="margin: 0; color: #0f172a; font-size: 15px; font-weight: 600;">Same-Day Service Available</p>
-                    <p style="margin: 5px 0 0 0; color: #64748b; font-size: 14px;">Fast response times for urgent pest control needs</p>
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Licensed & Insured</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Fully licensed technicians with comprehensive insurance coverage</p>
+                  </td>
+                </tr>
+              </table>
+              
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="50" valign="top">
+                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">⚡</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Same-Day Service Available</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Fast response times for urgent pest control needs</p>
                   </td>
                 </tr>
               </table>
@@ -227,13 +234,13 @@ const customerEmailTemplate = (name, service, timeframe) => `
           
           <!-- CTA Section -->
           <tr>
-            <td style="padding: 0 30px 40px 30px;">
-              <table width="100%" cellpadding="25" cellspacing="0" style="background: linear-gradient(135deg, #fef2f2, #fee2e2); border-radius: 8px;">
+            <td style="padding: 0 20px 30px 20px;">
+              <table width="100%" cellpadding="25" cellspacing="0" style="background-color: #fef2f2;">
                 <tr>
                   <td style="text-align: center;">
-                    <h3 style="color: #991b1b; font-size: 20px; margin: 0 0 10px 0;">Need Immediate Assistance?</h3>
+                    <h3 style="color: #991b1b; font-size: 18px; margin: 0 0 10px 0;">Need Immediate Assistance?</h3>
                     <p style="color: #7f1d1d; font-size: 14px; margin: 0 0 20px 0;">Our team is ready to help you right now</p>
-                    <a href="tel:0732455126" style="display: inline-block; background-color: #dc2626; color: #ffffff; padding: 14px 32px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; margin: 5px;">📞 Call (07) 3245 5126</a>
+                    <a href="tel:0732455126" style="display: inline-block; background-color: #dc2626; color: #ffffff; padding: 14px 30px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 15px;">📞 Call (07) 3245 5126</a>
                   </td>
                 </tr>
               </table>
@@ -242,15 +249,15 @@ const customerEmailTemplate = (name, service, timeframe) => `
           
           <!-- Disclaimer -->
           <tr>
-            <td style="padding: 0 30px 30px 30px; text-align: center;">
+            <td style="padding: 0 20px 30px 20px; text-align: center;">
               <p style="color: #64748b; font-size: 12px; margin: 0;">This is an automated confirmation. Please do not reply to this email.</p>
             </td>
           </tr>
           
           <!-- Footer -->
           <tr>
-            <td style="background-color: #0f172a; padding: 30px; text-align: center;">
-              <p style="color: #ffffff; font-size: 20px; font-weight: bold; margin: 0 0 10px 0;">Astra Pest Control</p>
+            <td style="background-color: #0f172a; padding: 30px 20px; text-align: center;">
+              <p style="color: #ffffff; font-size: 18px; font-weight: bold; margin: 0 0 10px 0;">Astra Pest Control</p>
               <p style="color: #cbd5e1; font-size: 14px; margin: 0 0 15px 0;">Richlands' Trusted Pest & Termite Control Experts</p>
               <p style="color: #94a3b8; font-size: 14px; margin: 5px 0;">
                 <a href="tel:0732455126" style="color: #dc2626; text-decoration: none;">(07) 3245 5126</a>
