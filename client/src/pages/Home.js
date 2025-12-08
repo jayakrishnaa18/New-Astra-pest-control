@@ -200,55 +200,6 @@ function Home() {
       </section>
 
       {/* Features with Icons */}
-      <section className="features-modern">
-        <div className="container">
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                  <circle cx="20" cy="20" r="18" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M12 20L18 26L28 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3>15+ Years Experience</h3>
-              <p>Trusted expertise serving Brisbane since 2008</p>
-            </div>
-            
-            <div className="feature-item">
-              <div className="feature-icon">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                  <path d="M20 5L25 15L35 17L27 25L29 35L20 30L11 35L13 25L5 17L15 15L20 5Z" stroke="currentColor" strokeWidth="2"/>
-                </svg>
-              </div>
-              <h3>100% Guaranteed</h3>
-              <p>Quality assurance on every service we provide</p>
-            </div>
-            
-            <div className="feature-item">
-              <div className="feature-icon">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                  <circle cx="20" cy="20" r="15" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M20 12V20L26 23" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3>Same Day Service</h3>
-              <p>Fast response for urgent cleaning and pest needs</p>
-            </div>
-            
-            <div className="feature-item">
-              <div className="feature-icon">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                  <path d="M20 8C13 8 8 13 8 20C8 27 13 32 20 32C27 32 32 27 32 20C32 13 27 8 20 8Z" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M20 14V20L24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3>Eco-Friendly</h3>
-              <p>Safe products for family, pets, and environment</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Process Section */}
       <section className="process-modern">
         <div className="container">
