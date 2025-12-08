@@ -315,13 +315,47 @@ export const blogContent = {
     date: '2024-11-21',
     category: 'Pest Control',
     content: `
-      <h2>Complete Guide to Flea Control in Richlands</h2>
-      <p>Fleas are bloodsucking parasites that can quickly infest your Richlands home, causing discomfort to both pets and humans.</p>
-      <h3>Signs of Flea Infestation</h3>
-      <ul><li>Clustered bites on ankles and lower legs</li><li>Pets scratching excessively</li><li>Flea dirt (black specks) in pet bedding</li></ul>
+      <h2>Understanding Fleas</h2>
+      <p>Fleas are highly specialised bloodsucking parasites belonging to the order of insects called Siphonaptera, which means "wingless siphon". Fleas will bite only accessible parts of the body and clustered bites on the lower limbs.</p>
+      
+      <h3>Life Cycle of a Flea</h3>
+      <p>Most females will lay at least 100 eggs within a life cycle of several months. The adult fleas emerge from the pupal case in 1-2 weeks but can remain dormant in their cocoons for several months depending on the availability of food and conditions.</p>
+      
+      <p>The emergence of the adult flea from the pupal stage is generally triggered by vibrations, which can happen when entering an unoccupied dwelling of previous pet owners.</p>
+      
+      <h3>Treating Flea Bites</h3>
+      <p>When fleas are present homeowners generally notice them first by the bites they leave behind. It is typical of flea bites to be concentrated on and around the ankles, and can look similar to mosquito bites.</p>
+      
+      <p>Fleas can at times be selective and may only feed on one or a few people residing in a house. Children and infants can sometimes be the most affected in the home.</p>
+      
+      <h3>Treatment and Control of Fleas</h3>
+      <p>If you have pets, it is essential to prevent fleas becoming established in carpets and bedding:</p>
+      
+      <ul>
+        <li>Vacuum carpets and furnishings where pets sleep to remove fleas and eggs. Use your vacuum cleaner on a strong suction setting</li>
+        <li>Empty the vacuum cleaner bag after cleaning and place the bag into a bin outside of the home</li>
+        <li>Washing your pets bedding on a regular basis with hot water will help to kill flea eggs, the larvae, and also adults within cocoons</li>
+        <li>Take care when moving bedding, mats, etc, to avoid moving flea eggs around</li>
+        <li>It may be wise to place pet beds in areas without carpets such as on vinyl, tiled or wooden floors</li>
+      </ul>
+      
       <h3>Professional Flea Treatment</h3>
-      <p>Our treatment includes interior and exterior spray, targeting carpets, pet areas, and outdoor spaces. Pets must be treated simultaneously for best results.</p>
-      <p><strong>Call (07) 3245 5126 for professional flea control in Richlands.</strong></p>
+      <p>Warm, humid weather conditions in the summer months provide ideal conditions for fleas to flourish. Flea eggs and larvae may be found where pets feed and rest. These areas should be targeted by a pest technician to gain control of an infestation.</p>
+      
+      <p>Prior to a pest technician arriving, you should vacuum all floors. Washing the pets and bedding with an insecticidal preparation will aid in the control of fleas and their eggs.</p>
+      
+      <p>Always use a licensed pest control company when looking for professional flea exterminator to eliminate fleas and their eggs.</p>
+      
+      <h3>Why Professional Help is Essential</h3>
+      <p>Flea pupae can lay dormant in carpets and soil for more than twelve months and can be stimulated to emerge as an adult flea by vibrations. Insects can slow down their growth and development at different stages in order to make the most of favourable conditions.</p>
+      
+      <p>Fleas will only become active when the conditions are favourable - when the temperature is right and if there is a blood meal available. Fleas feed on blood and need it to survive.</p>
+      
+      <p>Fleas will breed in any carpet type and have even been known to harbour in the gaps in wooden floor boards. It's important to have all the floors treated with a liquid insecticide to successfully rid a home of fleas.</p>
+      
+      <p><strong>Important:</strong> Pets also need to be treated at the same time as the property is being sprayed. The best products for this is either "Front line" or "Advantage." Your pets also need to have ongoing flea treatments to keep them free of fleas for the year, usually done on a monthly basis.</p>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional flea treatment in Brisbane.</strong></p>
     `
   },
   8: {
