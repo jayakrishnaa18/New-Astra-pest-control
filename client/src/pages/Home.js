@@ -41,13 +41,13 @@ function Home() {
         <div className="hero-bg"></div>
         <div className="container hero-wrapper">
           <div className="hero-text">
-            <span className="hero-label">Brisbane's Premier Choice</span>
+            <span className="hero-label">Richlands' Premier Choice</span>
             <h1 className="hero-heading">
-              Professional Carpet Cleaning <span className="highlight">&</span> Pest Control
+              Professional Pest <span className="highlight">&</span> Termite Control
             </h1>
             <p className="hero-description">
-              Transforming homes and businesses across Brisbane with 15+ years of excellence. 
-              We deliver unmatched quality in carpet cleaning and pest management services.
+              Protecting homes and businesses in Richlands and surrounding suburbs since 2008. 
+              We deliver expert pest and termite control services with guaranteed results.
             </p>
             <div className="hero-actions">
               <a href="tel:0732455126" className="btn-primary">
