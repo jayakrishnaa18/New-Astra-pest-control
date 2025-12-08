@@ -152,23 +152,6 @@ function QuoteForm() {
           disabled={status === 'loading'}
         >
           <option value="">Select a service</option>
-          <optgroup label="Cleaning Services">
-            <option value="Carpet Cleaning">Carpet Cleaning</option>
-            <option value="Tile and Grout Cleaning">Tile and Grout Cleaning</option>
-            <option value="Upholstery Cleaning">Upholstery Cleaning</option>
-            <option value="Leather Seat Cleaning">Leather Seat Cleaning</option>
-            <option value="Mould Removal">Mould Removal</option>
-            <option value="Rug Cleaning">Rug Cleaning</option>
-            <option value="Cars, Caravans & Boats">Cars, Caravans & Boats</option>
-            <option value="Flood Water Extraction">Flood Water Extraction</option>
-            <option value="Commercial Carpet Cleaning">Commercial Carpet Cleaning</option>
-            <option value="Bond Cleaning">Bond Cleaning</option>
-            <option value="Mattress Cleaning">Mattress Cleaning</option>
-            <option value="Carpet Protection">Carpet Protection</option>
-            <option value="Encapsulation Cleaning">Encapsulation Cleaning</option>
-            <option value="Carpet Repairs">Carpet Repairs</option>
-            <option value="Duo Cleaning System">Duo Cleaning System</option>
-          </optgroup>
           <optgroup label="Pest Control Services">
             <option value="General Pest Control">General Pest Control</option>
             <option value="Termite Inspection">Termite Inspection</option>
@@ -178,8 +161,10 @@ function QuoteForm() {
             <option value="Ant Control">Ant Control</option>
             <option value="Spider Control">Spider Control</option>
             <option value="Flea Control">Flea Control</option>
+            <option value="Bed Bug Treatment">Bed Bug Treatment</option>
             <option value="Wasp & Bee Removal">Wasp & Bee Removal</option>
             <option value="Silverfish Control">Silverfish Control</option>
+            <option value="Commercial Pest Control">Commercial Pest Control</option>
           </optgroup>
         </select>
       </div>

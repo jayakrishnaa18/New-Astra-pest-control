@@ -298,52 +298,35 @@ app.post('/api/quotes', async (req, res) => {
       `
     };
 
-    // Send emails with error handling
-    let adminEmailSent = false;
-    let customerEmailSent = false;
-    
+    // Send emails
     try {
-      console.log('[SEND] Attempting to send admin email to:', process.env.EMAIL_TO || 'jkaliki@gitam.in');
-      const adminResult = await transporter.sendMail(adminMailOptions);
-      console.log('[OK] Admin notification sent successfully');
-      console.log('[EMAIL] Message ID:', adminResult.messageId);
-      adminEmailSent = true;
-    } catch (emailError) {
-      console.error('[ERROR] Admin email failed:', emailError.message);
-      console.error('[ERROR] Error code:', emailError.code);
-      if (emailError.code === 'ETIMEDOUT' || emailError.code === 'ECONNECTION') {
-        console.error('[INFO] SMTP connection blocked. Render free tier blocks SMTP. Use SendGrid instead.');
-      }
-    }
+      // Send both emails in parallel
+      await Promise.all([
+        transporter.sendMail(adminMailOptions)
+          .then(result => console.log('[OK] Admin email sent - ID:', result.messageId))
+          .catch(err => console.error('[ERROR] Admin email failed:', err.message)),
+        
+        transporter.sendMail(customerMailOptions)
+          .then(result => console.log('[OK] Customer email sent - ID:', result.messageId))
+          .catch(err => console.error('[ERROR] Customer email failed:', err.message))
+      ]);
 
-    try {
-      console.log('[SEND] Attempting to send customer email to:', email);
-      const customerResult = await transporter.sendMail(customerMailOptions);
-      console.log('[OK] Customer acknowledgment sent successfully');
-      console.log('[EMAIL] Message ID:', customerResult.messageId);
-      customerEmailSent = true;
-    } catch (emailError) {
-      console.error('[ERROR] Customer email failed:', emailError.message);
-      console.error('[ERROR] Error code:', emailError.code);
-    }
-
-    // Return appropriate response
-    if (adminEmailSent || customerEmailSent) {
-      res.status(201).json({ 
+      // Success response
+      return res.status(201).json({ 
         success: true, 
         message: 'Quote request submitted successfully!' 
       });
-    } else {
-      // Emails failed but form data received
-      console.log('[WARN] Emails failed but form data received. Returning success to user.');
-      res.status(201).json({ 
-        success: true, 
-        message: 'Quote request received! We will contact you shortly at ' + phone 
+
+    } catch (emailError) {
+      console.error('[ERROR] Email system error:', emailError.message);
+      return res.status(500).json({ 
+        success: false, 
+        message: 'Unable to send request. Please call us at (07) 3245 5126' 
       });
     }
 
   } catch (error) {
-    console.error('[ERROR] Error:', error.message);
+    console.error('[ERROR] Server error:', error.message);
     res.status(500).json({ 
       success: false, 
       message: 'Error processing request. Please call us at 07 3245 5126' 

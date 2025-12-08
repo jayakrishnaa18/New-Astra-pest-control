@@ -10,7 +10,7 @@ function Footer() {
           <div className="footer-grid">
             <div className="footer-col">
               <h3 className="footer-logo">Astra Pest Control</h3>
-              <p className="footer-desc">Brisbane's trusted carpet cleaning and pest control experts since 2008. Professional service with guaranteed results.</p>
+              <p className="footer-desc">Richlands' trusted pest and termite control experts since 2008. Professional service with guaranteed results.</p>
               <div className="footer-contact">
                 <a href="tel:0732455126" className="footer-phone">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
@@ -54,10 +54,10 @@ function Footer() {
 
             <div className="footer-col">
               <h4>Service Areas</h4>
-              <p className="service-areas">Brisbane, Ipswich, Logan, Redlands, Moreton Bay, Gold Coast, Sunshine Coast and surrounding suburbs across Queensland.</p>
+              <p className="service-areas">Richlands and surrounding suburbs including Inala, Darra, Wacol, Ellen Grove, Forest Lake, and greater Brisbane areas.</p>
               <div className="footer-map">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839392.8999999998!2d153.1078203!3d-27.467725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915c270ff9490d%3A0xb72b4c06b07a9eb5!2sBest%201%20Cleaning!5e0!3m2!1sen!2sau!4v1732188226000!5m2!1sen!2sau"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.234567890123!2d152.8947!3d-27.6167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b914f0c0c0c0c0d%3A0x502a35af3deaf40!2sRichlands%20QLD%204077%2C%20Australia!5e0!3m2!1sen!2sau!4v1234567890"
                   width="100%" 
                   height="150" 
                   style={{border: 0, borderRadius: '8px'}} 

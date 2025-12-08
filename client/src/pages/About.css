@@ -309,7 +309,7 @@
 /* Values Section */
 .values-section-modern {
   padding: 140px 20px 120px;
-  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  background: #faf8f5;
 }
 
 .section-header-center {
@@ -424,7 +424,7 @@
 /* Map Section */
 .map-section {
   padding: 120px 20px;
-  background: #ffffff;
+  background: #faf8f5;
 }
 
 .map-section .section-header-center p {

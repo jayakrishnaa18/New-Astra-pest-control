@@ -117,7 +117,7 @@ function FAQ() {
                 <h3>Our Location</h3>
                 <div className="map-embed">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839392.8999999998!2d153.1078203!3d-27.467725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915c270ff9490d%3A0xb72b4c06b07a9eb5!2sBest%201%20Cleaning!5e0!3m2!1sen!2sau!4v1732188226000!5m2!1sen!2sau"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.234567890123!2d152.8947!3d-27.6167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b914f0c0c0c0c0d%3A0x502a35af3deaf40!2sRichlands%20QLD%204077%2C%20Australia!5e0!3m2!1sen!2sau!4v1234567890"
                     width="100%" 
                     height="180" 
                     style={{border: 0, borderRadius: '8px'}} 
@@ -127,7 +127,7 @@ function FAQ() {
                   ></iframe>
                 </div>
                 <a 
-                  href="https://www.google.com/maps/place/Best+1+Cleaning/@-27.467725,153.1078203,9z"
+                  href="https://www.google.com/maps/place/Richlands+QLD+4077/@-27.6167,152.8947,14z"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="map-link"

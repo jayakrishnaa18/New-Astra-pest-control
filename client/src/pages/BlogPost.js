@@ -84,7 +84,7 @@ function BlogPost() {
             <div className="sidebar-card author-info">
               <img src="/logo.png" alt="Astra Pest Control" className="author-logo" />
               <div className="author-name">Astra Pest Control</div>
-              <p className="author-bio">Expert cleaning and pest control professionals serving Brisbane and surrounding areas.</p>
+              <p className="author-bio">Expert pest and termite control professionals serving Richlands and surrounding areas.</p>
             </div>
 
             <div className="sidebar-card cta-card">

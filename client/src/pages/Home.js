@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import Reviews from '../components/Reviews';
 import './Home.css';
 
@@ -7,10 +8,6 @@ function Home() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
-    // Preload hero image
-    const img = new Image();
-    img.src = '/carpet1.jpg';
-
     const observerOptions = {
       threshold: 0.2,
       rootMargin: '0px 0px -100px 0px'
@@ -36,18 +33,25 @@ function Home() {
 
   return (
     <div className="home">
+      <Helmet>
+        <title>Pest Control Richlands | Termite Inspection & Treatment | Astra Pest Control</title>
+        <meta name="description" content="Expert pest control & termite services in Richlands. Licensed technicians, 15+ years experience. Same-day service. 100% guarantee. Call (07) 3245 5126 for free quote!" />
+        <meta name="keywords" content="pest control Richlands, termite control Richlands, termite inspection, pest removal, cockroach control, rodent control, Inala, Darra, Wacol" />
+        <link rel="canonical" href="https://www.astrapest.com.au/" />
+      </Helmet>
+      
       {/* Hero Section */}
       <section className="hero-modern">
         <div className="hero-bg"></div>
         <div className="container hero-wrapper">
           <div className="hero-text">
-            <span className="hero-label">Richlands' Premier Choice</span>
+            <span className="hero-label">Richlands' Trusted Pest Control Experts</span>
             <h1 className="hero-heading">
-              Professional Pest <span className="highlight">&</span> Termite Control
+              Expert Pest <span className="highlight">&</span> Termite Solutions for Richlands
             </h1>
             <p className="hero-description">
-              Protecting homes and businesses in Richlands and surrounding suburbs since 2008. 
-              We deliver expert pest and termite control services with guaranteed results.
+              Serving Richlands and surrounding suburbs with professional pest and termite control since 2008. 
+              Protecting your home and business with guaranteed results you can trust.
             </p>
             <div className="hero-actions">
               <a href="tel:0732455126" className="btn-primary">
@@ -305,8 +309,8 @@ function Home() {
         <div className="container">
           <div className="cta-wrapper">
             <div className="cta-text">
-              <h2>Ready to Transform Your Space?</h2>
-              <p>Get in touch with Brisbane's most trusted cleaning and pest control experts</p>
+              <h2>Ready to Protect Your Property?</h2>
+              <p>Contact Richlands' most trusted pest and termite control experts</p>
             </div>
             <div className="cta-actions">
               <a href="tel:0732455126" className="btn-cta-primary">

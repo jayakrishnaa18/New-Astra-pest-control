@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import './ServicePages.css';
 
 function PestControl() {
@@ -35,13 +36,20 @@ function PestControl() {
 
   return (
     <div className="service-page">
+      <Helmet>
+        <title>Pest Control Richlands | Professional Pest Removal Services | Astra</title>
+        <meta name="description" content="Professional pest control in Richlands. Cockroach, termite, rodent, spider & bed bug removal. Licensed technicians. Same-day service. Call (07) 3245 5126!" />
+        <meta name="keywords" content="pest control Richlands, pest removal Richlands, cockroach control, termite treatment, rodent control, spider removal, bed bug treatment" />
+        <link rel="canonical" href="https://www.astrapest.com.au/pest-control" />
+      </Helmet>
+      
       <section className="pest-hero-enhanced">
         <div className="pest-hero-bg"></div>
         <div className="container">
           <div className="pest-hero-content">
             <span className="hero-badge-large">Professional Pest Control</span>
-            <h1>Pest Control Brisbane</h1>
-            <p>Fast, reliable and safe pest removal for homes and businesses across Brisbane</p>
+            <h1>Pest Control Richlands</h1>
+            <p>Fast, reliable and safe pest removal for homes and businesses in Richlands and surrounding suburbs</p>
             <div className="hero-features">
               <div className="hero-feature-item">
                 <div className="feature-icon-hero"><svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg></div>

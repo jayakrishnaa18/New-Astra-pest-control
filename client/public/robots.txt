@@ -1,20 +1,9 @@
-# Astra Pest Control - Robots.txt
+# Allow all search engines to crawl the site
 User-agent: *
 Allow: /
-Disallow: /api/
 
-# Sitemaps
+# Sitemap location
 Sitemap: https://www.astrapest.com.au/sitemap.xml
 
-# Crawl-delay
+# Crawl-delay for polite crawling
 Crawl-delay: 1
-
-# Specific bots
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /

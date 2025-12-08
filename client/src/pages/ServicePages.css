@@ -53,7 +53,7 @@
 /* Services Grid Section */
 .services-grid-section {
   padding: 100px 20px;
-  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  background: #ffffff;
 }
 
 .section-intro {
@@ -247,13 +247,13 @@
 /* Why Choose Section */
 .why-choose-section {
   padding: 100px 20px;
-  background: #f8fafc;
+  background: #faf8f5;
 }
 
 /* Process Section */
 .process-section {
   padding: 100px 20px;
-  background: #ffffff;
+  background: #faf8f5;
 }
 
 .process-grid {
@@ -563,7 +563,7 @@
 /* Pests Section Enhanced */
 .pests-section-enhanced {
   padding: 100px 20px;
-  background: #ffffff;
+  background: #faf8f5;
 }
 
 .section-intro {
@@ -683,7 +683,7 @@
 /* Why Choose Section */
 .pest-why-choose {
   padding: 100px 20px;
-  background: #f8fafc;
+  background: #ffffff;
 }
 
 .why-choose-grid {
@@ -789,7 +789,7 @@
 /* Products Section */
 .pest-products-section {
   padding: 100px 20px;
-  background: #ffffff;
+  background: #faf8f5;
 }
 
 .section-intro p {

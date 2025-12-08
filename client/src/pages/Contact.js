@@ -12,7 +12,7 @@ function Contact() {
           <div className="hero-content-pro">
             <span className="hero-badge-pro">Contact Us</span>
             <h1>Let's Work Together</h1>
-            <p>Get in touch with Brisbane's most trusted cleaning and pest control experts</p>
+            <p>Get in touch with Richlands' most trusted pest and termite control experts</p>
           </div>
         </div>
       </section>
@@ -85,15 +85,9 @@ function Contact() {
                 </div>
                 <h3>Service Areas</h3>
                 <div className="areas-list">
-                  <span className="area-tag">Brisbane</span>
-                  <span className="area-tag">Ipswich</span>
-                  <span className="area-tag">Logan</span>
-                  <span className="area-tag">Redlands</span>
-                  <span className="area-tag">Moreton Bay</span>
-                  <span className="area-tag">Gold Coast</span>
-                  <span className="area-tag">Sunshine Coast</span>
+                  <span className="area-tag">Richlands & Surrounding Suburbs</span>
                 </div>
-                <p className="areas-note">& all surrounding suburbs across Queensland</p>
+                <p className="areas-note">Serving the local community with expert pest and termite control</p>
               </div>
 
               {/* Why Choose Us */}
@@ -162,11 +156,11 @@ function Contact() {
         <div className="container">
           <div className="map-header-pro">
             <h2>Find Us</h2>
-            <p>Proudly serving Brisbane and surrounding regions</p>
+            <p>Proudly serving Richlands and surrounding suburbs</p>
           </div>
           <div className="map-container-pro">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906286.6817361!2d152.4!3d-27.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD%2C%20Australia!5e0!3m2!1sen!2s!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.234567890123!2d152.8947!3d-27.6167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b914f0c0c0c0c0d%3A0x502a35af3deaf40!2sRichlands%20QLD%204077%2C%20Australia!5e0!3m2!1sen!2sau!4v1234567890"
               width="100%"
               height="500"
               style={{ border: 0 }}
