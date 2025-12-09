@@ -1,5 +1,5 @@
 .blog-page-pro {
-  background: #ffffff;
+  background: #faf8f5;
 }
 
 .blog-hero-pro {
@@ -50,7 +50,7 @@
 
 .filter-btn-pro {
   padding: 10px 24px;
-  background: #ffffff;
+  background: #faf8f5;
   border: 2px solid #e2e8f0;
   border-radius: 25px;
   font-size: 14px;
@@ -75,7 +75,7 @@
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 40px;
-  background: #ffffff;
+  background: #faf8f5;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
@@ -407,7 +407,7 @@
 
 .page-btn {
   padding: 10px 16px;
-  background: #ffffff;
+  background: #faf8f5;
   border: 2px solid #e2e8f0;
   border-radius: 8px;
   font-size: 14px;
