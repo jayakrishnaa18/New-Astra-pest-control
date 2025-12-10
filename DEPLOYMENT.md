@@ -42,9 +42,9 @@ NODE_ENV=production
 PORT=10000
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=jkaliki@gitam.in
-SMTP_PASS=wpfm tqxb kcib hpxe
-EMAIL_TO=jkaliki@gitam.in
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
+EMAIL_TO=your-email@gmail.com
 MAIL_FROM=Astra Pest Control <no-reply@astrapest.com.au>
 CLIENT_URL=https://astra-pest-control-richlands.onrender.com
 SITE_NAME=Astra Pest Control
@@ -130,4 +130,4 @@ After deployment, update these files with your production URL:
 ## Support
 
 - Render Docs: https://render.com/docs
-- Email: jkaliki@gitam.in
+- Email: your-support-email@domain.com
