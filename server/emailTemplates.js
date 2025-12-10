@@ -100,8 +100,8 @@ const adminEmailTemplate = (name, email, phone, service, timeframe, message) => 
               <p style="color: #ffffff; font-size: 18px; font-weight: bold; margin: 0 0 10px 0;">Astra Pest Control</p>
               <p style="color: #94a3b8; font-size: 14px; margin: 0 0 15px 0;">Brisbane & Gold Coast & Surrounding Suburbs</p>
               <p style="color: #94a3b8; font-size: 13px; margin: 0;">
-                <a href="tel:0732455126" style="color: #dc2626; text-decoration: none;">(07) 3245 5126</a> | 
-                <a href="mailto:info@astrapestcontrol.com.au" style="color: #dc2626; text-decoration: none;">info@astrapestcontrol.com.au</a>
+                <a href="tel:0450955420" style="color: #dc2626; text-decoration: none;">0450 955 420</a> | 
+                <a href="mailto:Astrapestcontrol.au@gmail.com" style="color: #dc2626; text-decoration: none;">Astrapestcontrol.au@gmail.com</a>
               </p>
             </td>
           </tr>
