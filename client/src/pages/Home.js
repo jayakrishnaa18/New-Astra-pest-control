@@ -84,7 +84,7 @@ function Home() {
           </div>
           
           <div className="video-showcase">
-            <div className="mobile-phone-frame">
+            <div className={`mobile-phone-frame ${isVideoPlaying ? 'landscape' : ''}`}>
               <div className="phone-notch"></div>
               <div className="phone-buttons">
                 <div className="volume-up"></div>
