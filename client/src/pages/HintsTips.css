@@ -1,6 +1,7 @@
 .hints-tips {
-  background: #ffffff;
+  background-color: #faf8f5;
   --timeline-progress: 0;
+  padding-bottom: 80px;
 }
 
 .page-hero {
@@ -36,6 +37,7 @@
 }
 
 .tips-content {
+  background-color: #faf8f5;
   padding: 0 20px 80px;
   max-width: 1200px;
   margin: 0 auto;
@@ -454,6 +456,7 @@
   background: linear-gradient(135deg, #1f2937, #111827);
   padding: 60px 32px;
   border-radius: 12px;
+  margin-bottom: 100px;
   text-align: center;
   max-width: 1400px;
   margin: 60px auto 0;
@@ -601,7 +604,7 @@
 
   .tips-content {
     padding: 40px 16px;
-    background: #fff;
+    background: #faf8f5;
   }
 
   .timeline-wrapper {
@@ -626,7 +629,7 @@
   .tip-content {
     padding: 20px;
     margin-right: 60px;
-    background: #fff;
+    background: #faf8f5;
   }
 
   .tip-content h2 {

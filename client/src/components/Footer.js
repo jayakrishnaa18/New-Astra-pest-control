@@ -75,7 +75,7 @@ function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-content">
-            <p>&copy; 2025 Astra Pest Control. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Astra Pest Control. All rights reserved.</p>
             <div className="social-links">
               <a href="https://www.facebook.com/BestoneCarpetCleaningPestControl" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

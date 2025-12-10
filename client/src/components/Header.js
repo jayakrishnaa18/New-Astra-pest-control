@@ -61,6 +61,11 @@ function Header() {
               <span className="nav-underline"></span>
             </Link>
 
+            <Link to="/hints-tips" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/hints-tips' ? 'active' : ''}`}>
+              Hints & Tips
+              <span className="nav-underline"></span>
+            </Link>
+
             <Link to="/blog" onClick={closeMobileMenu} className={`${isScrolled ? 'scrolled' : ''} ${location.pathname === '/blog' ? 'active' : ''}`}>
               Blog
               <span className="nav-underline"></span>

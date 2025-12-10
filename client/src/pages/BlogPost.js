@@ -38,8 +38,6 @@ function BlogPost() {
           </Link>
           <div className="post-meta-header">
             <span className="post-category">{post.category}</span>
-            <span className="meta-separator">•</span>
-            <time>{new Date(post.date).toLocaleDateString('en-AU', { month: 'long', day: 'numeric' })}</time>
           </div>
           <h1 className="post-title">{post.title}</h1>
         </div>
@@ -81,12 +79,6 @@ function BlogPost() {
           </article>
 
           <aside className="post-sidebar">
-            <div className="sidebar-card author-info">
-              <img src="/logo.png" alt="Astra Pest Control" className="author-logo" />
-              <div className="author-name">Astra Pest Control</div>
-              <p className="author-bio">Expert pest and termite control professionals serving Richlands and surrounding areas.</p>
-            </div>
-
             <div className="sidebar-card cta-card">
               <h3>Need Our Services?</h3>
               <p>Get professional cleaning and pest control services today</p>

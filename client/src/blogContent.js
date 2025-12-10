@@ -1,91 +1,131 @@
 export const blogContent = {
   1: {
-    title: 'Rubbish Removal Versus Skip Bin Hire, Which is Better?',
-    date: '2022-09-02',
-    category: 'General',
+    title: 'Complete Guide to Pest Control in Richlands: Protect Your Home',
+    date: '2024-11-22',
+    category: 'Pest Control',
     content: `
-      <h2>Rubbish Removal Versus Skip Bin Hire</h2>
-      <p>When you're moving out, cleaning and removing waste come hand in hand. When it comes to junk removal, there are two main options: hiring a skip bin or using a rubbish removal service. Both have pros and cons, so which is the best option for you?</p>
+      <h2>Complete Guide to Pest Control in Richlands</h2>
+      <p>Richlands homeowners face unique pest challenges due to our subtropical climate and urban environment. This comprehensive guide covers everything you need to know about protecting your home from common pests.</p>
       
-      <h3>Skip Bin Hire - The Traditional Option</h3>
-      <p>Skip bins are large containers that you can fill with waste over a period of time. They're delivered to your property and picked up when full or after an agreed period.</p>
-      
-      <h4>Advantages of Skip Bins:</h4>
+      <h3>Common Pests in Richlands</h3>
       <ul>
-        <li>Good for ongoing projects where waste accumulates gradually</li>
-        <li>You control the timeline - fill it at your own pace</li>
-        <li>Cost-effective for large volumes of waste</li>
-        <li>Available in various sizes</li>
+        <li><strong>Termites:</strong> The most destructive pest, causing millions in damage annually</li>
+        <li><strong>Cockroaches:</strong> Health hazards that multiply rapidly</li>
+        <li><strong>Ants:</strong> Persistent invaders seeking food and water</li>
+        <li><strong>Spiders:</strong> Including dangerous species like redbacks</li>
+        <li><strong>Rodents:</strong> Rats and mice that spread disease</li>
+        <li><strong>Bed bugs:</strong> Difficult to eliminate once established</li>
       </ul>
       
-      <h4>Disadvantages of Skip Bins:</h4>
+      <h3>Signs of Pest Infestation</h3>
+      <h4>Termites:</h4>
       <ul>
-        <li>May require council permits for street placement</li>
-        <li>Takes up space on your property</li>
-        <li>You do all the loading work</li>
-        <li>Can be an eyesore in your driveway</li>
-        <li>Fixed hire period - may pay for unused time</li>
+        <li>Mud tubes on walls or foundations</li>
+        <li>Hollow-sounding timber</li>
+        <li>Discarded wings near windows</li>
+        <li>Sagging floors or doors</li>
       </ul>
       
-      <h3>Rubbish Removal Service - The Modern Solution</h3>
-      <p>Professional rubbish removal services come to your property with a team and truck, load everything, and take it away immediately.</p>
-      
-      <h4>Advantages of Rubbish Removal:</h4>
+      <h4>Cockroaches:</h4>
       <ul>
-        <li>Quick and convenient - same-day service available</li>
-        <li>No permits needed</li>
-        <li>Professional team does all the heavy lifting</li>
-        <li>No space taken up on your property</li>
-        <li>Flexible scheduling</li>
-        <li>Environmentally responsible disposal</li>
+        <li>Droppings that look like coffee grounds</li>
+        <li>Musty odor in infested areas</li>
+        <li>Egg cases in dark corners</li>
+        <li>Grease marks along walls</li>
       </ul>
       
-      <h4>Disadvantages of Rubbish Removal:</h4>
+      <h4>Rodents:</h4>
       <ul>
-        <li>May cost more for very large volumes</li>
-        <li>Need to schedule in advance</li>
-        <li>All waste must be ready at once</li>
+        <li>Droppings in cupboards or corners</li>
+        <li>Gnaw marks on food packaging</li>
+        <li>Scratching sounds in walls</li>
+        <li>Grease marks along baseboards</li>
       </ul>
       
-      <h3>Which Should You Choose?</h3>
-      <p><strong>Choose Skip Bin if:</strong> You have a long-term renovation project, need to accumulate waste over weeks, and don't mind doing the loading yourself.</p>
-      <p><strong>Choose Rubbish Removal if:</strong> You need quick removal, don't want the hassle of loading, need same-day service, or are doing end-of-lease cleaning.</p>
+      <h3>Prevention Strategies</h3>
+      <ul>
+        <li><strong>Eliminate Water Sources:</strong> Fix leaks, improve drainage</li>
+        <li><strong>Remove Food Sources:</strong> Store food in sealed containers</li>
+        <li><strong>Seal Entry Points:</strong> Caulk cracks, install door sweeps</li>
+        <li><strong>Maintain Cleanliness:</strong> Regular cleaning and decluttering</li>
+        <li><strong>Landscape Management:</strong> Trim vegetation away from house</li>
+      </ul>
       
-      <p>At Best 1 Cleaning and Pest Control, we offer professional rubbish removal services that make your life easier. Our team handles everything from loading to disposal, ensuring environmentally responsible waste management.</p>
+      <h3>When to Call Professionals</h3>
+      <p>Contact professional pest control for:</p>
+      <ul>
+        <li>Termite infestations or prevention</li>
+        <li>Large cockroach populations</li>
+        <li>Rodent problems</li>
+        <li>Dangerous spiders</li>
+        <li>Bed bug infestations</li>
+        <li>Any pest problem that persists after DIY treatment</li>
+      </ul>
       
-      <p><strong>Contact Best 1 Cleaning and Pest Control at 07 3245 5126 for fast, professional rubbish removal in Brisbane.</strong></p>
+      <h3>Professional Pest Control Benefits</h3>
+      <ul>
+        <li>Licensed and insured technicians</li>
+        <li>Professional-grade treatments</li>
+        <li>Comprehensive inspections</li>
+        <li>Ongoing monitoring and prevention</li>
+        <li>Warranty on treatments</li>
+        <li>Safe application methods</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for comprehensive pest control services in Richlands.</strong></p>
     `
   },
   2: {
-    title: 'Guide To Carpet Cleaning Cost',
-    date: '2022-05-30',
-    category: 'Cleaning',
+    title: 'Termite Inspection Richlands: When and Why You Need Professional Help',
+    date: '2024-11-28',
+    category: 'Pest Control',
     content: `
-      <h2>How Much Does It Cost To Get Your Carpets Cleaned?</h2>
-      <p>Professional carpet cleaning costs vary based on several factors. Understanding these helps you budget appropriately and get the best value for your money.</p>
+      <h2>Professional Termite Inspection in Richlands</h2>
+      <p>Termites cause billions of dollars in property damage annually in Australia. For Richlands homeowners, regular termite inspections are essential protection against these destructive pests.</p>
       
-      <h3>Factors That Affect Carpet Cleaning Cost</h3>
-      
-      <h4>1. Size of the Area</h4>
-      <p>The most obvious factor is the size of the area to be cleaned. Most companies charge per room or per square meter.</p>
+      <h3>Why Termite Inspections Are Critical</h3>
       <ul>
-        <li>Single room: $80-$120</li>
-        <li>Living room: $100-$150</li>
-        <li>Whole house (3 bedroom): $250-$400</li>
-        <li>Commercial spaces: Custom quotes based on square meterage</li>
+        <li><strong>Early Detection:</strong> Find termites before major damage occurs</li>
+        <li><strong>Property Protection:</strong> Preserve your home's structural integrity</li>
+        <li><strong>Insurance Requirements:</strong> Many policies require regular inspections</li>
+        <li><strong>Peace of Mind:</strong> Know your home is protected</li>
+        <li><strong>Cost Savings:</strong> Prevention is cheaper than repairs</li>
       </ul>
       
-      <h4>2. Carpet Condition</h4>
-      <p>Heavily soiled carpets require more time, effort, and cleaning solution.</p>
+      <h3>When to Schedule Inspections</h3>
+      <ul>
+        <li><strong>Annual Inspections:</strong> Recommended for all Richlands homes</li>
+        <li><strong>Before Purchase:</strong> Essential for property buyers</li>
+        <li><strong>After Treatment:</strong> Monitor treatment effectiveness</li>
+        <li><strong>Seasonal Checks:</strong> Especially before termite season</li>
+        <li><strong>After Storms:</strong> Check for new entry points</li>
+      </ul>
       
-      <h4>3. Stain Treatment</h4>
-      <p>Stubborn stains like red wine, pet urine, or ink require special treatment and may incur additional charges ($20-$50 per stain).</p>
+      <h3>Signs That Indicate Immediate Inspection Needed</h3>
+      <ul>
+        <li>Mud tubes on walls or foundations</li>
+        <li>Hollow-sounding timber when tapped</li>
+        <li>Discarded termite wings near windows</li>
+        <li>Sagging floors or doors that stick</li>
+        <li>Small holes in drywall</li>
+        <li>Cracked or bubbling paint</li>
+      </ul>
       
-      <p><strong>Contact Best 1 Cleaning and Pest Control at 07 3245 5126 for a free carpet cleaning quote.</strong></p>
+      <h3>Our Professional Inspection Process</h3>
+      <ol>
+        <li><strong>Exterior Inspection:</strong> Check foundations, walls, and entry points</li>
+        <li><strong>Interior Assessment:</strong> Examine all accessible areas</li>
+        <li><strong>Subfloor Inspection:</strong> Check underneath the house</li>
+        <li><strong>Roof Void Check:</strong> Inspect ceiling spaces</li>
+        <li><strong>Moisture Detection:</strong> Identify conducive conditions</li>
+        <li><strong>Detailed Report:</strong> Comprehensive findings and recommendations</li>
+      </ol>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional termite inspections in Richlands.</strong></p>
     `
   },
   15: {
-    title: 'Termite Inspection Guide for Richlands Homeowners',
+    title: 'Termite Inspection Richlands: When and Why You Need Professional Help',
     date: '2024-12-08',
     category: 'Pest Control',
     content: `
@@ -124,7 +164,7 @@ export const blogContent = {
     `
   },
   16: {
-    title: 'Ant Control Solutions for Richlands Homes',
+    title: 'Ant Control Richlands: Stop Ant Invasions Before They Start',
     date: '2024-12-08',
     category: 'Pest Control',
     content: `
@@ -164,7 +204,7 @@ export const blogContent = {
     `
   },
   17: {
-    title: 'Spider Control: Keep Your Richlands Home Safe',
+    title: 'Spider Control Richlands: Safe and Effective Removal Methods',
     date: '2024-12-07',
     category: 'Pest Control',
     content: `
@@ -205,7 +245,7 @@ export const blogContent = {
     `
   },
   18: {
-    title: 'Rodent Control: Rats and Mice in Richlands',
+    title: 'Rodent Control Richlands: Rats and Mice Prevention Guide',
     date: '2024-12-06',
     category: 'Pest Control',
     content: `
@@ -254,7 +294,7 @@ export const blogContent = {
     `
   },
   3: {
-    title: 'Guide to Carpet Cleaning – All Your Questions Answered',
+    title: 'Guide to Carpet Cleaning Richlands – All Your Questions Answered',
     date: '2022-04-26',
     category: 'Cleaning',
     content: `
@@ -270,7 +310,7 @@ export const blogContent = {
     `
   },
   4: {
-    title: '10 Health Benefits Of Carpet Cleaning',
+    title: '10 Health Benefits Of Carpet Cleaning for Richlands Families',
     date: '2022-04-19',
     category: 'Cleaning',
     content: `
@@ -293,7 +333,7 @@ export const blogContent = {
     `
   },
   5: {
-    title: '4 Easy Steps To Get Mud Stains Out Of Carpet',
+    title: '4 Easy Steps To Get Mud Stains Out Of Carpet - Richlands Guide',
     date: '2017-08-29',
     category: 'Cleaning',
     content: `
@@ -311,7 +351,7 @@ export const blogContent = {
     `
   },
   7: {
-    title: 'Complete Guide to Flea Control',
+    title: 'Flea Control Richlands: Protect Your Pets and Family',
     date: '2024-11-21',
     category: 'Pest Control',
     content: `
@@ -359,7 +399,7 @@ export const blogContent = {
     `
   },
   8: {
-    title: 'Cockroach Control: Protect Your Family',
+    title: 'Cockroach Control Richlands: Effective Solutions for Your Home',
     date: '2024-11-20',
     category: 'Pest Control',
     content: `
@@ -412,7 +452,7 @@ export const blogContent = {
     `
   },
   9: {
-    title: 'Silverfish Identification and Control',
+    title: 'Silverfish Control Richlands: Eliminate These Silent Invaders',
     date: '2024-11-19',
     category: 'Pest Control',
     content: `
@@ -440,7 +480,7 @@ export const blogContent = {
     `
   },
   11: {
-    title: 'Bed Bug Extermination Methods',
+    title: 'Bed Bug Treatment Richlands: Complete Elimination Guide',
     date: '2024-11-17',
     category: 'Pest Control',
     content: `
@@ -476,7 +516,7 @@ export const blogContent = {
     `
   },
   12: {
-    title: 'Rodent Control: Rats and Mice',
+    title: 'Rodent Control Richlands: Rats and Mice Prevention Guide',
     date: '2024-11-16',
     category: 'Pest Control',
     content: `
@@ -490,7 +530,7 @@ export const blogContent = {
     `
   },
   6: {
-    title: '4 Ways To Winter Proof Your Home From Pests',
+    title: 'Seasonal Pest Control Richlands: Year-Round Protection Guide',
     date: '2017-07-01',
     category: 'Pest Control',
     content: `
@@ -617,12 +657,12 @@ export const blogContent = {
     `
   },
   20: {
-    title: 'Home Maintenance Tips for Richlands Homeowners',
-    date: '2024-12-08',
-    category: 'General',
+    title: 'Commercial Pest Control Richlands: Protect Your Business',
+    date: '2024-10-29',
+    category: 'Pest Control',
     content: `
-      <h2>Complete Home Maintenance Guide for Richlands Properties</h2>
-      <p>Your Richlands home is one of your most valuable assets. Regular maintenance not only protects your investment but also prevents costly emergency repairs, maintains property value, and ensures your family's safety and comfort. This comprehensive guide covers essential maintenance tasks every Richlands homeowner should follow.</p>
+      <h2>Professional Commercial Pest Control in Richlands</h2>
+      <p>Protect your business reputation and comply with health regulations with comprehensive commercial pest control services in Richlands.</p>
       
       <h3>Why Regular Home Maintenance Matters</h3>
       <p>Brisbane's subtropical climate, with its hot, humid summers and mild winters, creates unique challenges for Richlands homeowners. High humidity promotes mold growth, heavy rainfall can cause drainage issues, and warm temperatures attract pests year-round. A proactive maintenance schedule addresses these challenges before they become expensive problems.</p>
@@ -865,7 +905,7 @@ export const blogContent = {
     `
   },
   21: {
-    title: 'Seasonal Pest Prevention Guide for Brisbane Homes',
+    title: 'Pest Prevention Tips for Richlands Homeowners',
     date: '2024-12-07',
     category: 'General',
     content: `
@@ -1273,7 +1313,7 @@ export const blogContent = {
     `
   },
   22: {
-    title: 'Signs Your Home Needs Professional Pest Inspection',
+    title: 'Signs You Need Professional Pest Control in Richlands',
     date: '2024-12-06',
     category: 'General',
     content: `
@@ -1285,7 +1325,7 @@ export const blogContent = {
     `
   },
   23: {
-    title: 'Protecting Your Home Investment: Pest Control Guide',
+    title: 'Eco-Friendly Pest Control Solutions for Richlands Families',
     date: '2024-12-05',
     category: 'General',
     content: `
@@ -1297,17 +1337,595 @@ export const blogContent = {
     `
   },
   24: {
-    title: 'DIY vs Professional Pest Control: What You Need to Know',
-    date: '2024-12-04',
+    title: 'Cost of Pest Control Services in Richlands: Complete Guide',
+    date: '2024-09-20',
     category: 'General',
     content: `
-      <h2>DIY vs Professional Pest Control</h2>
-      <p>Understanding when to DIY and when to call professionals.</p>
-      <h3>Call Professionals For:</h3>
-      <ul><li>Termites</li><li>Rodent infestations</li><li>Cockroaches</li><li>Bed bugs</li><li>Large infestations</li></ul>
-      <h3>Professional Advantages</h3>
-      <ul><li>Licensed & insured</li><li>Professional products</li><li>Warranty coverage</li><li>Expert advice</li></ul>
-      <p><strong>Call (07) 3245 5126 for professional pest control in Richlands.</strong></p>
+      <h2>Complete Guide to Pest Control Costs in Richlands</h2>
+      <p>Understanding pest control costs helps you budget effectively and choose the right service for your Richlands home. This transparent pricing guide covers all aspects of professional pest control investment.</p>
+      
+      <h3>Factors Affecting Pest Control Costs</h3>
+      <ul>
+        <li><strong>Property Size:</strong> Larger homes require more time and materials</li>
+        <li><strong>Pest Type:</strong> Different pests require different treatment methods</li>
+        <li><strong>Infestation Severity:</strong> Extensive infestations cost more to treat</li>
+        <li><strong>Treatment Method:</strong> Chemical vs eco-friendly options</li>
+        <li><strong>Accessibility:</strong> Hard-to-reach areas may increase costs</li>
+        <li><strong>Follow-up Requirements:</strong> Some pests need multiple treatments</li>
+      </ul>
+      
+      <h3>Average Pest Control Costs in Richlands</h3>
+      
+      <h4>General Pest Control:</h4>
+      <ul>
+        <li>Initial treatment: $200-$400</li>
+        <li>Quarterly service: $80-$150 per visit</li>
+        <li>Annual service: $300-$600</li>
+      </ul>
+      
+      <h4>Specific Pest Treatments:</h4>
+      <ul>
+        <li><strong>Termite Treatment:</strong> $1,500-$4,000</li>
+        <li><strong>Cockroach Control:</strong> $150-$300</li>
+        <li><strong>Ant Treatment:</strong> $100-$250</li>
+        <li><strong>Spider Control:</strong> $150-$300</li>
+        <li><strong>Rodent Control:</strong> $200-$500</li>
+        <li><strong>Bed Bug Treatment:</strong> $500-$1,500</li>
+      </ul>
+      
+      <h3>Service Types and Pricing</h3>
+      
+      <h4>One-Time Treatments:</h4>
+      <ul>
+        <li>Emergency callout: $150-$300</li>
+        <li>Single pest treatment: $100-$400</li>
+        <li>Pre-purchase inspection: $200-$350</li>
+      </ul>
+      
+      <h4>Ongoing Service Plans:</h4>
+      <ul>
+        <li>Monthly service: $50-$100 per visit</li>
+        <li>Quarterly service: $80-$150 per visit</li>
+        <li>Bi-annual service: $150-$250 per visit</li>
+      </ul>
+      
+      <h3>What's Included in Professional Service</h3>
+      <ul>
+        <li>Comprehensive property inspection</li>
+        <li>Identification of pest species</li>
+        <li>Customized treatment plan</li>
+        <li>Professional-grade treatments</li>
+        <li>Follow-up inspections</li>
+        <li>Service warranty</li>
+        <li>Prevention recommendations</li>
+      </ul>
+      
+      <h3>Cost-Saving Tips</h3>
+      <ul>
+        <li>Book annual service plans for discounts</li>
+        <li>Address problems early before they worsen</li>
+        <li>Combine multiple services</li>
+        <li>Maintain good sanitation to prevent re-infestation</li>
+        <li>Follow prevention advice to reduce future costs</li>
+      </ul>
+      
+      <h3>When Professional Service is Worth the Investment</h3>
+      <ul>
+        <li>Termite prevention and treatment</li>
+        <li>Large or persistent infestations</li>
+        <li>Health and safety concerns</li>
+        <li>Property protection needs</li>
+        <li>Time and convenience factors</li>
+      </ul>
+      
+      <p><strong>Get transparent pricing for your Richlands property. Call (07) 3245 5126 for a free pest control quote.</strong></p>
+    `
+  },
+  10: {
+    title: 'Spider Control Richlands: Safe and Effective Solutions',
+    date: '2024-11-07',
+    category: 'Pest Control',
+    content: `
+      <h2>Professional Spider Control in Richlands</h2>
+      <p>Spiders are common in Richlands homes, especially during warmer months. While most are harmless, some species can pose risks to your family.</p>
+      
+      <h3>Common Spiders in Richlands</h3>
+      <ul>
+        <li><strong>Huntsman Spiders:</strong> Large but generally harmless</li>
+        <li><strong>Redback Spiders:</strong> Venomous, found in dark areas</li>
+        <li><strong>White-tail Spiders:</strong> Can cause skin reactions</li>
+        <li><strong>Wolf Spiders:</strong> Ground-dwelling hunters</li>
+      </ul>
+      
+      <h3>Signs of Spider Infestation</h3>
+      <ul>
+        <li>Webs in corners and crevices</li>
+        <li>Spider sightings, especially at night</li>
+        <li>Egg sacs in hidden areas</li>
+        <li>Insect remains in webs</li>
+      </ul>
+      
+      <h3>Professional Spider Treatment</h3>
+      <p>Our spider control service includes:</p>
+      <ul>
+        <li>Thorough property inspection</li>
+        <li>Targeted treatment of harboring areas</li>
+        <li>Web removal and cleanup</li>
+        <li>Preventive barrier treatments</li>
+        <li>Follow-up inspections</li>
+      </ul>
+      
+      <h3>Prevention Tips</h3>
+      <ul>
+        <li>Regular vacuuming of corners and crevices</li>
+        <li>Reduce outdoor lighting that attracts insects</li>
+        <li>Seal cracks and entry points</li>
+        <li>Keep storage areas clean and organized</li>
+        <li>Remove vegetation close to the house</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional spider control in Richlands.</strong></p>
+    `
+  },
+  14: {
+    title: 'Wasp and Bee Removal Richlands: Safe Professional Services',
+    date: '2024-11-04',
+    category: 'Pest Control',
+    content: `
+      <h2>Safe Wasp and Bee Removal in Richlands</h2>
+      <p>Wasps and bees can pose serious risks when they nest near your home. Professional removal ensures safety while protecting beneficial bee species.</p>
+      
+      <h3>Wasp vs Bee Identification</h3>
+      <h4>Wasps:</h4>
+      <ul>
+        <li>Smooth, hairless bodies</li>
+        <li>Bright yellow and black stripes</li>
+        <li>Aggressive when threatened</li>
+        <li>Can sting multiple times</li>
+        <li>Feed on other insects and sugary substances</li>
+      </ul>
+      
+      <h4>Bees:</h4>
+      <ul>
+        <li>Fuzzy, hairy bodies</li>
+        <li>Less aggressive unless threatened</li>
+        <li>Can only sting once</li>
+        <li>Essential pollinators</li>
+        <li>Feed on nectar and pollen</li>
+      </ul>
+      
+      <h3>Common Nesting Locations</h3>
+      <ul>
+        <li>Roof eaves and gutters</li>
+        <li>Wall cavities</li>
+        <li>Tree branches</li>
+        <li>Shed and garage areas</li>
+        <li>Underground burrows (some species)</li>
+      </ul>
+      
+      <h3>Professional Removal Process</h3>
+      <p>Our safe removal service includes:</p>
+      <ul>
+        <li>Species identification</li>
+        <li>Risk assessment</li>
+        <li>Protective equipment use</li>
+        <li>Humane bee relocation when possible</li>
+        <li>Complete nest removal</li>
+        <li>Prevention advice</li>
+      </ul>
+      
+      <h3>Why Choose Professional Removal?</h3>
+      <ul>
+        <li>Safety - avoid dangerous stings</li>
+        <li>Proper equipment and protective gear</li>
+        <li>Species-appropriate treatment</li>
+        <li>Complete nest elimination</li>
+        <li>Prevention of re-infestation</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for safe wasp and bee removal in Richlands.</strong></p>
+    `
+  },
+  25: {
+    title: 'Professional Rug Cleaning',
+    date: '2022-02-28',
+    category: 'Cleaning',
+    content: `
+      <h2>Expert Rug Cleaning Services</h2>
+      <p>Rugs require specialized care to maintain their beauty and extend their lifespan. Our professional rug cleaning service handles all types of rugs with expert techniques.</p>
+      
+      <h3>Types of Rugs We Clean</h3>
+      <ul>
+        <li><strong>Persian & Oriental Rugs:</strong> Delicate hand-woven pieces</li>
+        <li><strong>Wool Rugs:</strong> Natural fiber rugs requiring gentle care</li>
+        <li><strong>Silk Rugs:</strong> Luxury rugs needing specialized treatment</li>
+        <li><strong>Synthetic Rugs:</strong> Durable everyday rugs</li>
+        <li><strong>Antique Rugs:</strong> Valuable pieces requiring expert handling</li>
+      </ul>
+      
+      <h3>Our Rug Cleaning Process</h3>
+      <ol>
+        <li><strong>Inspection:</strong> Assess fiber type, construction, and condition</li>
+        <li><strong>Pre-treatment:</strong> Address stains and high-traffic areas</li>
+        <li><strong>Gentle Cleaning:</strong> Use appropriate methods for each rug type</li>
+        <li><strong>Rinse & Extract:</strong> Remove all cleaning residues</li>
+        <li><strong>Drying:</strong> Controlled drying to prevent shrinkage</li>
+        <li><strong>Final Inspection:</strong> Quality check before return</li>
+      </ol>
+      
+      <h3>Specialized Treatments</h3>
+      <ul>
+        <li>Stain removal for wine, food, and pet accidents</li>
+        <li>Odor elimination</li>
+        <li>Color restoration</li>
+        <li>Fringe cleaning and repair</li>
+        <li>Moth and insect treatment</li>
+      </ul>
+      
+      <h3>Benefits of Professional Rug Cleaning</h3>
+      <ul>
+        <li>Extends rug lifespan</li>
+        <li>Preserves colors and patterns</li>
+        <li>Removes deep-seated dirt and allergens</li>
+        <li>Maintains rug value</li>
+        <li>Expert handling of delicate materials</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional rug cleaning services.</strong></p>
+    `
+  },
+  26: {
+    title: 'Vehicle Interior Cleaning',
+    date: '2022-02-25',
+    category: 'Cleaning',
+    content: `
+      <h2>Professional Vehicle Interior Cleaning</h2>
+      <p>Keep your car, caravan, or boat interior fresh and clean with our specialized vehicle cleaning services. We handle all types of vehicle interiors with professional equipment and techniques.</p>
+      
+      <h3>Vehicles We Service</h3>
+      <ul>
+        <li><strong>Cars & SUVs:</strong> All makes and models</li>
+        <li><strong>Caravans & RVs:</strong> Complete interior cleaning</li>
+        <li><strong>Boats & Marine Craft:</strong> Specialized marine cleaning</li>
+        <li><strong>Trucks & Commercial Vehicles:</strong> Heavy-duty cleaning</li>
+        <li><strong>Motorcycles:</strong> Seat and storage cleaning</li>
+      </ul>
+      
+      <h3>Our Vehicle Cleaning Process</h3>
+      <ol>
+        <li><strong>Pre-inspection:</strong> Assess interior condition and materials</li>
+        <li><strong>Vacuuming:</strong> Remove loose dirt and debris</li>
+        <li><strong>Seat Cleaning:</strong> Deep clean fabric or leather seats</li>
+        <li><strong>Carpet Treatment:</strong> Shampoo and extract carpets</li>
+        <li><strong>Dashboard & Trim:</strong> Clean and protect surfaces</li>
+        <li><strong>Final Detailing:</strong> Windows, mirrors, and finishing touches</li>
+      </ol>
+      
+      <h3>Specialized Services</h3>
+      <ul>
+        <li>Leather conditioning and protection</li>
+        <li>Fabric protection application</li>
+        <li>Odor removal (smoke, pets, food)</li>
+        <li>Stain removal from seats and carpets</li>
+        <li>Headliner cleaning</li>
+        <li>Air conditioning sanitization</li>
+      </ul>
+      
+      <h3>Common Issues We Address</h3>
+      <ul>
+        <li>Food and drink spills</li>
+        <li>Pet hair and odors</li>
+        <li>Mud and dirt buildup</li>
+        <li>Smoke odors</li>
+        <li>General wear and tear</li>
+      </ul>
+      
+      <h3>Benefits of Professional Vehicle Cleaning</h3>
+      <ul>
+        <li>Maintains vehicle value</li>
+        <li>Creates healthier interior environment</li>
+        <li>Removes allergens and bacteria</li>
+        <li>Professional-grade results</li>
+        <li>Saves time and effort</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional vehicle interior cleaning.</strong></p>
+    `
+  },
+  27: {
+    title: 'Emergency Flood Water Extraction',
+    date: '2022-02-22',
+    category: 'Cleaning',
+    content: `
+      <h2>Emergency Flood Damage Restoration</h2>
+      <p>When flood damage strikes, quick action is essential to prevent further damage and mold growth. Our emergency water extraction service provides rapid response to minimize damage to your property.</p>
+      
+      <h3>Our Emergency Response Process</h3>
+      <ol>
+        <li><strong>Immediate Assessment:</strong> Evaluate damage extent and safety</li>
+        <li><strong>Water Extraction:</strong> Remove standing water quickly</li>
+        <li><strong>Moisture Detection:</strong> Identify hidden moisture pockets</li>
+        <li><strong>Dehumidification:</strong> Remove moisture from air and materials</li>
+        <li><strong>Sanitization:</strong> Prevent mold and bacterial growth</li>
+        <li><strong>Monitoring:</strong> Track drying progress</li>
+      </ol>
+      
+      <h3>Types of Water Damage We Handle</h3>
+      <ul>
+        <li><strong>Clean Water:</strong> Burst pipes, overflowing sinks</li>
+        <li><strong>Grey Water:</strong> Washing machine overflow, dishwasher leaks</li>
+        <li><strong>Black Water:</strong> Sewage backups, flood water</li>
+        <li><strong>Storm Damage:</strong> Roof leaks, window damage</li>
+      </ul>
+      
+      <h3>Professional Equipment Used</h3>
+      <ul>
+        <li>Industrial-grade water extractors</li>
+        <li>High-powered dehumidifiers</li>
+        <li>Air movers and fans</li>
+        <li>Moisture meters and sensors</li>
+        <li>HEPA air scrubbers</li>
+        <li>Antimicrobial treatments</li>
+      </ul>
+      
+      <h3>Why Speed Matters</h3>
+      <ul>
+        <li>Prevents mold growth (starts within 24-48 hours)</li>
+        <li>Reduces structural damage</li>
+        <li>Saves personal belongings</li>
+        <li>Minimizes restoration costs</li>
+        <li>Prevents health hazards</li>
+      </ul>
+      
+      <h3>What to Do Before We Arrive</h3>
+      <ul>
+        <li>Ensure safety - turn off electricity if safe to do so</li>
+        <li>Remove valuable items from affected area</li>
+        <li>Take photos for insurance purposes</li>
+        <li>Don't use regular vacuum on wet areas</li>
+        <li>Open windows if weather permits</li>
+      </ul>
+      
+      <h3>Insurance Claims Support</h3>
+      <p>We work directly with insurance companies to:</p>
+      <ul>
+        <li>Document damage thoroughly</li>
+        <li>Provide detailed reports</li>
+        <li>Communicate with adjusters</li>
+        <li>Ensure proper claim processing</li>
+      </ul>
+      
+      <p><strong>Emergency Service Available 24/7 - Call (07) 3245 5126 for immediate flood damage response.</strong></p>
+    `
+  },
+  28: {
+    title: 'Commercial Carpet Cleaning',
+    date: '2022-02-19',
+    category: 'Cleaning',
+    content: `
+      <h2>Professional Commercial Carpet Cleaning</h2>
+      <p>Maintain a professional appearance and healthy workplace environment with our commercial carpet cleaning services. We work with businesses of all sizes to keep carpets clean and presentable.</p>
+      
+      <h3>Commercial Spaces We Service</h3>
+      <ul>
+        <li><strong>Offices:</strong> Corporate buildings, small businesses</li>
+        <li><strong>Retail Stores:</strong> Shopping centers, boutiques</li>
+        <li><strong>Restaurants:</strong> Dining areas, function rooms</li>
+        <li><strong>Hotels:</strong> Lobbies, corridors, guest rooms</li>
+        <li><strong>Medical Facilities:</strong> Clinics, waiting rooms</li>
+        <li><strong>Educational:</strong> Schools, universities, training centers</li>
+      </ul>
+      
+      <h3>Our Commercial Cleaning Process</h3>
+      <ol>
+        <li><strong>Site Assessment:</strong> Evaluate carpet condition and traffic patterns</li>
+        <li><strong>Pre-treatment:</strong> Address stains and high-traffic areas</li>
+        <li><strong>Deep Cleaning:</strong> Hot water extraction or dry cleaning</li>
+        <li><strong>Spot Treatment:</strong> Target remaining stains</li>
+        <li><strong>Protection:</strong> Apply carpet protector if requested</li>
+        <li><strong>Quick Drying:</strong> Minimize downtime</li>
+      </ol>
+      
+      <h3>Flexible Scheduling Options</h3>
+      <ul>
+        <li>After-hours cleaning to avoid disruption</li>
+        <li>Weekend and holiday availability</li>
+        <li>Regular maintenance schedules</li>
+        <li>Emergency cleaning services</li>
+        <li>Seasonal deep cleaning programs</li>
+      </ul>
+      
+      <h3>Benefits for Your Business</h3>
+      <ul>
+        <li><strong>Professional Image:</strong> Clean carpets create positive impressions</li>
+        <li><strong>Healthier Environment:</strong> Remove allergens and bacteria</li>
+        <li><strong>Extended Carpet Life:</strong> Regular cleaning prevents premature replacement</li>
+        <li><strong>Cost Savings:</strong> Maintenance is cheaper than replacement</li>
+        <li><strong>Employee Satisfaction:</strong> Clean workplace improves morale</li>
+      </ul>
+      
+      <h3>Specialized Commercial Services</h3>
+      <ul>
+        <li>High-traffic area treatment</li>
+        <li>Stain and odor removal</li>
+        <li>Carpet protection application</li>
+        <li>Emergency spill response</li>
+        <li>Color restoration</li>
+        <li>Anti-static treatment</li>
+      </ul>
+      
+      <h3>Maintenance Programs</h3>
+      <p>We offer customized maintenance programs including:</p>
+      <ul>
+        <li>Monthly deep cleaning</li>
+        <li>Quarterly maintenance</li>
+        <li>Annual restoration cleaning</li>
+        <li>Spot cleaning as needed</li>
+        <li>Preventive treatments</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional commercial carpet cleaning services.</strong></p>
+    `
+  },
+  29: {
+    title: 'End of Lease Bond Cleaning',
+    date: '2022-02-16',
+    category: 'Cleaning',
+    content: `
+      <h2>Professional Bond Cleaning Services</h2>
+      <p>Moving out? Ensure you get your full bond back with our comprehensive end of lease cleaning service. We guarantee our work meets real estate standards.</p>
+      
+      <h3>Our Bond Cleaning Guarantee</h3>
+      <p>We guarantee our bond cleaning will meet real estate agent and property manager standards, or we'll return to fix any issues at no extra cost.</p>
+      
+      <h3>Complete Bond Cleaning Checklist</h3>
+      
+      <h4>Kitchen:</h4>
+      <ul>
+        <li>Clean inside and outside of all appliances</li>
+        <li>Degrease rangehood and filters</li>
+        <li>Clean oven, stovetop, and grill</li>
+        <li>Wipe down all cupboards and drawers</li>
+        <li>Clean sink and taps</li>
+        <li>Mop floors and clean skirting boards</li>
+      </ul>
+      
+      <h4>Bathrooms:</h4>
+      <ul>
+        <li>Remove soap scum and water stains</li>
+        <li>Clean and disinfect toilet</li>
+        <li>Clean shower, bath, and tiles</li>
+        <li>Polish mirrors and fixtures</li>
+        <li>Clean exhaust fans</li>
+        <li>Mop floors and clean grout</li>
+      </ul>
+      
+      <h4>Living Areas & Bedrooms:</h4>
+      <ul>
+        <li>Vacuum and steam clean carpets</li>
+        <li>Clean windows inside and out</li>
+        <li>Dust all surfaces and fixtures</li>
+        <li>Clean light switches and power points</li>
+        <li>Wipe down walls and doors</li>
+        <li>Clean skirting boards and architraves</li>
+      </ul>
+      
+      <h4>Additional Services:</h4>
+      <ul>
+        <li>Garage and storage area cleaning</li>
+        <li>Balcony and outdoor area cleaning</li>
+        <li>Garden maintenance (if required)</li>
+        <li>Pressure washing driveways</li>
+        <li>Blind and curtain cleaning</li>
+      </ul>
+      
+      <h3>Why Choose Professional Bond Cleaning?</h3>
+      <ul>
+        <li><strong>Guaranteed Results:</strong> Meet real estate standards</li>
+        <li><strong>Save Time:</strong> Focus on your move while we clean</li>
+        <li><strong>Professional Equipment:</strong> Industrial-grade cleaning tools</li>
+        <li><strong>Experience:</strong> Know what agents look for</li>
+        <li><strong>Insurance:</strong> Fully insured service</li>
+      </ul>
+      
+      <h3>Booking Your Bond Clean</h3>
+      <p>For best results, book your bond clean:</p>
+      <ul>
+        <li>After all belongings are removed</li>
+        <li>Before the final inspection</li>
+        <li>At least 48 hours in advance</li>
+        <li>During weekdays for faster service</li>
+      </ul>
+      
+      <h3>What's Included in Our Service</h3>
+      <ul>
+        <li>Complete property cleaning</li>
+        <li>Professional carpet cleaning</li>
+        <li>Window cleaning (inside and out)</li>
+        <li>Detailed cleaning checklist</li>
+        <li>Quality assurance inspection</li>
+        <li>Guarantee certificate</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for guaranteed bond cleaning services.</strong></p>
+    `
+  },
+  30: {
+    title: 'Mattress Deep Cleaning',
+    date: '2022-02-13',
+    category: 'Cleaning',
+    content: `
+      <h2>Professional Mattress Cleaning Services</h2>
+      <p>Your mattress harbors dust mites, allergens, and bacteria that can affect your health and sleep quality. Our professional mattress cleaning service provides deep sanitization for healthier sleep.</p>
+      
+      <h3>Why Clean Your Mattress?</h3>
+      <ul>
+        <li><strong>Health Benefits:</strong> Remove allergens and dust mites</li>
+        <li><strong>Better Sleep:</strong> Clean, fresh sleeping environment</li>
+        <li><strong>Odor Removal:</strong> Eliminate unpleasant smells</li>
+        <li><strong>Stain Removal:</strong> Address spills and accidents</li>
+        <li><strong>Extended Life:</strong> Maintain mattress condition</li>
+      </ul>
+      
+      <h3>Our Mattress Cleaning Process</h3>
+      <ol>
+        <li><strong>Pre-inspection:</strong> Assess mattress condition and stains</li>
+        <li><strong>Vacuuming:</strong> Remove surface debris and dust mites</li>
+        <li><strong>Pre-treatment:</strong> Target stains and odor sources</li>
+        <li><strong>Deep Cleaning:</strong> Hot water extraction or dry cleaning</li>
+        <li><strong>Sanitization:</strong> Apply antimicrobial treatment</li>
+        <li><strong>Drying:</strong> Ensure complete moisture removal</li>
+      </ol>
+      
+      <h3>Types of Mattresses We Clean</h3>
+      <ul>
+        <li>Memory foam mattresses</li>
+        <li>Spring and coil mattresses</li>
+        <li>Latex mattresses</li>
+        <li>Pillow-top mattresses</li>
+        <li>Hybrid mattresses</li>
+        <li>Futon mattresses</li>
+      </ul>
+      
+      <h3>Common Issues We Address</h3>
+      <ul>
+        <li><strong>Dust Mites:</strong> Microscopic pests causing allergies</li>
+        <li><strong>Sweat Stains:</strong> Yellow discoloration from body oils</li>
+        <li><strong>Urine Stains:</strong> Pet or child accidents</li>
+        <li><strong>Blood Stains:</strong> From cuts or nosebleeds</li>
+        <li><strong>General Odors:</strong> From pets, smoking, or age</li>
+        <li><strong>Spills:</strong> Food, drinks, or other liquids</li>
+      </ul>
+      
+      <h3>Health Benefits of Clean Mattresses</h3>
+      <ul>
+        <li>Reduced allergy symptoms</li>
+        <li>Better respiratory health</li>
+        <li>Improved sleep quality</li>
+        <li>Reduced skin irritation</li>
+        <li>Elimination of bacteria and germs</li>
+      </ul>
+      
+      <h3>Maintenance Tips</h3>
+      <ul>
+        <li>Use mattress protectors</li>
+        <li>Vacuum regularly with upholstery attachment</li>
+        <li>Rotate mattress every 3 months</li>
+        <li>Address spills immediately</li>
+        <li>Ensure good bedroom ventilation</li>
+        <li>Professional cleaning every 6-12 months</li>
+      </ul>
+      
+      <h3>Additional Services</h3>
+      <ul>
+        <li>Pillow cleaning and sanitization</li>
+        <li>Mattress protector application</li>
+        <li>Bed base cleaning</li>
+        <li>Bedroom carpet cleaning</li>
+        <li>Curtain and blind cleaning</li>
+      </ul>
+      
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional mattress cleaning services.</strong></p>
     `
   }
 };
