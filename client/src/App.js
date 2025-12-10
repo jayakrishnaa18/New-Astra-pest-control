@@ -16,6 +16,8 @@ import HintsTips from './pages/HintsTips';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import Brisbane from './pages/Brisbane';
+import GoldCoast from './pages/GoldCoast';
 
 // Cleaning Service Pages
 import CarpetCleaning from './pages/cleaning/CarpetCleaning';
@@ -93,6 +95,8 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogPost />} />
+              <Route path="/brisbane" element={<Brisbane />} />
+              <Route path="/gold-coast" element={<GoldCoast />} />
             </Routes>
           </main>
           <Footer />
