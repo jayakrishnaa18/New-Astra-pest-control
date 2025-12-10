@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Reviews from '../components/Reviews';
 import './Home.css';
 
 function Home() {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
     const observerOptions = {
@@ -84,32 +83,15 @@ function Home() {
           </div>
           
           <div className="video-showcase">
-            <div className={`mobile-phone-frame ${isVideoPlaying ? 'landscape' : ''}`}>
-              <div className="phone-notch"></div>
-              <div className="phone-buttons">
-                <div className="volume-up"></div>
-                <div className="volume-down"></div>
-                <div className="power-button"></div>
-              </div>
-              <div className="phone-screen">
-                {!isVideoPlaying && (
-                  <div className="play-overlay" onClick={handlePlayVideo}>
-                    <div className="play-button-large">
-                      <svg width="60" height="60" viewBox="0 0 60 60" fill="white">
-                        <path d="M20 15L45 30L20 45V15Z" />
-                      </svg>
-                    </div>
-                  </div>
-                )}
-                <iframe 
-                  src="https://www.youtube.com/embed/aIzVuBFdgVI?si=4Aq1f-xlU5VhNrn-&rel=0&modestbranding=1"
-                  title="Astra Pest Control - Professional Services" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerPolicy="strict-origin-when-cross-origin" 
-                  allowFullScreen
-                ></iframe>
-              </div>
+            <div className="video-container-responsive">
+              <iframe 
+                src="https://www.youtube.com/embed/aIzVuBFdgVI?si=4Aq1f-xlU5VhNrn-&rel=0&modestbranding=1"
+                title="Astra Pest Control - Professional Services" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+              ></iframe>
             </div>
             
             <div className="video-features-grid">
@@ -144,6 +126,16 @@ function Home() {
             <span className="section-label">Our Services</span>
             <h2 className="section-heading">Professional Pest & Termite Solutions for Brisbane & Gold Coast</h2>
             <p className="section-description">Comprehensive protection for your home and business with expert care</p>
+          </div>
+          
+          <div className="services-hero-image">
+            <img 
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70&fm=webp" 
+              alt="Professional pest control technician at work"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
           </div>
           
           <div className="services-grid-new">
