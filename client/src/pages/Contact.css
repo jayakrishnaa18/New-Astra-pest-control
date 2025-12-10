@@ -173,9 +173,10 @@
 
 /* Form Section */
 .form-section-pro {
-  background: #faf8f5;
+  background: #ffffff;
   padding: 48px;
   border-radius: 20px;
+  border: 2px solid #e5e7eb;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
 }
 
