@@ -38,7 +38,7 @@ function PestControl() {
     <div className="service-page">
       <Helmet>
         <title>Pest Control Brisbane & Gold Coast | Professional Pest Removal Services | Astra</title>
-        <meta name="description" content="Professional pest control in Brisbane and Gold Coast. Cockroach, termite, rodent, spider & bed bug removal. Licensed technicians. Same-day service. Call (07) 3245 5126!" />
+        <meta name="description" content="Professional pest control in Brisbane and Gold Coast. Cockroach, termite, rodent, spider & bed bug removal. Licensed technicians. Same-day service. Call 0450 955 420!" />
         <meta name="keywords" content="pest control Brisbane, pest control Gold Coast, pest removal Brisbane, pest removal Gold Coast, cockroach control, termite treatment, rodent control, spider removal, bed bug treatment" />
         <link rel="canonical" href="https://www.astrapest.com.au/pest-control" />
       </Helmet>
@@ -181,7 +181,7 @@ function PestControl() {
             <p>Get a free quote today and protect your home from unwanted pests</p>
             <div className="cta-buttons">
               <Link to="/contact" className="btn-cta-primary">Get Free Quote</Link>
-              <a href="tel:0732455126" className="btn-cta-secondary">Call (07) 3245 5126</a>
+              <a href="tel:0450955420" className="btn-cta-secondary">Call 0450 955 420</a>
             </div>
           </div>
         </div>

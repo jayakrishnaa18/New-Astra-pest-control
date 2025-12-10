@@ -72,7 +72,7 @@ export const blogContent = {
         <li>Safe application methods</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for comprehensive pest control services in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for comprehensive pest control services in Brisbane & Gold Coast.</strong></p>
     `
   },
   2: {
@@ -121,7 +121,7 @@ export const blogContent = {
         <li><strong>Detailed Report:</strong> Comprehensive findings and recommendations</li>
       </ol>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional termite inspections in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional termite inspections in Brisbane & Gold Coast.</strong></p>
     `
   },
   15: {
@@ -160,7 +160,7 @@ export const blogContent = {
         <li>Bubbling or peeling paint</li>
       </ul>
       
-      <p><strong>Protect your Brisbane & Gold Coast home with a professional termite inspection. Call (07) 3245 5126 to book today.</strong></p>
+      <p><strong>Protect your Brisbane & Gold Coast home with a professional termite inspection. Call 0450 955 420 to book today.</strong></p>
     `
   },
   16: {
@@ -200,7 +200,7 @@ export const blogContent = {
         <li>Seal cracks and gaps around doors and windows</li>
       </ul>
       
-      <p><strong>Get rid of ants for good. Call (07) 3245 5126 for professional ant control in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Get rid of ants for good. Call 0450 955 420 for professional ant control in Brisbane & Gold Coast.</strong></p>
     `
   },
   17: {
@@ -241,7 +241,7 @@ export const blogContent = {
         <li>Install insect screens on windows</li>
       </ul>
       
-      <p><strong>Protect your family from dangerous spiders. Call (07) 3245 5126 for professional spider control in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Protect your family from dangerous spiders. Call 0450 955 420 for professional spider control in Brisbane & Gold Coast.</strong></p>
     `
   },
   18: {
@@ -290,7 +290,7 @@ export const blogContent = {
         <li>Remove clutter and potential nesting materials</li>
       </ul>
       
-      <p><strong>Don't let rodents threaten your health and property. Call (07) 3245 5126 for effective rodent control in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Don't let rodents threaten your health and property. Call 0450 955 420 for effective rodent control in Brisbane & Gold Coast.</strong></p>
     `
   },
   3: {
@@ -306,7 +306,7 @@ export const blogContent = {
       <p>Steam cleaning (hot water extraction) is most effective for deep cleaning. Dry cleaning is faster but less thorough.</p>
       <h3>DIY vs Professional</h3>
       <p>Professional equipment extracts more water and dirt, dries faster, and includes pre-treatment and stain removal.</p>
-      <p><strong>Call (07) 3245 5126 for professional carpet cleaning in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Call 0450 955 420 for professional carpet cleaning in Brisbane & Gold Coast.</strong></p>
     `
   },
   4: {
@@ -329,7 +329,7 @@ export const blogContent = {
         <li>Creates healthier living environment</li>
         <li>Extends carpet life</li>
       </ul>
-      <p><strong>Call (07) 3245 5126 for healthy carpet cleaning in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Call 0450 955 420 for healthy carpet cleaning in Brisbane & Gold Coast.</strong></p>
     `
   },
   5: {
@@ -347,7 +347,7 @@ export const blogContent = {
       <p>Mix dish soap with warm water. Blot (don't rub) the stain from outside to center.</p>
       <h3>Step 4: Rinse and Dry</h3>
       <p>Blot with clean water, then dry with towels. Use a fan to speed drying.</p>
-      <p><strong>Stubborn stains? Call (07) 3245 5126 for professional stain removal in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Stubborn stains? Call 0450 955 420 for professional stain removal in Brisbane & Gold Coast.</strong></p>
     `
   },
   7: {
@@ -395,7 +395,7 @@ export const blogContent = {
       
       <p><strong>Important:</strong> Pets also need to be treated at the same time as the property is being sprayed. The best products for this is either "Front line" or "Advantage." Your pets also need to have ongoing flea treatments to keep them free of fleas for the year, usually done on a monthly basis.</p>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional flea treatment in Brisbane.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional flea treatment in Brisbane.</strong></p>
     `
   },
   8: {
@@ -448,7 +448,7 @@ export const blogContent = {
       
       <p>We also dust the roof void with an electric blower. This is placed just inside the man hole cover and the dust settles on the roof floor. This is very effective in eradicating cockroaches from a home.</p>
       
-      <p><strong>Do you have a problem with cockroaches? Call us today at (07) 3245 5126 for free advice. We can help with our environmentally friendly products and we will rid your home or commercial premises of cockroaches.</strong></p>
+      <p><strong>Do you have a problem with cockroaches? Call us today at 0450 955 420 for free advice. We can help with our environmentally friendly products and we will rid your home or commercial premises of cockroaches.</strong></p>
     `
   },
   9: {
@@ -476,7 +476,7 @@ export const blogContent = {
       <h3>Biology and Habits</h3>
       <p>In their natural habitat, silverfish live under bark and in soil, leaf litter and rotting logs. Being nocturnal, they mostly hide during the day, becoming active at night when they are looking for food. They seem to be omnivorous, although they have a preference for materials of vegetable origin.</p>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional silverfish treatment.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional silverfish treatment.</strong></p>
     `
   },
   11: {
@@ -512,7 +512,7 @@ export const blogContent = {
       
       <p>With a severe bed bugs problem it may be wise to have your carpets and mattresses professionally steam cleaned. This should be done before the treatment is carried out. Astra Pest Control are experts in both pest control and carpet cleaning, so this means both services can be carried out on the same day saving you time and money.</p>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional bed bug treatment.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional bed bug treatment.</strong></p>
     `
   },
   12: {
@@ -526,7 +526,7 @@ export const blogContent = {
       <ul><li>Droppings</li><li>Gnaw marks</li><li>Scratching sounds in walls</li><li>Greasy rub marks</li><li>Musky odor</li></ul>
       <h3>Our Treatment</h3>
       <p>Strategic bait station placement, trapping, and exclusion work to prevent re-entry.</p>
-      <p><strong>Call (07) 3245 5126 for rodent control in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Call 0450 955 420 for rodent control in Brisbane & Gold Coast.</strong></p>
     `
   },
   6: {
@@ -653,7 +653,7 @@ export const blogContent = {
       
       <p>Start with these four strategies today, and if you need professional help or want a comprehensive pest inspection, our licensed technicians are ready to help.</p>
       
-      <p><strong>Protect your Brisbane & Gold Coast home this winter. Call (07) 3245 5126 for a professional pest inspection and winter-proofing treatment.</strong></p>
+      <p><strong>Protect your Brisbane & Gold Coast home this winter. Call 0450 955 420 for a professional pest inspection and winter-proofing treatment.</strong></p>
     `
   },
   20: {
@@ -901,7 +901,7 @@ export const blogContent = {
       </ul>
       <p>These records are valuable when selling your property and for insurance claims.</p>
       
-      <p><strong>Ready to start your maintenance schedule? Call (07) 3245 5126 to book your comprehensive home inspection and pest control treatment in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Ready to start your maintenance schedule? Call 0450 955 420 to book your comprehensive home inspection and pest control treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   21: {
@@ -1225,7 +1225,7 @@ export const blogContent = {
       
       <p>Seasonal prevention is far more cost-effective than reactive pest control.</p>
       
-      <p><strong>Stay protected year-round with professional pest control. Call (07) 3245 5126 to schedule your seasonal pest inspection and treatment in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Stay protected year-round with professional pest control. Call 0450 955 420 to schedule your seasonal pest inspection and treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   13: {
@@ -1268,7 +1268,7 @@ export const blogContent = {
       
       <p>Gaps and excess holes need to be fixed to prevent any birds from nesting within the roof void once the treatment has been completed.</p>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional lice treatment in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional lice treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   19: {
@@ -1309,7 +1309,7 @@ export const blogContent = {
         <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/n35VWFvgBgo" title="Carpet Beetle Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional carpet beetle treatment in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional carpet beetle treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   22: {
@@ -1321,7 +1321,7 @@ export const blogContent = {
       <p>Early detection saves money and prevents extensive damage.</p>
       <h3>Warning Signs</h3>
       <ul><li>Droppings or stains</li><li>Gnaw marks</li><li>Mud tubes</li><li>Hollow timber</li><li>Unusual sounds or smells</li></ul>
-      <p><strong>Call (07) 3245 5126 for professional pest inspection.</strong></p>
+      <p><strong>Call 0450 955 420 for professional pest inspection.</strong></p>
     `
   },
   23: {
@@ -1333,7 +1333,7 @@ export const blogContent = {
       <p>Regular pest control is essential insurance against costly damage.</p>
       <h3>Financial Impact</h3>
       <ul><li>Termite damage: $7,000-$10,000</li><li>Rodent damage: $2,000-$5,000</li><li>Prevention: $200-$400 annually</li></ul>
-      <p><strong>Call (07) 3245 5126 to protect your investment.</strong></p>
+      <p><strong>Call 0450 955 420 to protect your investment.</strong></p>
     `
   },
   24: {
@@ -1418,7 +1418,7 @@ export const blogContent = {
         <li>Time and convenience factors</li>
       </ul>
       
-      <p><strong>Get transparent pricing for your Brisbane & Gold Coast property. Call (07) 3245 5126 for a free pest control quote.</strong></p>
+      <p><strong>Get transparent pricing for your Brisbane & Gold Coast property. Call 0450 955 420 for a free pest control quote.</strong></p>
     `
   },
   10: {
@@ -1464,7 +1464,7 @@ export const blogContent = {
         <li>Remove vegetation close to the house</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional spider control in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional spider control in Brisbane & Gold Coast.</strong></p>
     `
   },
   14: {
@@ -1523,7 +1523,7 @@ export const blogContent = {
         <li>Prevention of re-infestation</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for safe wasp and bee removal in Brisbane & Gold Coast.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for safe wasp and bee removal in Brisbane & Gold Coast.</strong></p>
     `
   },
   25: {
@@ -1571,7 +1571,7 @@ export const blogContent = {
         <li>Expert handling of delicate materials</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional rug cleaning services.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional rug cleaning services.</strong></p>
     `
   },
   26: {
@@ -1629,7 +1629,7 @@ export const blogContent = {
         <li>Saves time and effort</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional vehicle interior cleaning.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional vehicle interior cleaning.</strong></p>
     `
   },
   27: {
@@ -1695,7 +1695,7 @@ export const blogContent = {
         <li>Ensure proper claim processing</li>
       </ul>
       
-      <p><strong>Emergency Service Available 24/7 - Call (07) 3245 5126 for immediate flood damage response.</strong></p>
+      <p><strong>Emergency Service Available 24/7 - Call 0450 955 420 for immediate flood damage response.</strong></p>
     `
   },
   28: {
@@ -1764,7 +1764,7 @@ export const blogContent = {
         <li>Preventive treatments</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional commercial carpet cleaning services.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional commercial carpet cleaning services.</strong></p>
     `
   },
   29: {
@@ -1847,7 +1847,7 @@ export const blogContent = {
         <li>Guarantee certificate</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for guaranteed bond cleaning services.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for guaranteed bond cleaning services.</strong></p>
     `
   },
   30: {
@@ -1925,7 +1925,7 @@ export const blogContent = {
         <li>Curtain and blind cleaning</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional mattress cleaning services.</strong></p>
+      <p><strong>Contact Astra Pest Control at 0450 955 420 for professional mattress cleaning services.</strong></p>
     `
   }
 };

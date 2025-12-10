@@ -23,11 +23,11 @@ function ServiceBlog({ title, subtitle, heroImage, content, features, process, c
           <h1 className="service-title-pro">{title}</h1>
           {subtitle && <p className="service-subtitle-pro">{subtitle}</p>}
           <div className="service-cta-buttons-pro">
-            <a href="tel:0732455126" className="btn-call-pro">
+            <a href="tel:0450955420" className="btn-call-pro">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
               </svg>
-              Call (07) 3245 5126
+              Call 0450 955 420
             </a>
             <Link to="/contact" className="btn-quote-pro">Get Free Quote</Link>
           </div>
@@ -117,7 +117,7 @@ function ServiceBlog({ title, subtitle, heroImage, content, features, process, c
             <div className="sidebar-card-pro cta-card-pro">
               <h3>Need Our Services?</h3>
               <p>Get professional cleaning and pest control services today</p>
-              <a href="tel:0732455126" className="cta-btn-sidebar">Call (07) 3245 5126</a>
+              <a href="tel:0450955420" className="cta-btn-sidebar">Call 0450 955 420</a>
               <Link to="/contact" className="cta-btn-sidebar cta-btn-secondary-sidebar">Get Free Quote</Link>
             </div>
 
@@ -155,7 +155,7 @@ function ServiceBlog({ title, subtitle, heroImage, content, features, process, c
             <h2>{cta?.title || 'Need Professional Help?'}</h2>
             <p>{cta?.description || 'Get expert cleaning and pest control services in Brisbane'}</p>
             <div className="cta-actions-bottom-pro">
-              <a href="tel:0732455126" className="cta-btn-primary-bottom-pro">Call (07) 3245 5126</a>
+              <a href="tel:0450955420" className="cta-btn-primary-bottom-pro">Call 0450 955 420</a>
               <Link to="/contact" className="cta-btn-secondary-bottom-pro">Get Free Quote</Link>
             </div>
           </div>

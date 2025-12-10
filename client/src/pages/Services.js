@@ -86,7 +86,7 @@ function Services() {
         <div className="container">
           <h2>Need a Quote?</h2>
           <p style={{fontSize: '18px', marginBottom: '30px'}}>Contact us for a free, no-obligation quote</p>
-          <a href="tel:0732455126" className="btn">Call 07 3245 5126</a>
+          <a href="tel:0450955420" className="btn">Call 07 3245 5126</a>
         </div>
       </section>
     </div>

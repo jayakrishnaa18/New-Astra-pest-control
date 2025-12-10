@@ -35,7 +35,7 @@ function Home() {
     <div className="home">
       <Helmet>
         <title>Pest Control Brisbane & Gold Coast | Termite Inspection & Treatment | Astra Pest Control</title>
-        <meta name="description" content="Expert pest control & termite services in Brisbane and Gold Coast. Licensed technicians, 15+ years experience. Same-day service. 100% guarantee. Call (07) 3245 5126 for free quote!" />
+        <meta name="description" content="Expert pest control & termite services in Brisbane and Gold Coast. Licensed technicians, 15+ years experience. Same-day service. 100% guarantee. Call 0450 955 420 for free quote!" />
         <meta name="keywords" content="pest control Brisbane, pest control Gold Coast, termite control Brisbane, termite control Gold Coast, termite inspection, pest removal, cockroach control, rodent control, surrounding suburbs" />
         <link rel="canonical" href="https://www.astrapest.com.au/" />
       </Helmet>
@@ -54,7 +54,7 @@ function Home() {
               Protecting your home and business with guaranteed results you can trust.
             </p>
             <div className="hero-actions">
-              <a href="tel:0732455126" className="btn-primary">
+              <a href="tel:0450955420" className="btn-primary">
                 <span>Get Started</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
@@ -297,7 +297,7 @@ function Home() {
         <div className="banner-content-full">
           <h2>Professional Equipment & Expert Technicians</h2>
           <p>State-of-the-art truck-mounted machines and trained professionals delivering exceptional results</p>
-          <a href="tel:0732455126" className="btn-banner-full">Call 07 3245 5126</a>
+          <a href="tel:0450955420" className="btn-banner-full">Call 07 3245 5126</a>
         </div>
       </section>
 
@@ -313,7 +313,7 @@ function Home() {
               <p>Contact Brisbane & Gold Coast's most trusted pest and termite control experts</p>
             </div>
             <div className="cta-actions">
-              <a href="tel:0732455126" className="btn-cta-primary">
+              <a href="tel:0450955420" className="btn-cta-primary">
                 <span>07 3245 5126</span>
               </a>
               <Link to="/contact" className="btn-cta-secondary">Get Free Quote</Link>

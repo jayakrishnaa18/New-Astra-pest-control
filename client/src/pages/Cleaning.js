@@ -205,7 +205,7 @@ function Cleaning() {
             <p>Get a free quote today and experience the Astra difference</p>
             <div className="cta-buttons">
               <Link to="/contact" className="btn-cta-primary">Get Free Quote</Link>
-              <a href="tel:0732455126" className="btn-cta-secondary">Call (07) 3245 5126</a>
+              <a href="tel:0450955420" className="btn-cta-secondary">Call 0450 955 420</a>
             </div>
           </div>
         </div>

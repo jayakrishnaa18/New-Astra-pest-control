@@ -56,7 +56,7 @@ function QuoteForm() {
     } catch (error) {
       console.error('Form submission error:', error);
       setStatus('error');
-      setMessage('Unable to submit form online. Please call us directly at 07 3245 5126 or email info@best1cleaning.com');
+      setMessage('Unable to submit form online. Please call us directly at 07 3245 5126 or email Astrapestcontrol.au@gmail.com');
       
       setTimeout(() => {
         setStatus('idle');

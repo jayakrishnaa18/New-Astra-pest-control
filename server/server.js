@@ -186,7 +186,7 @@ app.post('/api/quotes', async (req, res) => {
             <div class="footer">
               <p><strong>Astra Pest Control</strong></p>
               <p>Professional Cleaning & Pest Control Services</p>
-              <p style="margin-top: 10px;">(07) 3245 5126 | info@best1cleaning.com</p>
+              <p style="margin-top: 10px;">0450 955 420 | Astrapestcontrol.au@gmail.com</p>
             </div>
           </div>
         </body>
@@ -277,8 +277,8 @@ app.post('/api/quotes', async (req, res) => {
               <div class="contact-box">
                 <h3> Need Immediate Assistance?</h3>
                 <p style="margin-bottom: 20px; color: #475569;">Our team is available to help you right away</p>
-                <a href="tel:0732455126" class="contact-button">Call (07) 3245 5126</a>
-                <a href="mailto:info@best1cleaning.com" class="contact-button" style="background: #0f172a;">Email Us</a>
+                <a href="tel:0450955420" class="contact-button">Call 0450 955 420</a>
+                <a href="mailto:Astrapestcontrol.au@gmail.com" class="contact-button" style="background: #0f172a;">Email Us</a>
               </div>
 
               <p style="color: #64748b; font-size: 14px; margin-top: 30px;">
@@ -289,7 +289,7 @@ app.post('/api/quotes', async (req, res) => {
             <div class="footer">
               <p><strong>Astra Pest Control</strong></p>
               <p>Brisbane's Trusted Cleaning & Pest Control Experts</p>
-              <p style="margin-top: 10px;"> (07) 3245 5126 | [EMAIL] info@best1cleaning.com</p>
+              <p style="margin-top: 10px;"> 0450 955 420 | [EMAIL] Astrapestcontrol.au@gmail.com</p>
               <p style="margin-top: 15px; font-size: 12px;">Brisbane • Ipswich • Gold Coast • Sunshine Coast</p>
             </div>
           </div>
@@ -327,7 +327,7 @@ app.post('/api/quotes', async (req, res) => {
         console.error('[CRITICAL] Both emails failed!');
         return res.status(500).json({ 
           success: false, 
-          message: 'Unable to send confirmation email. Please call us directly at (07) 3245 5126 or email info@astrapestcontrol.com.au' 
+          message: 'Unable to send confirmation email. Please call us directly at 0450 955 420 or email Astrapestcontrol.au@gmail.com.au' 
         });
       }
 
@@ -341,7 +341,7 @@ app.post('/api/quotes', async (req, res) => {
       console.error('[ERROR] Email system error:', emailError.message);
       return res.status(500).json({ 
         success: false, 
-        message: 'Unable to send request. Please call us at (07) 3245 5126 or email info@astrapestcontrol.com.au' 
+        message: 'Unable to send request. Please call us at 0450 955 420 or email Astrapestcontrol.au@gmail.com.au' 
       });
     }
 

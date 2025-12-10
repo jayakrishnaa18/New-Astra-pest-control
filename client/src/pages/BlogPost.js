@@ -82,7 +82,7 @@ function BlogPost() {
             <div className="sidebar-card cta-card">
               <h3>Need Our Services?</h3>
               <p>Get professional cleaning and pest control services today</p>
-              <a href="tel:0732455126" className="cta-btn">Call (07) 3245 5126</a>
+              <a href="tel:0450955420" className="cta-btn">Call 0450 955 420</a>
               <Link to="/contact" className="cta-btn cta-btn-secondary">Get Free Quote</Link>
             </div>
 

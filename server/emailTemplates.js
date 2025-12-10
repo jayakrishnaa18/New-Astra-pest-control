@@ -135,7 +135,7 @@ const customerEmailTemplate = (name, service, timeframe) => `
                   <td style="background-color: #ffffff; width: 80px; height: 80px; border-radius: 50%; text-align: center; font-size: 40px; line-height: 80px;">✅</td>
                 </tr>
               </table>
-              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: bold;">Quote Request Received!</h1>
+              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: bold;">[OK] Request Received!</h1>
               <p style="color: #ffffff; margin: 10px 0 0 0; font-size: 16px;">We'll contact you within 24 hours</p>
             </td>
           </tr>
@@ -177,19 +177,19 @@ const customerEmailTemplate = (name, service, timeframe) => `
             </td>
           </tr>
           
-          <!-- Why Choose Us -->
+          <!-- What Happens Next -->
           <tr>
             <td style="padding: 0 20px 25px 20px;">
-              <h3 style="color: #0f172a; font-size: 18px; margin: 0 0 20px 0;">Why Choose Astra Pest Control?</h3>
+              <h3 style="color: #0f172a; font-size: 18px; margin: 0 0 20px 0;">What Happens Next?</h3>
               
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
                 <tr>
                   <td width="50" valign="top">
-                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">🏆</div>
+                    <div style="width: 40px; height: 40px; background-color: #dc2626; border-radius: 50%; text-align: center; line-height: 40px; font-size: 20px; color: #ffffff;"></div>
                   </td>
                   <td valign="top">
-                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">15+ Years Experience</p>
-                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Trusted pest control experts serving Brisbane & Gold Coast since 2008</p>
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Review & Assessment</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Our team reviews your request and prepares a customized quote</p>
                   </td>
                 </tr>
               </table>
@@ -197,23 +197,11 @@ const customerEmailTemplate = (name, service, timeframe) => `
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
                 <tr>
                   <td width="50" valign="top">
-                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">✅</div>
+                    <div style="width: 40px; height: 40px; background-color: #dc2626; border-radius: 50%; text-align: center; line-height: 40px; font-size: 20px; color: #ffffff;"></div>
                   </td>
                   <td valign="top">
-                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">100% Satisfaction Guarantee</p>
-                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">We stand behind our work with a complete satisfaction guarantee</p>
-                  </td>
-                </tr>
-              </table>
-              
-              <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 15px;">
-                <tr>
-                  <td width="50" valign="top">
-                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">🔒</div>
-                  </td>
-                  <td valign="top">
-                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Licensed & Insured</p>
-                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Fully licensed technicians with comprehensive insurance coverage</p>
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Personal Contact</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">We'll call you at 07569411814 within 24 hours</p>
                   </td>
                 </tr>
               </table>
@@ -221,11 +209,11 @@ const customerEmailTemplate = (name, service, timeframe) => `
               <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                   <td width="50" valign="top">
-                    <div style="width: 40px; height: 40px; background-color: #fef2f2; text-align: center; line-height: 40px; font-size: 20px;">⚡</div>
+                    <div style="width: 40px; height: 40px; background-color: #dc2626; border-radius: 50%; text-align: center; line-height: 40px; font-size: 20px; color: #ffffff;"></div>
                   </td>
                   <td valign="top">
-                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Same-Day Service Available</p>
-                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Fast response times for urgent pest control needs</p>
+                    <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">Service Delivery</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Schedule your service at a convenient time</p>
                   </td>
                 </tr>
               </table>
@@ -240,7 +228,7 @@ const customerEmailTemplate = (name, service, timeframe) => `
                   <td style="text-align: center;">
                     <h3 style="color: #991b1b; font-size: 18px; margin: 0 0 10px 0;">Need Immediate Assistance?</h3>
                     <p style="color: #7f1d1d; font-size: 14px; margin: 0 0 20px 0;">Our team is ready to help you right now</p>
-                    <a href="tel:0732455126" style="display: inline-block; background-color: #dc2626; color: #ffffff; padding: 14px 30px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 15px;">📞 Call (07) 3245 5126</a>
+                    <a href="tel:0450955420" style="display: inline-block; background-color: #dc2626; color: #ffffff; padding: 14px 30px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 15px;">📞 Call 0450 955 420</a>
                   </td>
                 </tr>
               </table>
@@ -258,14 +246,14 @@ const customerEmailTemplate = (name, service, timeframe) => `
           <tr>
             <td style="background-color: #0f172a; padding: 30px 20px; text-align: center;">
               <p style="color: #ffffff; font-size: 18px; font-weight: bold; margin: 0 0 10px 0;">Astra Pest Control</p>
-              <p style="color: #cbd5e1; font-size: 14px; margin: 0 0 15px 0;">Brisbane & Gold Coast' Trusted Pest & Termite Control Experts</p>
+              <p style="color: #cbd5e1; font-size: 14px; margin: 0 0 15px 0;">Brisbane's Trusted Cleaning & Pest Control Experts</p>
               <p style="color: #94a3b8; font-size: 14px; margin: 5px 0;">
-                <a href="tel:0732455126" style="color: #dc2626; text-decoration: none;">(07) 3245 5126</a>
+                <a href="tel:0450955420" style="color: #dc2626; text-decoration: none;">0450 955 420</a>
               </p>
               <p style="color: #94a3b8; font-size: 14px; margin: 5px 0;">
-                <a href="mailto:info@astrapestcontrol.com.au" style="color: #dc2626; text-decoration: none;">info@astrapestcontrol.com.au</a>
+                <a href="mailto:Astrapestcontrol.au@gmail.com" style="color: #dc2626; text-decoration: none;">Astrapestcontrol.au@gmail.com</a>
               </p>
-              <p style="color: #94a3b8; font-size: 13px; margin: 15px 0 0 0;">Serving Brisbane & Gold Coast & Surrounding Suburbs</p>
+              <p style="color: #94a3b8; font-size: 13px; margin: 15px 0 0 0;">Brisbane • Ipswich • Gold Coast • Sunshine Coast</p>
               <p style="color: #64748b; font-size: 12px; margin: 15px 0 0 0;">© 2025 Astra Pest Control. All rights reserved.</p>
             </td>
           </tr>

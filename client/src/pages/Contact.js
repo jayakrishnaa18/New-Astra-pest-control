@@ -21,7 +21,7 @@ function Contact() {
       <section className="quick-contact">
         <div className="container">
           <div className="quick-cards">
-            <a href="tel:0732455126" className="quick-card">
+            <a href="tel:0450955420" className="quick-card">
               <div className="quick-icon phone-icon">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
                   <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="currentColor" strokeWidth="2"/>
@@ -29,12 +29,12 @@ function Contact() {
               </div>
               <div className="quick-content">
                 <h3>Call Us Now</h3>
-                <p>(07) 3245 5126</p>
+                <p>0450 955 420</p>
                 <span className="quick-badge">Available 24/7</span>
               </div>
             </a>
 
-            <a href="mailto:info@best1cleaning.com" className="quick-card">
+            <a href="mailto:Astrapestcontrol.au@gmail.com" className="quick-card">
               <div className="quick-icon email-icon">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
                   <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" strokeWidth="2"/>
@@ -42,7 +42,7 @@ function Contact() {
               </div>
               <div className="quick-content">
                 <h3>Email Us</h3>
-                <p>info@best1cleaning.com</p>
+                <p>Astrapestcontrol.au@gmail.com</p>
                 <span className="quick-badge">Reply within 24hrs</span>
               </div>
             </a>
@@ -142,8 +142,8 @@ function Contact() {
                 </div>
                 <h3>Need Emergency Service?</h3>
                 <p>We're available 24/7 for urgent pest control and flood extraction services</p>
-                <a href="tel:0732455126" className="emergency-btn">
-                  Call Now: (07) 3245 5126
+                <a href="tel:0450955420" className="emergency-btn">
+                  Call Now: 0450 955 420
                 </a>
               </div>
             </div>
