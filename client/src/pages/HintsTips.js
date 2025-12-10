@@ -2,20 +2,20 @@ import React, { useEffect, useState } from 'react';
 import './HintsTips.css';
 import { Link } from 'react-router-dom';
 
-// Pest and termite tips for Richlands
+// Pest and termite tips for Brisbane and Gold Coast
 const pestTips = [
-  { title: 'Termite Prevention for Richlands Homes', category: 'Termites', excerpt: 'Protect your Richlands property with regular termite inspections and prevention strategies.', link: '/blog/2', image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400&q=80' },
-  { title: 'Cockroach Control Solutions', category: 'Cockroaches', excerpt: 'Effective cockroach control strategies for Richlands homeowners and businesses.', link: '/blog/8', image: 'https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=400&q=80' },
+  { title: 'Termite Prevention for Brisbane & Gold Coast Homes', category: 'Termites', excerpt: 'Protect your Brisbane or Gold Coast property with regular termite inspections and prevention strategies.', link: '/blog/2', image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400&q=80' },
+  { title: 'Cockroach Control Solutions', category: 'Cockroaches', excerpt: 'Effective cockroach control strategies for Brisbane and Gold Coast homeowners and businesses.', link: '/blog/8', image: 'https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=400&q=80' },
   { title: 'Ant Prevention Strategies', category: 'Ants', excerpt: 'Stop ant invasions before they start with professional ant control methods.', link: '/blog/16', image: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=400&q=80' },
-  { title: 'Spider Control Methods', category: 'Spiders', excerpt: 'Safe and effective spider removal methods for Richlands homes.', link: '/blog/17', image: 'https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?w=400&q=80' },
-  { title: 'Rodent Prevention Tips', category: 'Rodents', excerpt: 'Keep rats and mice out of your Richlands home with professional strategies.', link: '/blog/18', image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400&q=80' },
-  { title: 'Bed Bug Detection Guide', category: 'Bed Bugs', excerpt: 'Complete bed bug elimination guide for Richlands homeowners.', link: '/blog/11', image: 'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=400&q=80' },
+  { title: 'Spider Control Methods', category: 'Spiders', excerpt: 'Safe and effective spider removal methods for Brisbane and Gold Coast homes.', link: '/blog/17', image: 'https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?w=400&q=80' },
+  { title: 'Rodent Prevention Tips', category: 'Rodents', excerpt: 'Keep rats and mice out of your Brisbane or Gold Coast home with professional strategies.', link: '/blog/18', image: 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400&q=80' },
+  { title: 'Bed Bug Detection Guide', category: 'Bed Bugs', excerpt: 'Complete bed bug elimination guide for Brisbane and Gold Coast homeowners.', link: '/blog/11', image: 'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=400&q=80' },
   { title: 'Flea Control for Pet Owners', category: 'Fleas', excerpt: 'Protect your pets and family with comprehensive flea control solutions.', link: '/blog/7', image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&q=80' },
-  { title: 'Silverfish Elimination', category: 'Silverfish', excerpt: 'Eliminate silverfish from your Richlands home with professional methods.', link: '/blog/9', image: 'https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=400&q=80' },
-  { title: 'Wasp and Bee Safety', category: 'Wasps & Bees', excerpt: 'Safe wasp and bee removal services for Richlands properties.', link: '/blog/14', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80' },
-  { title: 'Seasonal Pest Prevention', category: 'Prevention', excerpt: 'Year-round pest protection guide for Richlands homeowners.', link: '/blog/6', image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&q=80' },
-  { title: 'Commercial Pest Control', category: 'Commercial', excerpt: 'Professional pest control services for Richlands businesses.', link: '/blog/20', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80' },
-  { title: 'Eco-Friendly Pest Solutions', category: 'Eco-Friendly', excerpt: 'Safe, eco-friendly pest control methods for Richlands families.', link: '/blog/23', image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&q=80' }
+  { title: 'Silverfish Elimination', category: 'Silverfish', excerpt: 'Eliminate silverfish from your Brisbane or Gold Coast home with professional methods.', link: '/blog/9', image: 'https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=400&q=80' },
+  { title: 'Wasp and Bee Safety', category: 'Wasps & Bees', excerpt: 'Safe wasp and bee removal services for Brisbane and Gold Coast properties.', link: '/blog/14', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80' },
+  { title: 'Seasonal Pest Prevention', category: 'Prevention', excerpt: 'Year-round pest protection guide for Brisbane and Gold Coast homeowners.', link: '/blog/6', image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&q=80' },
+  { title: 'Commercial Pest Control', category: 'Commercial', excerpt: 'Professional pest control services for Brisbane and Gold Coast businesses.', link: '/blog/20', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80' },
+  { title: 'Eco-Friendly Pest Solutions', category: 'Eco-Friendly', excerpt: 'Safe, eco-friendly pest control methods for Brisbane and Gold Coast families.', link: '/blog/23', image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&q=80' }
 ];
 
 const HintsTips = () => {
@@ -48,7 +48,7 @@ const HintsTips = () => {
     <div className="hints-tips">
       <section className="page-hero">
         <h1>Hints & Tips</h1>
-        <p>Professional tips and expert advice to protect your Richlands home from pests and termites</p>
+        <p>Professional tips and expert advice to protect your Brisbane and Gold Coast home from pests and termites</p>
       </section>
 
       <div className="container tips-content">
@@ -74,7 +74,7 @@ const HintsTips = () => {
             <div></div>
             <div className="tip-content">
               <h2>Seal Entry Points</h2>
-              <p>Most pests enter through small cracks and gaps. Regularly inspect and seal entry points around your Richlands home.</p>
+              <p>Most pests enter through small cracks and gaps. Regularly inspect and seal entry points around your Brisbane or Gold Coast home.</p>
               <p>Focus on areas around pipes, windows, doors, and where utilities enter your home. Use appropriate sealants for different materials.</p>
               <div className="tip-callout">
                 <strong>Pro Tip:</strong> A gap as small as a credit card can allow cockroaches and other pests to enter your home.
@@ -86,7 +86,7 @@ const HintsTips = () => {
             <div className="tip-number">03</div>
             <div className="tip-content">
               <h2>Choose Professional Pest Control</h2>
-              <p>When selecting pest control services, look for licensed technicians with local Richlands experience and proven track records.</p>
+              <p>When selecting pest control services, look for licensed technicians with local Brisbane and Gold Coast experience and proven track records.</p>
               
               <div className="experience-badge">
                 <div className="badge-icon">🛡️</div>

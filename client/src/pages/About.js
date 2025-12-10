@@ -14,7 +14,7 @@ function About() {
               Since 2008
             </div>
             <h1 className="glitch-text">About Astra Pest Control</h1>
-            <p>Richlands' Most Trusted Pest & Termite Control Experts</p>
+            <p>Brisbane & Gold Coast's Most Trusted Pest & Termite Control Experts</p>
             <div className="scroll-indicator">
               <div className="mouse">
                 <div className="wheel"></div>
@@ -92,8 +92,8 @@ function About() {
             </div>
             <div className="story-text">
               <span className="section-label-modern">Our Story</span>
-              <h2>Leading Pest & Termite Control in Richlands</h2>
-              <p>Astra Pest Control was established over 15 years ago and operates as the leading pest and termite control service in Richlands and surrounding suburbs.</p>
+              <h2>Leading Pest & Termite Control in Brisbane & Gold Coast</h2>
+              <p>Astra Pest Control was established over 15 years ago and operates as the leading pest and termite control service in Brisbane, Gold Coast and surrounding suburbs.</p>
               <p>Our clients are covered with full public liability insurance and all our products are environmentally friendly. We provide exceptional service to both residential and commercial customers.</p>
               
               <div className="features-modern">
@@ -203,12 +203,12 @@ function About() {
         <div className="container">
           <div className="section-header-center">
             <span className="section-label-modern">Our Location</span>
-            <h2>Serving Richlands & Surrounding Areas</h2>
-            <p>Proudly serving Richlands, Inala, Darra, Wacol, Ellen Grove, Forest Lake, and surrounding suburbs</p>
+            <h2>Serving Brisbane, Gold Coast & Surrounding Areas</h2>
+            <p>Proudly serving Brisbane, Gold Coast, Logan, Ipswich, Redlands, Moreton Bay, Scenic Rim, and all surrounding suburbs</p>
           </div>
           <div className="map-container">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.234567890123!2d152.8947!3d-27.6167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b914f0c0c0c0c0d%3A0x502a35af3deaf40!2sRichlands%20QLD%204077%2C%20Australia!5e0!3m2!1sen!2sau!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0726046149!2d152.8412!3d-27.4698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD%2C%20Australia!5e0!3m2!1sen!2sau!4v1234567890"
               width="100%" 
               height="500" 
               style={{ border: 0, borderRadius: '20px' }}
@@ -225,7 +225,7 @@ function About() {
         <div className="container">
           <div className="cta-content-modern">
             <h2>Ready to Experience the Difference?</h2>
-            <p>Join thousands of satisfied customers across Richlands and surrounding suburbs</p>
+            <p>Join thousands of satisfied customers across Brisbane, Gold Coast and surrounding suburbs</p>
             <div className="cta-buttons-modern">
               <a href="tel:0732455126" className="btn-modern-primary">
                 <span className="btn-icon">

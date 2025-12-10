@@ -17,7 +17,7 @@ const adminEmailTemplate = (name, email, phone, service, timeframe, message) => 
           <tr>
             <td style="background-color: #dc2626; padding: 40px 30px; text-align: center;">
               <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: bold;">🚨 New Quote Request</h1>
-              <p style="color: #ffffff; margin: 10px 0 0 0; font-size: 16px;">Astra Pest Control - Richlands</p>
+              <p style="color: #ffffff; margin: 10px 0 0 0; font-size: 16px;">Astra Pest Control - Brisbane & Gold Coast</p>
             </td>
           </tr>
           
@@ -98,7 +98,7 @@ const adminEmailTemplate = (name, email, phone, service, timeframe, message) => 
           <tr>
             <td style="background-color: #0f172a; padding: 30px; text-align: center;">
               <p style="color: #ffffff; font-size: 18px; font-weight: bold; margin: 0 0 10px 0;">Astra Pest Control</p>
-              <p style="color: #94a3b8; font-size: 14px; margin: 0 0 15px 0;">Richlands & Surrounding Suburbs</p>
+              <p style="color: #94a3b8; font-size: 14px; margin: 0 0 15px 0;">Brisbane & Gold Coast & Surrounding Suburbs</p>
               <p style="color: #94a3b8; font-size: 13px; margin: 0;">
                 <a href="tel:0732455126" style="color: #dc2626; text-decoration: none;">(07) 3245 5126</a> | 
                 <a href="mailto:info@astrapestcontrol.com.au" style="color: #dc2626; text-decoration: none;">info@astrapestcontrol.com.au</a>
@@ -189,7 +189,7 @@ const customerEmailTemplate = (name, service, timeframe) => `
                   </td>
                   <td valign="top">
                     <p style="margin: 0 0 5px 0; color: #0f172a; font-size: 15px; font-weight: 600;">15+ Years Experience</p>
-                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Trusted pest control experts serving Richlands since 2008</p>
+                    <p style="margin: 0; color: #64748b; font-size: 14px; line-height: 1.4;">Trusted pest control experts serving Brisbane & Gold Coast since 2008</p>
                   </td>
                 </tr>
               </table>
@@ -258,14 +258,14 @@ const customerEmailTemplate = (name, service, timeframe) => `
           <tr>
             <td style="background-color: #0f172a; padding: 30px 20px; text-align: center;">
               <p style="color: #ffffff; font-size: 18px; font-weight: bold; margin: 0 0 10px 0;">Astra Pest Control</p>
-              <p style="color: #cbd5e1; font-size: 14px; margin: 0 0 15px 0;">Richlands' Trusted Pest & Termite Control Experts</p>
+              <p style="color: #cbd5e1; font-size: 14px; margin: 0 0 15px 0;">Brisbane & Gold Coast' Trusted Pest & Termite Control Experts</p>
               <p style="color: #94a3b8; font-size: 14px; margin: 5px 0;">
                 <a href="tel:0732455126" style="color: #dc2626; text-decoration: none;">(07) 3245 5126</a>
               </p>
               <p style="color: #94a3b8; font-size: 14px; margin: 5px 0;">
                 <a href="mailto:info@astrapestcontrol.com.au" style="color: #dc2626; text-decoration: none;">info@astrapestcontrol.com.au</a>
               </p>
-              <p style="color: #94a3b8; font-size: 13px; margin: 15px 0 0 0;">Serving Richlands & Surrounding Suburbs</p>
+              <p style="color: #94a3b8; font-size: 13px; margin: 15px 0 0 0;">Serving Brisbane & Gold Coast & Surrounding Suburbs</p>
               <p style="color: #64748b; font-size: 12px; margin: 15px 0 0 0;">© 2025 Astra Pest Control. All rights reserved.</p>
             </td>
           </tr>

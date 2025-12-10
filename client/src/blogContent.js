@@ -1,13 +1,13 @@
 export const blogContent = {
   1: {
-    title: 'Complete Guide to Pest Control in Richlands: Protect Your Home',
+    title: 'Complete Guide to Pest Control in Brisbane & Gold Coast: Protect Your Home',
     date: '2024-11-22',
     category: 'Pest Control',
     content: `
-      <h2>Complete Guide to Pest Control in Richlands</h2>
-      <p>Richlands homeowners face unique pest challenges due to our subtropical climate and urban environment. This comprehensive guide covers everything you need to know about protecting your home from common pests.</p>
+      <h2>Complete Guide to Pest Control in Brisbane & Gold Coast</h2>
+      <p>Brisbane & Gold Coast homeowners face unique pest challenges due to our subtropical climate and urban environment. This comprehensive guide covers everything you need to know about protecting your home from common pests.</p>
       
-      <h3>Common Pests in Richlands</h3>
+      <h3>Common Pests in Brisbane & Gold Coast</h3>
       <ul>
         <li><strong>Termites:</strong> The most destructive pest, causing millions in damage annually</li>
         <li><strong>Cockroaches:</strong> Health hazards that multiply rapidly</li>
@@ -72,16 +72,16 @@ export const blogContent = {
         <li>Safe application methods</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for comprehensive pest control services in Richlands.</strong></p>
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for comprehensive pest control services in Brisbane & Gold Coast.</strong></p>
     `
   },
   2: {
-    title: 'Termite Inspection Richlands: When and Why You Need Professional Help',
+    title: 'Termite Inspection Brisbane & Gold Coast: When and Why You Need Professional Help',
     date: '2024-11-28',
     category: 'Pest Control',
     content: `
-      <h2>Professional Termite Inspection in Richlands</h2>
-      <p>Termites cause billions of dollars in property damage annually in Australia. For Richlands homeowners, regular termite inspections are essential protection against these destructive pests.</p>
+      <h2>Professional Termite Inspection in Brisbane & Gold Coast</h2>
+      <p>Termites cause billions of dollars in property damage annually in Australia. For Brisbane & Gold Coast homeowners, regular termite inspections are essential protection against these destructive pests.</p>
       
       <h3>Why Termite Inspections Are Critical</h3>
       <ul>
@@ -94,7 +94,7 @@ export const blogContent = {
       
       <h3>When to Schedule Inspections</h3>
       <ul>
-        <li><strong>Annual Inspections:</strong> Recommended for all Richlands homes</li>
+        <li><strong>Annual Inspections:</strong> Recommended for all Brisbane & Gold Coast homes</li>
         <li><strong>Before Purchase:</strong> Essential for property buyers</li>
         <li><strong>After Treatment:</strong> Monitor treatment effectiveness</li>
         <li><strong>Seasonal Checks:</strong> Especially before termite season</li>
@@ -121,16 +121,16 @@ export const blogContent = {
         <li><strong>Detailed Report:</strong> Comprehensive findings and recommendations</li>
       </ol>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional termite inspections in Richlands.</strong></p>
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional termite inspections in Brisbane & Gold Coast.</strong></p>
     `
   },
   15: {
-    title: 'Termite Inspection Richlands: When and Why You Need Professional Help',
+    title: 'Termite Inspection Brisbane & Gold Coast: When and Why You Need Professional Help',
     date: '2024-12-08',
     category: 'Pest Control',
     content: `
-      <h2>Why Termite Inspections Are Essential in Richlands</h2>
-      <p>Richlands' warm, humid climate creates perfect conditions for termite activity. Regular termite inspections are your first line of defense against costly structural damage.</p>
+      <h2>Why Termite Inspections Are Essential in Brisbane & Gold Coast</h2>
+      <p>Brisbane & Gold Coast' warm, humid climate creates perfect conditions for termite activity. Regular termite inspections are your first line of defense against costly structural damage.</p>
       
       <h3>What Is a Termite Inspection?</h3>
       <p>A professional termite inspection involves a licensed technician thoroughly examining your property for signs of termite activity, damage, and conducive conditions. Using specialized equipment including moisture meters and thermal imaging, we identify:</p>
@@ -142,7 +142,7 @@ export const blogContent = {
       </ul>
       
       <h3>How Often Should You Get Inspected?</h3>
-      <p>Australian Standards recommend annual termite inspections for all properties. However, Richlands homes may need more frequent inspections if:</p>
+      <p>Australian Standards recommend annual termite inspections for all properties. However, Brisbane & Gold Coast homes may need more frequent inspections if:</p>
       <ul>
         <li>Previous termite activity has been detected</li>
         <li>Your property is in a high-risk area</li>
@@ -160,18 +160,18 @@ export const blogContent = {
         <li>Bubbling or peeling paint</li>
       </ul>
       
-      <p><strong>Protect your Richlands home with a professional termite inspection. Call (07) 3245 5126 to book today.</strong></p>
+      <p><strong>Protect your Brisbane & Gold Coast home with a professional termite inspection. Call (07) 3245 5126 to book today.</strong></p>
     `
   },
   16: {
-    title: 'Ant Control Richlands: Stop Ant Invasions Before They Start',
+    title: 'Ant Control Brisbane & Gold Coast: Stop Ant Invasions Before They Start',
     date: '2024-12-08',
     category: 'Pest Control',
     content: `
-      <h2>Effective Ant Control in Richlands</h2>
-      <p>Ants are one of the most common pest problems in Richlands homes. While they may seem harmless, ant infestations can contaminate food, damage property, and some species can even bite.</p>
+      <h2>Effective Ant Control in Brisbane & Gold Coast</h2>
+      <p>Ants are one of the most common pest problems in Brisbane & Gold Coast homes. While they may seem harmless, ant infestations can contaminate food, damage property, and some species can even bite.</p>
       
-      <h3>Common Ant Species in Richlands</h3>
+      <h3>Common Ant Species in Brisbane & Gold Coast</h3>
       
       <h4>Black House Ants</h4>
       <p>Small black ants that form trails to food sources. They nest in wall cavities, under paving, and in garden beds.</p>
@@ -200,18 +200,18 @@ export const blogContent = {
         <li>Seal cracks and gaps around doors and windows</li>
       </ul>
       
-      <p><strong>Get rid of ants for good. Call (07) 3245 5126 for professional ant control in Richlands.</strong></p>
+      <p><strong>Get rid of ants for good. Call (07) 3245 5126 for professional ant control in Brisbane & Gold Coast.</strong></p>
     `
   },
   17: {
-    title: 'Spider Control Richlands: Safe and Effective Removal Methods',
+    title: 'Spider Control Brisbane & Gold Coast: Safe and Effective Removal Methods',
     date: '2024-12-07',
     category: 'Pest Control',
     content: `
-      <h2>Professional Spider Control in Richlands</h2>
-      <p>While most spiders are harmless, some species in the Richlands area can pose serious health risks. Professional spider control protects your family and provides peace of mind.</p>
+      <h2>Professional Spider Control in Brisbane & Gold Coast</h2>
+      <p>While most spiders are harmless, some species in the Brisbane & Gold Coast area can pose serious health risks. Professional spider control protects your family and provides peace of mind.</p>
       
-      <h3>Dangerous Spiders in Richlands</h3>
+      <h3>Dangerous Spiders in Brisbane & Gold Coast</h3>
       
       <h4>Redback Spider</h4>
       <p>Easily identified by the red stripe on their back, redbacks have a venomous bite that requires medical attention. They hide in dark, sheltered spots like garden sheds, under outdoor furniture, and in letterboxes.</p>
@@ -241,16 +241,16 @@ export const blogContent = {
         <li>Install insect screens on windows</li>
       </ul>
       
-      <p><strong>Protect your family from dangerous spiders. Call (07) 3245 5126 for professional spider control in Richlands.</strong></p>
+      <p><strong>Protect your family from dangerous spiders. Call (07) 3245 5126 for professional spider control in Brisbane & Gold Coast.</strong></p>
     `
   },
   18: {
-    title: 'Rodent Control Richlands: Rats and Mice Prevention Guide',
+    title: 'Rodent Control Brisbane & Gold Coast: Rats and Mice Prevention Guide',
     date: '2024-12-06',
     category: 'Pest Control',
     content: `
-      <h2>Professional Rodent Control in Richlands</h2>
-      <p>Rats and mice are more than just a nuisance—they pose serious health risks and can cause significant property damage. Richlands' suburban environment provides ideal conditions for rodent populations to thrive.</p>
+      <h2>Professional Rodent Control in Brisbane & Gold Coast</h2>
+      <p>Rats and mice are more than just a nuisance—they pose serious health risks and can cause significant property damage. Brisbane & Gold Coast' suburban environment provides ideal conditions for rodent populations to thrive.</p>
       
       <h3>Health Risks of Rodents</h3>
       <p>Rodents carry and transmit numerous diseases including:</p>
@@ -290,11 +290,11 @@ export const blogContent = {
         <li>Remove clutter and potential nesting materials</li>
       </ul>
       
-      <p><strong>Don't let rodents threaten your health and property. Call (07) 3245 5126 for effective rodent control in Richlands.</strong></p>
+      <p><strong>Don't let rodents threaten your health and property. Call (07) 3245 5126 for effective rodent control in Brisbane & Gold Coast.</strong></p>
     `
   },
   3: {
-    title: 'Guide to Carpet Cleaning Richlands – All Your Questions Answered',
+    title: 'Guide to Carpet Cleaning Brisbane & Gold Coast – All Your Questions Answered',
     date: '2022-04-26',
     category: 'Cleaning',
     content: `
@@ -306,11 +306,11 @@ export const blogContent = {
       <p>Steam cleaning (hot water extraction) is most effective for deep cleaning. Dry cleaning is faster but less thorough.</p>
       <h3>DIY vs Professional</h3>
       <p>Professional equipment extracts more water and dirt, dries faster, and includes pre-treatment and stain removal.</p>
-      <p><strong>Call (07) 3245 5126 for professional carpet cleaning in Richlands.</strong></p>
+      <p><strong>Call (07) 3245 5126 for professional carpet cleaning in Brisbane & Gold Coast.</strong></p>
     `
   },
   4: {
-    title: '10 Health Benefits Of Carpet Cleaning for Richlands Families',
+    title: '10 Health Benefits Of Carpet Cleaning for Brisbane & Gold Coast Families',
     date: '2022-04-19',
     category: 'Cleaning',
     content: `
@@ -329,11 +329,11 @@ export const blogContent = {
         <li>Creates healthier living environment</li>
         <li>Extends carpet life</li>
       </ul>
-      <p><strong>Call (07) 3245 5126 for healthy carpet cleaning in Richlands.</strong></p>
+      <p><strong>Call (07) 3245 5126 for healthy carpet cleaning in Brisbane & Gold Coast.</strong></p>
     `
   },
   5: {
-    title: '4 Easy Steps To Get Mud Stains Out Of Carpet - Richlands Guide',
+    title: '4 Easy Steps To Get Mud Stains Out Of Carpet - Brisbane & Gold Coast Guide',
     date: '2017-08-29',
     category: 'Cleaning',
     content: `
@@ -347,11 +347,11 @@ export const blogContent = {
       <p>Mix dish soap with warm water. Blot (don't rub) the stain from outside to center.</p>
       <h3>Step 4: Rinse and Dry</h3>
       <p>Blot with clean water, then dry with towels. Use a fan to speed drying.</p>
-      <p><strong>Stubborn stains? Call (07) 3245 5126 for professional stain removal in Richlands.</strong></p>
+      <p><strong>Stubborn stains? Call (07) 3245 5126 for professional stain removal in Brisbane & Gold Coast.</strong></p>
     `
   },
   7: {
-    title: 'Flea Control Richlands: Protect Your Pets and Family',
+    title: 'Flea Control Brisbane & Gold Coast: Protect Your Pets and Family',
     date: '2024-11-21',
     category: 'Pest Control',
     content: `
@@ -399,7 +399,7 @@ export const blogContent = {
     `
   },
   8: {
-    title: 'Cockroach Control Richlands: Effective Solutions for Your Home',
+    title: 'Cockroach Control Brisbane & Gold Coast: Effective Solutions for Your Home',
     date: '2024-11-20',
     category: 'Pest Control',
     content: `
@@ -452,7 +452,7 @@ export const blogContent = {
     `
   },
   9: {
-    title: 'Silverfish Control Richlands: Eliminate These Silent Invaders',
+    title: 'Silverfish Control Brisbane & Gold Coast: Eliminate These Silent Invaders',
     date: '2024-11-19',
     category: 'Pest Control',
     content: `
@@ -480,7 +480,7 @@ export const blogContent = {
     `
   },
   11: {
-    title: 'Bed Bug Treatment Richlands: Complete Elimination Guide',
+    title: 'Bed Bug Treatment Brisbane & Gold Coast: Complete Elimination Guide',
     date: '2024-11-17',
     category: 'Pest Control',
     content: `
@@ -516,28 +516,28 @@ export const blogContent = {
     `
   },
   12: {
-    title: 'Rodent Control Richlands: Rats and Mice Prevention Guide',
+    title: 'Rodent Control Brisbane & Gold Coast: Rats and Mice Prevention Guide',
     date: '2024-11-16',
     category: 'Pest Control',
     content: `
-      <h2>Rodent Control in Richlands</h2>
+      <h2>Rodent Control in Brisbane & Gold Coast</h2>
       <p>Rats and mice carry diseases, contaminate food, and cause property damage by chewing wires and structures.</p>
       <h3>Signs of Rodents</h3>
       <ul><li>Droppings</li><li>Gnaw marks</li><li>Scratching sounds in walls</li><li>Greasy rub marks</li><li>Musky odor</li></ul>
       <h3>Our Treatment</h3>
       <p>Strategic bait station placement, trapping, and exclusion work to prevent re-entry.</p>
-      <p><strong>Call (07) 3245 5126 for rodent control in Richlands.</strong></p>
+      <p><strong>Call (07) 3245 5126 for rodent control in Brisbane & Gold Coast.</strong></p>
     `
   },
   6: {
-    title: 'Seasonal Pest Control Richlands: Year-Round Protection Guide',
+    title: 'Seasonal Pest Control Brisbane & Gold Coast: Year-Round Protection Guide',
     date: '2017-07-01',
     category: 'Pest Control',
     content: `
-      <h2>4 Ways To Winter Proof Your Home From Pests in Richlands</h2>
-      <p>Winter in Richlands brings cooler temperatures, and while we're reaching for blankets and heaters, pests are looking for warm shelter too. Your home becomes an attractive refuge for rodents, spiders, cockroaches, and other unwanted guests seeking food, warmth, and protection from the cold.</p>
+      <h2>4 Ways To Winter Proof Your Home From Pests in Brisbane & Gold Coast</h2>
+      <p>Winter in Brisbane & Gold Coast brings cooler temperatures, and while we're reaching for blankets and heaters, pests are looking for warm shelter too. Your home becomes an attractive refuge for rodents, spiders, cockroaches, and other unwanted guests seeking food, warmth, and protection from the cold.</p>
       
-      <p>Don't wait until you have an infestation. Follow these four professional strategies to winter-proof your Richlands home against pests.</p>
+      <p>Don't wait until you have an infestation. Follow these four professional strategies to winter-proof your Brisbane & Gold Coast home against pests.</p>
       
       <h3>1. Seal All Entry Points</h3>
       <p>Pests can squeeze through surprisingly small gaps. Mice can fit through holes as small as 6mm, and insects need even less space.</p>
@@ -625,7 +625,7 @@ export const blogContent = {
         <li>Apply preventative barriers to protect your home all winter</li>
       </ul>
       
-      <h3>Common Winter Pests in Richlands</h3>
+      <h3>Common Winter Pests in Brisbane & Gold Coast</h3>
       
       <h4>Rodents (Rats and Mice)</h4>
       <p>Seek warm shelter and can cause significant damage by chewing wires, insulation, and contaminating food.</p>
@@ -649,23 +649,23 @@ export const blogContent = {
       </ul>
       
       <h3>Take Action Now</h3>
-      <p>Don't wait until you see pests to take action. Winter-proofing your Richlands home now will save you stress, money, and potential health risks later.</p>
+      <p>Don't wait until you see pests to take action. Winter-proofing your Brisbane & Gold Coast home now will save you stress, money, and potential health risks later.</p>
       
       <p>Start with these four strategies today, and if you need professional help or want a comprehensive pest inspection, our licensed technicians are ready to help.</p>
       
-      <p><strong>Protect your Richlands home this winter. Call (07) 3245 5126 for a professional pest inspection and winter-proofing treatment.</strong></p>
+      <p><strong>Protect your Brisbane & Gold Coast home this winter. Call (07) 3245 5126 for a professional pest inspection and winter-proofing treatment.</strong></p>
     `
   },
   20: {
-    title: 'Commercial Pest Control Richlands: Protect Your Business',
+    title: 'Commercial Pest Control Brisbane & Gold Coast: Protect Your Business',
     date: '2024-10-29',
     category: 'Pest Control',
     content: `
-      <h2>Professional Commercial Pest Control in Richlands</h2>
-      <p>Protect your business reputation and comply with health regulations with comprehensive commercial pest control services in Richlands.</p>
+      <h2>Professional Commercial Pest Control in Brisbane & Gold Coast</h2>
+      <p>Protect your business reputation and comply with health regulations with comprehensive commercial pest control services in Brisbane & Gold Coast.</p>
       
       <h3>Why Regular Home Maintenance Matters</h3>
-      <p>Brisbane's subtropical climate, with its hot, humid summers and mild winters, creates unique challenges for Richlands homeowners. High humidity promotes mold growth, heavy rainfall can cause drainage issues, and warm temperatures attract pests year-round. A proactive maintenance schedule addresses these challenges before they become expensive problems.</p>
+      <p>Brisbane's subtropical climate, with its hot, humid summers and mild winters, creates unique challenges for Brisbane & Gold Coast homeowners. High humidity promotes mold growth, heavy rainfall can cause drainage issues, and warm temperatures attract pests year-round. A proactive maintenance schedule addresses these challenges before they become expensive problems.</p>
       
       <h3>Monthly Maintenance Checklist</h3>
       
@@ -728,7 +728,7 @@ export const blogContent = {
       <p>Regular professional inspections cost $150-$250 but can save thousands in damage repairs.</p>
       
       <h4>HVAC System Servicing</h4>
-      <p>Air conditioning is essential in Richlands' climate. Quarterly servicing includes:</p>
+      <p>Air conditioning is essential in Brisbane & Gold Coast' climate. Quarterly servicing includes:</p>
       <ul>
         <li>Filter cleaning or replacement</li>
         <li>Checking refrigerant levels</li>
@@ -769,7 +769,7 @@ export const blogContent = {
       <h3>Annual Maintenance Requirements</h3>
       
       <h4>Comprehensive Termite Inspection</h4>
-      <p>Australian Standards recommend annual termite inspections for all properties. This is not optional in Richlands, where termite activity is high year-round. A professional inspection includes:</p>
+      <p>Australian Standards recommend annual termite inspections for all properties. This is not optional in Brisbane & Gold Coast, where termite activity is high year-round. A professional inspection includes:</p>
       <ul>
         <li>Interior and exterior visual inspection</li>
         <li>Subfloor and roof void examination</li>
@@ -815,7 +815,7 @@ export const blogContent = {
         <li>Test sump pumps if installed</li>
       </ul>
       
-      <h3>Seasonal Considerations for Richlands</h3>
+      <h3>Seasonal Considerations for Brisbane & Gold Coast</h3>
       
       <h4>Summer (December-February)</h4>
       <ul>
@@ -901,16 +901,16 @@ export const blogContent = {
       </ul>
       <p>These records are valuable when selling your property and for insurance claims.</p>
       
-      <p><strong>Ready to start your maintenance schedule? Call (07) 3245 5126 to book your comprehensive home inspection and pest control treatment in Richlands.</strong></p>
+      <p><strong>Ready to start your maintenance schedule? Call (07) 3245 5126 to book your comprehensive home inspection and pest control treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   21: {
-    title: 'Pest Prevention Tips for Richlands Homeowners',
+    title: 'Pest Prevention Tips for Brisbane & Gold Coast Homeowners',
     date: '2024-12-07',
     category: 'General',
     content: `
-      <h2>Complete Year-Round Pest Prevention Guide for Brisbane and Richlands</h2>
-      <p>Brisbane's subtropical climate means pest activity occurs year-round, but different seasons bring different challenges. Understanding seasonal pest patterns helps you stay ahead of infestations and protect your Richlands home throughout the year.</p>
+      <h2>Complete Year-Round Pest Prevention Guide for Brisbane and Brisbane & Gold Coast</h2>
+      <p>Brisbane's subtropical climate means pest activity occurs year-round, but different seasons bring different challenges. Understanding seasonal pest patterns helps you stay ahead of infestations and protect your Brisbane & Gold Coast home throughout the year.</p>
       
       <h3>Understanding Brisbane's Pest Seasons</h3>
       <p>Unlike cooler climates where pests die off in winter, Brisbane's mild temperatures allow many pests to remain active all year. However, pest behavior and activity levels change with the seasons, requiring different prevention strategies.</p>
@@ -1225,7 +1225,7 @@ export const blogContent = {
       
       <p>Seasonal prevention is far more cost-effective than reactive pest control.</p>
       
-      <p><strong>Stay protected year-round with professional pest control. Call (07) 3245 5126 to schedule your seasonal pest inspection and treatment in Richlands.</strong></p>
+      <p><strong>Stay protected year-round with professional pest control. Call (07) 3245 5126 to schedule your seasonal pest inspection and treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   13: {
@@ -1233,7 +1233,7 @@ export const blogContent = {
     date: '2024-11-13',
     category: 'Pest Control',
     content: `
-      <h2>Understanding Lice in Richlands Homes</h2>
+      <h2>Understanding Lice in Brisbane & Gold Coast Homes</h2>
       <p>Lice are highly specialised external parasites of birds and mammals. They belong to Order Phthiraptera, which comprises of 3000 species worldwide, and around 200 are represented in Australia.</p>
       
       <p>Adult lice are 1.5 – 3.5 mm long; they are wingless and have a flattened body shape. The antennae are usually short, they have small compound eyes, and legs usually carry conspicuous claws, this claw help with movement among hair.</p>
@@ -1268,7 +1268,7 @@ export const blogContent = {
       
       <p>Gaps and excess holes need to be fixed to prevent any birds from nesting within the roof void once the treatment has been completed.</p>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional lice treatment in Richlands.</strong></p>
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional lice treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   19: {
@@ -1309,11 +1309,11 @@ export const blogContent = {
         <iframe width="100%" height="400" style="max-width: 700px; border-radius: 8px;" src="https://www.youtube.com/embed/n35VWFvgBgo" title="Carpet Beetle Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional carpet beetle treatment in Richlands.</strong></p>
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional carpet beetle treatment in Brisbane & Gold Coast.</strong></p>
     `
   },
   22: {
-    title: 'Signs You Need Professional Pest Control in Richlands',
+    title: 'Signs You Need Professional Pest Control in Brisbane & Gold Coast',
     date: '2024-12-06',
     category: 'General',
     content: `
@@ -1325,7 +1325,7 @@ export const blogContent = {
     `
   },
   23: {
-    title: 'Eco-Friendly Pest Control Solutions for Richlands Families',
+    title: 'Eco-Friendly Pest Control Solutions for Brisbane & Gold Coast Families',
     date: '2024-12-05',
     category: 'General',
     content: `
@@ -1337,12 +1337,12 @@ export const blogContent = {
     `
   },
   24: {
-    title: 'Cost of Pest Control Services in Richlands: Complete Guide',
+    title: 'Cost of Pest Control Services in Brisbane & Gold Coast: Complete Guide',
     date: '2024-09-20',
     category: 'General',
     content: `
-      <h2>Complete Guide to Pest Control Costs in Richlands</h2>
-      <p>Understanding pest control costs helps you budget effectively and choose the right service for your Richlands home. This transparent pricing guide covers all aspects of professional pest control investment.</p>
+      <h2>Complete Guide to Pest Control Costs in Brisbane & Gold Coast</h2>
+      <p>Understanding pest control costs helps you budget effectively and choose the right service for your Brisbane & Gold Coast home. This transparent pricing guide covers all aspects of professional pest control investment.</p>
       
       <h3>Factors Affecting Pest Control Costs</h3>
       <ul>
@@ -1354,7 +1354,7 @@ export const blogContent = {
         <li><strong>Follow-up Requirements:</strong> Some pests need multiple treatments</li>
       </ul>
       
-      <h3>Average Pest Control Costs in Richlands</h3>
+      <h3>Average Pest Control Costs in Brisbane & Gold Coast</h3>
       
       <h4>General Pest Control:</h4>
       <ul>
@@ -1418,18 +1418,18 @@ export const blogContent = {
         <li>Time and convenience factors</li>
       </ul>
       
-      <p><strong>Get transparent pricing for your Richlands property. Call (07) 3245 5126 for a free pest control quote.</strong></p>
+      <p><strong>Get transparent pricing for your Brisbane & Gold Coast property. Call (07) 3245 5126 for a free pest control quote.</strong></p>
     `
   },
   10: {
-    title: 'Spider Control Richlands: Safe and Effective Solutions',
+    title: 'Spider Control Brisbane & Gold Coast: Safe and Effective Solutions',
     date: '2024-11-07',
     category: 'Pest Control',
     content: `
-      <h2>Professional Spider Control in Richlands</h2>
-      <p>Spiders are common in Richlands homes, especially during warmer months. While most are harmless, some species can pose risks to your family.</p>
+      <h2>Professional Spider Control in Brisbane & Gold Coast</h2>
+      <p>Spiders are common in Brisbane & Gold Coast homes, especially during warmer months. While most are harmless, some species can pose risks to your family.</p>
       
-      <h3>Common Spiders in Richlands</h3>
+      <h3>Common Spiders in Brisbane & Gold Coast</h3>
       <ul>
         <li><strong>Huntsman Spiders:</strong> Large but generally harmless</li>
         <li><strong>Redback Spiders:</strong> Venomous, found in dark areas</li>
@@ -1464,15 +1464,15 @@ export const blogContent = {
         <li>Remove vegetation close to the house</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional spider control in Richlands.</strong></p>
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for professional spider control in Brisbane & Gold Coast.</strong></p>
     `
   },
   14: {
-    title: 'Wasp and Bee Removal Richlands: Safe Professional Services',
+    title: 'Wasp and Bee Removal Brisbane & Gold Coast: Safe Professional Services',
     date: '2024-11-04',
     category: 'Pest Control',
     content: `
-      <h2>Safe Wasp and Bee Removal in Richlands</h2>
+      <h2>Safe Wasp and Bee Removal in Brisbane & Gold Coast</h2>
       <p>Wasps and bees can pose serious risks when they nest near your home. Professional removal ensures safety while protecting beneficial bee species.</p>
       
       <h3>Wasp vs Bee Identification</h3>
@@ -1523,7 +1523,7 @@ export const blogContent = {
         <li>Prevention of re-infestation</li>
       </ul>
       
-      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for safe wasp and bee removal in Richlands.</strong></p>
+      <p><strong>Contact Astra Pest Control at (07) 3245 5126 for safe wasp and bee removal in Brisbane & Gold Coast.</strong></p>
     `
   },
   25: {

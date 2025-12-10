@@ -37,9 +37,9 @@ function PestControl() {
   return (
     <div className="service-page">
       <Helmet>
-        <title>Pest Control Richlands | Professional Pest Removal Services | Astra</title>
-        <meta name="description" content="Professional pest control in Richlands. Cockroach, termite, rodent, spider & bed bug removal. Licensed technicians. Same-day service. Call (07) 3245 5126!" />
-        <meta name="keywords" content="pest control Richlands, pest removal Richlands, cockroach control, termite treatment, rodent control, spider removal, bed bug treatment" />
+        <title>Pest Control Brisbane & Gold Coast | Professional Pest Removal Services | Astra</title>
+        <meta name="description" content="Professional pest control in Brisbane and Gold Coast. Cockroach, termite, rodent, spider & bed bug removal. Licensed technicians. Same-day service. Call (07) 3245 5126!" />
+        <meta name="keywords" content="pest control Brisbane, pest control Gold Coast, pest removal Brisbane, pest removal Gold Coast, cockroach control, termite treatment, rodent control, spider removal, bed bug treatment" />
         <link rel="canonical" href="https://www.astrapest.com.au/pest-control" />
       </Helmet>
       
@@ -48,8 +48,8 @@ function PestControl() {
         <div className="container">
           <div className="pest-hero-content">
             <span className="hero-badge-large">Professional Pest Control</span>
-            <h1>Pest Control Richlands</h1>
-            <p>Fast, reliable and safe pest removal for homes and businesses in Richlands and surrounding suburbs</p>
+            <h1>Pest Control Brisbane & Gold Coast</h1>
+            <p>Fast, reliable and safe pest removal for homes and businesses in Brisbane, Gold Coast and surrounding suburbs</p>
             <div className="hero-features">
               <div className="hero-feature-item">
                 <div className="feature-icon-hero"><svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg></div>
@@ -64,16 +64,6 @@ function PestControl() {
                 <span>24/7 Emergency Service</span>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="special-offer-banner">
-        <div className="container">
-          <div className="offer-content">
-            <div className="offer-badge">Special Offer</div>
-            <h3>Move Out Pest Control - Only $35</h3>
-            <p>When booked with carpet cleaning service</p>
           </div>
         </div>
       </section>
@@ -179,7 +169,7 @@ function PestControl() {
       <section className="service-areas-section">
         <div className="container">
           <div className="service-areas-content">
-            <h2>Proudly Serving Richlands & Surrounding Areas</h2>
+            <h2>Proudly Serving Brisbane, Gold Coast & Surrounding Areas</h2>
           </div>
         </div>
       </section>

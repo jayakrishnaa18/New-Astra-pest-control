@@ -5,8 +5,8 @@ import './Blog.css';
 const blogPosts = [
   {
     id: 1,
-    title: 'Complete Guide to Pest Control in Richlands: Protect Your Home',
-    excerpt: 'Everything Richlands homeowners need to know about effective pest control. From prevention to professional treatment options.',
+    title: 'Complete Guide to Pest Control in Brisbane & Gold Coast: Protect Your Home',
+    excerpt: 'Everything Brisbane & Gold Coast homeowners need to know about effective pest control. From prevention to professional treatment options.',
     date: '2024-12-01',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -16,8 +16,8 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: 'Termite Inspection Richlands: When and Why You Need Professional Help',
-    excerpt: 'Protect your Richlands property with regular termite inspections. Learn the signs, costs, and benefits of professional termite detection.',
+    title: 'Termite Inspection Brisbane & Gold Coast: When and Why You Need Professional Help',
+    excerpt: 'Protect your Brisbane & Gold Coast property with regular termite inspections. Learn the signs, costs, and benefits of professional termite detection.',
     date: '2024-11-28',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -27,8 +27,8 @@ const blogPosts = [
   },
   {
     id: 3,
-    title: 'Cockroach Control Richlands: Effective Solutions for Your Home',
-    excerpt: 'Say goodbye to cockroaches with proven control methods. Expert tips for Richlands residents to eliminate and prevent cockroach infestations.',
+    title: 'Cockroach Control Brisbane & Gold Coast: Effective Solutions for Your Home',
+    excerpt: 'Say goodbye to cockroaches with proven control methods. Expert tips for Brisbane & Gold Coast residents to eliminate and prevent cockroach infestations.',
     date: '2024-11-25',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -38,8 +38,8 @@ const blogPosts = [
   },
   {
     id: 4,
-    title: 'Rodent Control Richlands: Rats and Mice Prevention Guide',
-    excerpt: 'Keep rats and mice out of your Richlands home with professional rodent control strategies. Prevention tips and treatment options.',
+    title: 'Rodent Control Brisbane & Gold Coast: Rats and Mice Prevention Guide',
+    excerpt: 'Keep rats and mice out of your Brisbane & Gold Coast home with professional rodent control strategies. Prevention tips and treatment options.',
     date: '2024-11-22',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -49,8 +49,8 @@ const blogPosts = [
   },
   {
     id: 5,
-    title: 'Bed Bug Treatment Richlands: Complete Elimination Guide',
-    excerpt: 'Professional bed bug treatment solutions for Richlands homes. Learn identification, prevention, and effective elimination methods.',
+    title: 'Bed Bug Treatment Brisbane & Gold Coast: Complete Elimination Guide',
+    excerpt: 'Professional bed bug treatment solutions for Brisbane & Gold Coast homes. Learn identification, prevention, and effective elimination methods.',
     date: '2024-11-19',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -60,8 +60,8 @@ const blogPosts = [
   },
   {
     id: 6,
-    title: 'Spider Control Richlands: Safe and Effective Removal Methods',
-    excerpt: 'Professional spider control for Richlands properties. Identify dangerous spiders and learn safe removal techniques.',
+    title: 'Spider Control Brisbane & Gold Coast: Safe and Effective Removal Methods',
+    excerpt: 'Professional spider control for Brisbane & Gold Coast properties. Identify dangerous spiders and learn safe removal techniques.',
     date: '2024-11-16',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -71,8 +71,8 @@ const blogPosts = [
   },
   {
     id: 7,
-    title: 'Flea Control Richlands: Protect Your Pets and Family',
-    excerpt: 'Comprehensive flea control solutions for Richlands homes. Pet-safe treatments and prevention strategies.',
+    title: 'Flea Control Brisbane & Gold Coast: Protect Your Pets and Family',
+    excerpt: 'Comprehensive flea control solutions for Brisbane & Gold Coast homes. Pet-safe treatments and prevention strategies.',
     date: '2024-11-13',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -82,8 +82,8 @@ const blogPosts = [
   },
   {
     id: 8,
-    title: 'Ant Control Richlands: Stop Ant Invasions Before They Start',
-    excerpt: 'Effective ant control strategies for Richlands homeowners. Identify ant species and implement targeted treatment plans.',
+    title: 'Ant Control Brisbane & Gold Coast: Stop Ant Invasions Before They Start',
+    excerpt: 'Effective ant control strategies for Brisbane & Gold Coast homeowners. Identify ant species and implement targeted treatment plans.',
     date: '2024-11-10',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -93,8 +93,8 @@ const blogPosts = [
   },
   {
     id: 9,
-    title: 'Silverfish Control Richlands: Eliminate These Silent Invaders',
-    excerpt: 'Professional silverfish control for Richlands homes. Learn about silverfish behavior and effective elimination methods.',
+    title: 'Silverfish Control Brisbane & Gold Coast: Eliminate These Silent Invaders',
+    excerpt: 'Professional silverfish control for Brisbane & Gold Coast homes. Learn about silverfish behavior and effective elimination methods.',
     date: '2024-11-07',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -104,8 +104,8 @@ const blogPosts = [
   },
   {
     id: 10,
-    title: 'Wasp and Bee Removal Richlands: Safe Professional Services',
-    excerpt: 'Safe wasp and bee removal in Richlands. Professional techniques to protect your family while preserving beneficial insects.',
+    title: 'Wasp and Bee Removal Brisbane & Gold Coast: Safe Professional Services',
+    excerpt: 'Safe wasp and bee removal in Brisbane & Gold Coast. Professional techniques to protect your family while preserving beneficial insects.',
     date: '2024-11-04',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -115,8 +115,8 @@ const blogPosts = [
   },
   {
     id: 11,
-    title: 'Seasonal Pest Control Richlands: Year-Round Protection Guide',
-    excerpt: 'Seasonal pest control calendar for Richlands. Learn which pests are active each season and how to prepare your home.',
+    title: 'Seasonal Pest Control Brisbane & Gold Coast: Year-Round Protection Guide',
+    excerpt: 'Seasonal pest control calendar for Brisbane & Gold Coast. Learn which pests are active each season and how to prepare your home.',
     date: '2024-11-01',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -126,8 +126,8 @@ const blogPosts = [
   },
   {
     id: 12,
-    title: 'Commercial Pest Control Richlands: Protect Your Business',
-    excerpt: 'Professional commercial pest control services in Richlands. Maintain hygiene standards and protect your business reputation.',
+    title: 'Commercial Pest Control Brisbane & Gold Coast: Protect Your Business',
+    excerpt: 'Professional commercial pest control services in Brisbane & Gold Coast. Maintain hygiene standards and protect your business reputation.',
     date: '2024-10-29',
     category: 'Pest Control',
     author: 'Astra Pest Control',
@@ -137,8 +137,8 @@ const blogPosts = [
   },
   {
     id: 13,
-    title: 'Guide To Carpet Cleaning Cost in Richlands',
-    excerpt: 'How Much Does It Cost To Get Your Carpets Cleaned in Richlands? Get the complete breakdown of professional carpet cleaning costs.',
+    title: 'Guide To Carpet Cleaning Cost in Brisbane & Gold Coast',
+    excerpt: 'How Much Does It Cost To Get Your Carpets Cleaned in Brisbane & Gold Coast? Get the complete breakdown of professional carpet cleaning costs.',
     date: '2024-10-26',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -148,8 +148,8 @@ const blogPosts = [
   },
   {
     id: 14,
-    title: 'Guide to Carpet Cleaning Richlands – All Your Questions Answered',
-    excerpt: 'Everything Richlands homeowners need to know about maintaining and cleaning their carpets professionally.',
+    title: 'Guide to Carpet Cleaning Brisbane & Gold Coast – All Your Questions Answered',
+    excerpt: 'Everything Brisbane & Gold Coast homeowners need to know about maintaining and cleaning their carpets professionally.',
     date: '2024-10-23',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -159,8 +159,8 @@ const blogPosts = [
   },
   {
     id: 15,
-    title: '10 Health Benefits Of Carpet Cleaning for Richlands Families',
-    excerpt: 'The Secret To A Healthier Home in Richlands. Discover how professional carpet cleaning improves your family\'s health.',
+    title: '10 Health Benefits Of Carpet Cleaning for Brisbane & Gold Coast Families',
+    excerpt: 'The Secret To A Healthier Home in Brisbane & Gold Coast. Discover how professional carpet cleaning improves your family\'s health.',
     date: '2024-10-20',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -170,8 +170,8 @@ const blogPosts = [
   },
   {
     id: 16,
-    title: '4 Easy Steps To Get Mud Stains Out Of Carpet - Richlands Guide',
-    excerpt: 'Remove stubborn mud stains from your Richlands home carpets with these proven professional techniques.',
+    title: '4 Easy Steps To Get Mud Stains Out Of Carpet - Brisbane & Gold Coast Guide',
+    excerpt: 'Remove stubborn mud stains from your Brisbane & Gold Coast home carpets with these proven professional techniques.',
     date: '2024-10-17',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -181,8 +181,8 @@ const blogPosts = [
   },
   {
     id: 17,
-    title: 'Upholstery Cleaning Richlands: Restore Your Furniture',
-    excerpt: 'Professional upholstery cleaning in Richlands. Restore sofas, chairs, and fabric furniture with expert cleaning techniques.',
+    title: 'Upholstery Cleaning Brisbane & Gold Coast: Restore Your Furniture',
+    excerpt: 'Professional upholstery cleaning in Brisbane & Gold Coast. Restore sofas, chairs, and fabric furniture with expert cleaning techniques.',
     date: '2024-10-14',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -192,8 +192,8 @@ const blogPosts = [
   },
   {
     id: 18,
-    title: 'Tile and Grout Cleaning Richlands: Restore Your Floors',
-    excerpt: 'Professional tile and grout cleaning services in Richlands. Remove stains, mold, and restore your tiles to like-new condition.',
+    title: 'Tile and Grout Cleaning Brisbane & Gold Coast: Restore Your Floors',
+    excerpt: 'Professional tile and grout cleaning services in Brisbane & Gold Coast. Remove stains, mold, and restore your tiles to like-new condition.',
     date: '2024-10-11',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -203,8 +203,8 @@ const blogPosts = [
   },
   {
     id: 19,
-    title: 'Mattress Cleaning Richlands: Healthy Sleep Solutions',
-    excerpt: 'Professional mattress cleaning in Richlands. Remove dust mites, allergens, and stains for healthier sleep.',
+    title: 'Mattress Cleaning Brisbane & Gold Coast: Healthy Sleep Solutions',
+    excerpt: 'Professional mattress cleaning in Brisbane & Gold Coast. Remove dust mites, allergens, and stains for healthier sleep.',
     date: '2024-10-08',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -214,8 +214,8 @@ const blogPosts = [
   },
   {
     id: 20,
-    title: 'Bond Cleaning Richlands: Get Your Full Deposit Back',
-    excerpt: 'Professional bond cleaning services in Richlands. Guaranteed to meet real estate standards and secure your full deposit return.',
+    title: 'Bond Cleaning Brisbane & Gold Coast: Get Your Full Deposit Back',
+    excerpt: 'Professional bond cleaning services in Brisbane & Gold Coast. Guaranteed to meet real estate standards and secure your full deposit return.',
     date: '2024-10-05',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -225,8 +225,8 @@ const blogPosts = [
   },
   {
     id: 21,
-    title: 'Rug Cleaning Richlands: Preserve Your Investment',
-    excerpt: 'Specialist rug cleaning services in Richlands. Expert care for Persian, wool, and delicate rugs with professional techniques.',
+    title: 'Rug Cleaning Brisbane & Gold Coast: Preserve Your Investment',
+    excerpt: 'Specialist rug cleaning services in Brisbane & Gold Coast. Expert care for Persian, wool, and delicate rugs with professional techniques.',
     date: '2024-10-02',
     category: 'Cleaning',
     author: 'Astra Pest Control',
@@ -357,8 +357,8 @@ const blogPosts = [
   },
   {
     id: 37,
-    title: 'Pest Prevention Tips for Richlands Homeowners',
-    excerpt: 'Simple yet effective pest prevention strategies for Richlands homes. Stop infestations before they start with these expert tips.',
+    title: 'Pest Prevention Tips for Brisbane & Gold Coast Homeowners',
+    excerpt: 'Simple yet effective pest prevention strategies for Brisbane & Gold Coast homes. Stop infestations before they start with these expert tips.',
     date: '2024-09-29',
     category: 'General',
     author: 'Astra Pest Control',
@@ -368,7 +368,7 @@ const blogPosts = [
   },
   {
     id: 38,
-    title: 'Signs You Need Professional Pest Control in Richlands',
+    title: 'Signs You Need Professional Pest Control in Brisbane & Gold Coast',
     excerpt: 'Recognize the warning signs that indicate you need professional pest control services. Early detection saves time and money.',
     date: '2024-09-26',
     category: 'General',
@@ -379,7 +379,7 @@ const blogPosts = [
   },
   {
     id: 39,
-    title: 'Eco-Friendly Pest Control Solutions for Richlands Families',
+    title: 'Eco-Friendly Pest Control Solutions for Brisbane & Gold Coast Families',
     excerpt: 'Safe, eco-friendly pest control methods that protect your family and the environment. Green solutions for modern homes.',
     date: '2024-09-23',
     category: 'General',
@@ -390,8 +390,8 @@ const blogPosts = [
   },
   {
     id: 40,
-    title: 'Cost of Pest Control Services in Richlands: Complete Guide',
-    excerpt: 'Transparent pricing guide for pest control services in Richlands. Understand costs and get the best value for your investment.',
+    title: 'Cost of Pest Control Services in Brisbane & Gold Coast: Complete Guide',
+    excerpt: 'Transparent pricing guide for pest control services in Brisbane & Gold Coast. Understand costs and get the best value for your investment.',
     date: '2024-09-20',
     category: 'General',
     author: 'Astra Pest Control',
@@ -448,7 +448,7 @@ function Blog() {
         <div className="container">
           <span className="hero-label">Expert Insights</span>
           <h1>Pest Control Blog</h1>
-          <p>Expert tips, guides, and insights for effective pest control in Richlands and surrounding areas</p>
+          <p>Expert tips, guides, and insights for effective pest control in Brisbane, Gold Coast and surrounding areas</p>
         </div>
       </section>
 

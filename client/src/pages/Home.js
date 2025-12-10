@@ -34,9 +34,9 @@ function Home() {
   return (
     <div className="home">
       <Helmet>
-        <title>Pest Control Richlands | Termite Inspection & Treatment | Astra Pest Control</title>
-        <meta name="description" content="Expert pest control & termite services in Richlands. Licensed technicians, 15+ years experience. Same-day service. 100% guarantee. Call (07) 3245 5126 for free quote!" />
-        <meta name="keywords" content="pest control Richlands, termite control Richlands, termite inspection, pest removal, cockroach control, rodent control, Inala, Darra, Wacol" />
+        <title>Pest Control Brisbane & Gold Coast | Termite Inspection & Treatment | Astra Pest Control</title>
+        <meta name="description" content="Expert pest control & termite services in Brisbane and Gold Coast. Licensed technicians, 15+ years experience. Same-day service. 100% guarantee. Call (07) 3245 5126 for free quote!" />
+        <meta name="keywords" content="pest control Brisbane, pest control Gold Coast, termite control Brisbane, termite control Gold Coast, termite inspection, pest removal, cockroach control, rodent control, surrounding suburbs" />
         <link rel="canonical" href="https://www.astrapest.com.au/" />
       </Helmet>
       
@@ -45,12 +45,12 @@ function Home() {
         <div className="hero-bg"></div>
         <div className="container hero-wrapper">
           <div className="hero-text">
-            <span className="hero-label">Richlands' Trusted Pest Control Experts</span>
+            <span className="hero-label">Brisbane & Gold Coast's Trusted Pest Control Experts</span>
             <h1 className="hero-heading">
-              Expert Pest <span className="highlight">&</span> Termite Solutions for Richlands
+              Expert Pest <span className="highlight">&</span> Termite Solutions for Brisbane & Gold Coast
             </h1>
             <p className="hero-description">
-              Serving Richlands and surrounding suburbs with professional pest and termite control since 2008. 
+              Serving Brisbane, Gold Coast and surrounding suburbs with professional pest and termite control since 2008. 
               Protecting your home and business with guaranteed results you can trust.
             </p>
             <div className="hero-actions">
@@ -142,7 +142,7 @@ function Home() {
         <div className="container">
           <div className="showcase-header">
             <span className="section-label">Our Services</span>
-            <h2 className="section-heading">Professional Pest & Termite Solutions for Richlands</h2>
+            <h2 className="section-heading">Professional Pest & Termite Solutions for Brisbane & Gold Coast</h2>
             <p className="section-description">Comprehensive protection for your home and business with expert care</p>
           </div>
           
@@ -310,7 +310,7 @@ function Home() {
           <div className="cta-wrapper">
             <div className="cta-text">
               <h2>Ready to Protect Your Property?</h2>
-              <p>Contact Richlands' most trusted pest and termite control experts</p>
+              <p>Contact Brisbane & Gold Coast's most trusted pest and termite control experts</p>
             </div>
             <div className="cta-actions">
               <a href="tel:0732455126" className="btn-cta-primary">
